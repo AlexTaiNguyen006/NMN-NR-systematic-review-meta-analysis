@@ -1,0 +1,1386 @@
+C L I N I C A L
+R E S E A R C H
+A R T I C L E
+Effects of Nicotinamide Riboside on Endocrine
+Pancreatic Function and Incretin Hormones in
+Nondiabetic Men With Obesity
+Ole L. Dollerup,1,2,5 Samuel A. J. Trammell,1 Bolette Hartmann,1,3 Jens J. Holst,1,3
+Britt Christensen,1,2 Niels Møller,2,4 Matthew P. Gillum,1 Jonas T. Treebak,1
+and Niels Jessen5,6,7
+1Novo Nordisk Foundation Center for Basic Metabolic Research, Faculty of Health and Medical Sciences,
+University of Copenhagen, 2200 Copenhagen, Denmark; 2Medical Research Laboratory, Department of
+Clinical Medicine, Aarhus University Hospital, 8200 Aarhus, Denmark; 3Department of Biomedical Sciences,
+Section for Translational Metabolic Physiology, University of Copenhagen, 2200 Copenhagen Denmark;
+4Department of Endocrinology, Aarhus University Hospital, 8200 Aarhus, Denmark; 5Department of Clinical
+Pharmacology, Aarhus University Hospital, 8000 Aarhus, Denmark; 6Department of Biomedicine, Aarhus
+University, 8000 Aarhus, Denmark; and 7Steno Diabetes Center Aarhus, Aarhus University Hospital, 8200
+Aarhus, Denmark
+ORCiD numbers: 0000-0003-1488-7012 (J. T. Treebak); 0000-0001-5613-7274 (N. Jessen).
+Objective: Augmenting nicotinamide adenine dinucleotide (NAD1) metabolism through dietary
+provision of NAD1 precursor vitamins translates to improved glucose handling in rodent models of
+obesity and diabetes. Preclinical evidence suggests that the NAD1/SIRT1 axis may be implicated in
+modulating important gut-related aspects of glucose regulation. We sought to test whether NAD1
+precursor supplementation with nicotinamide riboside (NR) affects b-cell function, a-cell function,
+and incretin hormone secretion as well as circulating bile acid levels in humans.
+Design: A 12-week randomized, double-blind, placebo-controlled, parallel-group trial in 40 males
+with obesity and insulin resistance allocated to NR at 1000 mg twice daily (n 5 20) or placebo (n 5
+20). Two-hour 75-g oral glucose tolerance tests were performed before and after the intervention,
+and plasma concentrations of glucose, insulin, C-peptide, glucagon, glucagon-like peptide 1 (GLP-
+1), and glucose-dependent insulinotropic polypeptide (GIP) were determined. b-Cell function
+indices were calculated based on glucose, insulin, and C-peptide measurements. Fasting plasma
+concentrations of bile acids were determined.
+Results: NR supplementation during 12 weeks did not affect fasting or postglucose challenge
+concentrations of glucose, insulin, C-peptide, glucagon, GLP-1, or GIP, and b-cell function did not
+respond to the intervention. Additionally, no changes in circulating adipsin or bile acids were
+observed following NR supplementation.
+Conclusion: The current study does not provide evidence to support that dietary supplementation
+with the NAD1 precursor NR serves to impact glucose tolerance, b-cell secretory capacity, a-cell
+function, and incretin hormone secretion in nondiabetic males with obesity. Moreover, bile acid
+levels in plasma did not change in response to NR supplementation. (J Clin Endocrinol Metab 104:
+5703–5714, 2019)
+ISSN Print 0021-972X
+ISSN Online 1945-7197
+Printed in USA
+Copyright © 2019 Endocrine Society
+Received 8 May 2019. Accepted 1 August 2019.
+First Published Online 7 August 2019
+Abbreviations: AUC, area under the curve; BA, bile acid; BMI, body mass index; FG, fasting
+glucose; GIP, glucose-dependent insulinotropic polypeptide; GLP-1, glucagon-like pep-
+tide 1; GSIS, glucose-stimulated insulin secretion; HOMA, homeostatic model assessment;
+HOMA-IR, homeostatic model assessment of insulin resistance; IFG, impaired fasting
+glucose; IGT, impaired glucose tolerance; IVGTT, IV glucose tolerance test; NAD1, nic-
+otinamide adenine dinucleotide; NMN, nicotinamide mononucleotide; NR, nicotinamide
+riboside; OGTT, oral glucose tolerance test; SIRT, sirtuin; T1D, type 1 diabetes; T2D, type 2
+diabetes.
+doi: 10.1210/jc.2019-01081
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+https://academic.oup.com/jcem
+5703
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+I
+n the setting of obesity and insulin resistance, func-
+tional perturbation of enteroendocrine cells can disturb
+glucose homeostasis and may lead to overt type 2 di-
+abetes (T2D). This involves insulin producing b-cells,
+glucagon-producing
+a-cells,
+and
+incretin
+hormone–
+producing L- and K-cells, and therefore these cells rep-
+resent interesting targets to ameliorate obesity-related
+metabolic decline.
+T2D arises as a product of increased insulin resistance
+and decreased b-cell function (1). In individuals with
+obesity and insulin resistance, the b-cell mass may initially
+expand to adjust insulin secretion to match increased
+insulin demand necessary to maintain normoglycemia (2).
+However, continuous stress on the b-cells may lead to
+progressive b-cell failure, resulting in a diminished ca-
+pacity for insulin production and eventually hyperglyce-
+mia (3). Thus, preserving b-cell function in obesity is key
+to avoid development or progression of T2D.
+Postprandial insulin responses are to a major extent
+mediated by the incretin hormones glucagon-like peptide 1
+(GLP-1) and glucose-dependent insulinotropic polypeptide
+(GIP). These hormones are produced by enteroendocrine L-
+and K-cells in the gut and act in concert to potentiate
+glucose-stimulated insulin secretion (GSIS) following orally
+delivered glucose (4). This action, termed the incretin effect,
+is diminished in obesity (5) and in patients with T2D (5, 6).
+Also, reduced incretin hormone secretion following oral
+glucose challenges has been reported in subjects with
+obesity and in individuals with so-called prediabetes (7, 8).
+Thus, body mass index (BMI) has been found to correlate
+inversely with postprandial GLP-1 responses (7, 9, 10).
+Hence, a blunted incretin hormone response in obesity
+might lead to weakened insulin release and contribute to
+glucose dysregulation.
+Glucagon secretion is often disturbed in obesity and
+may become further aggravated during the transition from
+prediabetes to T2D (11). This is reflected in increasing
+fasting glucagon concentrations and weakened post-
+prandial glucagon suppression, contributing to blood
+glucose elevations due to unrestrained glucagon-induced
+hepatic glucose production. Taken together, these im-
+portant aspects of glucose regulation represent prime
+targets for antidiabetic therapy.
+Recently, nicotinamide adenine dinucleotide (NAD1)
+“boosting” compounds have been proposed as a novel
+therapeutic route in preclinical studies (12, 13). Nicotin-
+amide riboside (NR), an NAD1 precursor and member of
+the vitamin B3 family, improves glucose tolerance and
+mitigates dysmetabolic traits in rodent models of obesity
+and diabetes (14–17). Mechanistically, NR-derived effects
+are mainly attributed to increased NAD1 availability,
+which augments activity of NAD1-dependent enzymes,
+including members of the sirtuin (SIRT) enzyme family
+(SIRT1–7) (18). SIRT1 is a nuclear-localized transcrip-
+tional regulator that uses NAD1 to deacetylate histones and
+various transcription factors, thereby modifying cellular
+transcriptional events and facilitating adaptive responses to
+nutritional and environmental cues (19). In this way, SIRT1
+is involved in the regulation of multiple cellular processes
+that are dysregulated in T2D, including glucose and lipid
+metabolism, mitochondrial homeostasis, and b-cell func-
+tion (20). Several lines of evidence interconnect SIRT1
+activity, NAD1 metabolism, and b-cell function. SIRT1 is
+highly expressed in b-cells and is thought to positively
+promote insulin secretion (21). In SIRT1 knockout mouse
+models, GSIS is impaired, suggesting that SIRT1 might be
+necessary for normal b-cell function (22–24). Conversely,
+SIRT1 overexpression restored normal GSIS in an in vitro
+b-cell toxicity model in isolated rat islets (25). Moreover,
+in a mouse model overexpressing SIRT1 specifically in
+pancreatic b-cells, GSIS was improved and the animals
+showed improved glucose tolerance (26).
+Compromised NAD1 biosynthesis has also been im-
+plicated in impaired b-cell function resulting in reduced
+GSIS in mice, correctable by providing nicotinamide
+mononucleotide (NMN) (27). NMN is another NAD1
+precursor variant that is suggested to be converted to NR
+extracellularly before contributing to intracellular NAD1
+biosynthesis (28). Also in cytokine-induced b-cell im-
+pairment (29), in diet-induced diabetes in mice (30), as
+well as in human islet cells (31), NMN has been dem-
+onstrated to promote GSIS, whereas no studies are
+currently available on the effect of NR in this respect.
+Interestingly, studies in mice have demonstrated a role for
+the adipokine adipsin in maintaining b-cell function, and
+patients with T2D characterized by b-cell failure exhibit
+reduced levels of circulating adipsin (32). Serum adipsin
+levels were also severely diminished in transgenic mice
+lacking the key NAD1 biosynthetic enzyme nicotinamide
+phosphoribosyltransferase in adipocytes, but this could
+be restored by supplementing NMN (33). Taken to-
+gether, the above supports the hypothesis that NAD1
+precursor supplementation impacts b-cell function.
+As previously mentioned, incretin hormones and glu-
+cagon are central in glucose regulation. However, there
+is a scarcity of studies investigating whether interven-
+tions aimed at affecting the NAD1/SIRT1 axis affect glu-
+cose metabolism though alterations of these hormones.
+Resveratrol, a proposed SIRT1 activator (34), was re-
+ported to increase GLP-1 secretion in diabetic mice in
+parallel with enhanced insulin secretion (35), but this
+finding has not been confirmed in humans (36, 37).
+However, resveratrol treatment did result in enhanced
+suppression of glucagon following a meal test in non-
+diabetic males with obesity (36).
+5704
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+Other gut-related factors may be implicated in
+metabolic control. Bile acids (BAs) have emerged as
+metabolic regulators in addition to their well-described
+roles in lipid emulsification and absorption (38). By
+triggering specific receptors, such as the farnesoid X
+receptor and TGR5, BAs may exert endocrine effects
+impacting lipid and glucose metabolism, and these re-
+ceptors have been suggested as targets for antidiabetic
+treatment (39). Studies in SIRT1 knockout mice have
+established a role for SIRT1 in BA metabolism and
+transport (40–42). Furthermore, farnesoid X receptor
+has been identified as a specific SIRT1 target (43). It
+could be speculated that NAD1 precursor supplemen-
+tation may induce changes in circulating BAs via SIRT1-
+mediated mechanisms.
+As outlined above, multiple gut-related components,
+intrinsically involved in metabolic regulation, are po-
+tentially modulated by activity in the NAD1/SIRT1 axis,
+but whether supplementation with NR affects these
+gut-related factors in humans remains to be investi-
+gated. Using samples obtained during a recently published
+randomized, placebo-controlled clinical trial in men with
+obesity and insulin resistance (44), we explored whether
+NR affects b-cell function, a-cell function, incretin
+hormone response, and circulating BAs.
+Materials and Methods
+This investigator-initiated study was part of a larger ran-
+domized, double-blinded, placebo-controlled, parallel-grouped
+clinical trial to test the safety and effects of 12 weeks of NR
+supplementation on insulin sensitivity, substrate metabolism,
+and body composition in nondiabetic males with obesity, as
+previously described in detail (44). The current study focuses on
+NR-derived effects on the enteroendocrine system and presents
+previously unpublished data obtained during oral glucose
+tolerance tests (OGTTs).
+The study protocol was approved by the regional Research
+Ethics Committee (H-3-2014-130) and the Danish Data
+Protection Agency (1-16-02-714-14), and it was performed in
+compliance with the Declaration of Helsinki. Written in-
+formed consent was obtained from all participants prior to
+inclusion. The trial was preregistered at clinicaltrials.gov
+(NCT02303483). Recruitment, data collection, and analysis
+were carried out at the Department of Clinical Medicine,
+Aarhus University Hospital (Aarhus, Denmark) in the period
+2016 to 2018.
+Study procedure and subjects
+Forty male subjects were recruited who were obese (BMI
+.30 kg/m2), sedentary (,30 minutes of exercise per day), and
+middle-aged (40 to 70 years of age). Subjects were otherwise
+healthy nonsmokers and did not receive any prescription
+medication. A detailed clinical examination of all candidates,
+including a full medical history, blood testing, and electro-
+cardiography, was conducted by a physician to evaluate ad-
+missibility to the study.
+Subjects were randomly allocated into two groups to receive
+orally administered NR (Niagen™, ChromaDex, Irvine, CA,) at
+1000 mg 3 2 (n 5 20) or placebo (n 5 20) for 12 weeks and were
+examined on 3 separate days before and after the intervention.
+On day 1, a 2-hour OGTT was performed independently of the
+additional examinations. On days 2 and 3, whole-body dual-
+energy x-ray absorptiometry scans, MRI, and hyperinsulinemic
+euglycemic clamps were conducted, as previously reported (44).
+Ingestion of trial medication was commenced following baseline
+investigations and continued until the final examination, in-
+cluding administration on the morning of the examination days.
+During the intervention, subjects were instructed not to change
+dietary habits or level of physical activity, and to abstain from all
+dietary supplements and vitamins.
+Aarhus University Hospital Pharmacy was responsible for
+all aspects of randomization and blinding, as well as pack-
+aging and labeling of the trial medication, as previously de-
+scribed (44).
+OGTTs
+OGTTs were performed before and after the intervention.
+Subjects reported to the Department of Clinical Medicine at
+approximately 8:00 AM after an overnight fast and were studied
+in the supine position for 2 hours. A peripheral venous catheter
+was inserted in a dorsal hand vein, and the hand was placed in a
+heated pillow to enable sampling of arterialized blood. Baseline
+blood samples were collected (time 0 minutes) immediately,
+followed by oral ingestion of 75 g of glucose dissolved in water
+during a short period of time (maximally 5 minutes). Further
+blood samples were drawn at 15, 30, 60, and 120 minutes.
+The World Health Organization criteria from 2006 were
+used to define (i) normal glucose tolerance as fasting glucose
+(FG) ,6.1 mmol/L and 2-hour glucose ,7.8 mmol/L, (ii)
+impaired FG (IFG) as FG $6.1 and #7.0 mmol/L and normal 2-
+hour glucose, and (iii) impaired glucose tolerance (IGT) as 2-
+hour glucose $7.8 mmol/L and ,11.1 mmol/L and normal
+FG (45).
+Blood hormone analysis
+Plasma glucose was promptly analyzed after blood col-
+lection on the YSI 2300 Stat Plus glucose analyzer (YSI,
+Yellow Springs, OH). Serum insulin (insulin ELISA, Mer-
+codia, Uppsala, Sweden) and C-peptide (C-peptide ELISA,
+Mercodia, Uppsala, Sweden) were analyzed in duplicates
+using commercially available immunoassays.
+For measurements of GLP-1, GIP, and glucagon, blood was
+collected in precooled EDTA tubes, centrifuged at 4 °C, and
+stored at 220°C prior to analysis. Total GLP-1 was measured
+as described previously (46), with a radioimmunoassay using an
+antibody (code no. 89390) specific for the C-terminal end of the
+GLP-1 molecule and reacting equally with intact GLP-1 and the
+primary (N-terminally truncated) metabolite. Total GIP con-
+centration was measured using an antibody (code no. 80867)
+directed toward the C-terminal end, which reacts fully with
+intact GIP and the N-terminally truncated forms as described
+previously (47). For glucagon measurements, a C-terminally
+directed antibody (code no. 4305) was used, measuring glu-
+cagon of pancreatic origin as described previously (48). All
+samples were extracted in a final concentration of 70% ethanol
+before measurements. Sensitivity for all assays was ,1 pmol/L,
+and the intraassay coefficient of variation was ,10%.
+doi: 10.1210/jc.2019-01081
+https://academic.oup.com/jcem
+5705
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+Blood BA and adipsin analysis
+Blood for plasma BA and serum adipsin measurements was
+collected on a separate day (on the clamp study day), in the
+morning after an overnight fast. As determined using a diet journal,
+the dietary patterns of the individual subjects were similar during
+3 days preceding sampling, before and after the intervention.
+Furthermore, subjects were asked to avoid physical activity and
+alcohol in the same period. Blood for plasma preparation was
+collected in precooled EDTA tubes and centrifuged at 4 °C. Blood
+for serum preparation was collected in precooled BD Vacutainer®
+serum tubes, left at room temperature for 20 minutes, and
+centrifuged at 3600 rpm at 4 °C. Samples were immediately
+transferred into separate tubes and stored at 280 °C before
+analysis. Liquid chromatography coupled to mass spectrometry
+was applied for plasma BA measurements. Sample preparation
+and liquid chromatography coupled to mass spectrometry were
+performed as previously described (49). Briefly, plasma was
+extracted with methanol-containing labeled internal standards.
+Clarified extracts were dried via speed vacuum and then recon-
+stituted in 50 mL of 5 mM ammonium acetate in water/acetonitrile
+(95%/5% v/v) containing 0.1% formic acid. Samples were injected
+(15 mL) and separated using reverse-phase liquid chromatography.
+Analytes were ionized using electrospray ionization attached to a
+Bruker Impact II quadrupole time-of-flight mass spectrometer
+operated in full-scan, negative-ion mode. Serum adipsin concen-
+trations were determined with the use of a commercially available
+human ELISA kit [human factor D ELISA kit (ab99969), Abcam,
+Cambridge, UK], following the instructions of the manufacturer.
+The sensitivity of the assay is 4 pg/mL. Samples were measured in
+duplicates, and the mean value was used in the data analysis.
+Calculations
+Areas under the curve (AUCs) for glucose, insulin, C-peptide,
+glucagon, GLP-1, and GIP were calculated using the trapezoid
+rule. Multiple b-cell function indices were calculated using
+glucose, insulin, and C-peptide values obtained during fasting
+and during the OGTT to reflect different aspects of the b-cell
+secretory function. Homeostatic model assessment (HOMA)
+was used as a measure of b-cell function and insulin resistance
+(HOMA-IR) and calculated based on fasting levels of glucose
+and insulin using standard equations (50). Simple fasting ratios
+of insulin and C-peptide to glucose were calculated as insulin0
+min/glucose0
+min and C-peptide0
+min/glucose0
+min (51). The
+insulinogenic index and the corresponding C-peptidogenic in-
+dex were determined as markers of first-phase insulin release
+(52) and calculated as the ratio of increment of insulin or
+C-peptide to glucose during the initial 30 minutes of the OGTT
+(Dinsulin30–0
+min/Dglucose30–0
+min and DC-peptide30–0
+min/D
+glucose30–0 min). The oral disposition index was determined as a
+marker of insulin release when accounting for the prevailing
+insulin sensitivity and calculated as the product between
+Dinsulin30–0 min/Dglucose30–0 min 3 1/fasting insulin (53). Fi-
+nally, composite b-cell indices were calculated based on the
+total AUC for insulin, C-peptide, and glucose during the 2-hour
+OGTT:
+insulin-AUC0–120/glucose-AUC0–120
+and
+C-peptide-
+AUC0–120/glucose-AUC0–120 (54).
+Statistical analysis
+Results are presented as mean 6 SEM for normally dis-
+tributed data and as geometric mean 6 SEM when skewed.
+Baseline data were compared between groups by unpaired two-
+sample t tests. Effects of NR supplementation were tested be-
+tween groups by applying two-way repeated measurement mixed
+model analysis, including the two main effects, that is, group
+(NR/placebo) and visit (baseline/end-of-trial), and the interaction
+between group and visit. Post hoc linear pairwise comparisons
+were conducted in case of a significant interaction. Normal
+distributions of data were evaluated by inspection of diagnostic
+plots. In case of skewed data, appropriate logarithmic trans-
+formation was used before statistical testing. All available data
+were included in each analysis. A P value ,0.05 was considered
+statistically significant. The power calculation to determine
+sample size was based on the primary endpoint measure of the
+study, that is, insulin sensitivity, which has previously been re-
+ported (44). Statistical analysis was made in Stata 14.1 (Stata-
+Corp, College Station, TX) and graphical presentations were
+made in SigmaPlot 11.0 (Systat Software, San Jose, CA).
+Results
+Baseline characteristics and internal validity
+Key metabolic features of the NR group (n 5 20) and
+placebo group (n 5 20) are summarized in Table 1. At
+baseline, the groups were comparable on all parameters.
+Only fasting glucagon levels tended to differ between groups
+(P 5 0.09). The study groups reflected a phenotype with
+obesity and insulin resistance. Compliance with the trial
+medication as well as documentation of absorption and
+excretion of orally administered NR have previously been
+published (44). All included participants completed the trial.
+Glucose
+Plasma glucose concentration curves during OGTTs
+before and after 12 weeks with NR supplementation or
+placebo are depicted in Fig. 1A. As specified in Table 2,
+no differences in fasting glucose, 2-hour glucose, peak
+glucose, or glucose tolerance (assessed as AUCtotal for
+glucose) were apparent due to treatment.
+The mean fasting glucose and 2-hour glucose values
+for the groups approached the World Health Organi-
+zation limits defining IFG and IGT. Within the NR
+group, five individuals had IFG at baseline and three at
+the end of the trial, whereas seven individuals had IGT at
+baseline and seven at the end of the trial. In the placebo
+group, five individuals had IFG at baseline and four at the
+end of the trial, whereas eight individuals had IGT at
+baseline and seven at the end of the trial.
+Pancreatic hormones
+Overall, insulin, C-peptide, and glucagon did not
+change in response to 12 weeks of NR supplementation
+(Fig. 1B–1D; Table 2).
+Fasting levels of insulin and C-peptide increased
+slightly in both groups during the course of the study
+independently of treatment (main effect of visit: insulin,
+P , 0.01; C-peptide, P , 0.001). Also, HOMA-IR in-
+creased in the both groups independently of treatment,
+5706
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+indicating a slight aggravation of mainly hepatic insulin
+resistance (placebo group, 2.87 6 0.36 to 3.37 6 0.42;
+NR group, 2.59 6 0.26 to 2.86 6 0.23; main effect of
+visit, P , 0.01).
+The b-cell secretory response during the OGTTs
+(assessed as AUCtotal for insulin and C-peptide) as well
+as first- and second-phase insulin release (assessed as
+AUC0–15 and AUC15–60) were unaffected by the in-
+tervention (Table 2). Likewise, NR did not alter fasting
+levels of glucagon, nor the ability to suppress glucagon
+during the OGTT (glucagon nadir) (Table 2). On both
+visits the placebo group displayed a significantly higher
+overall glucagon level (AUCtotal) than did the NR
+group.
+Table 1.
+Clinical Characteristics of Study Participants at Baseline
+Placebo (n 5 20)
+NR (n 5 20)
+P Value
+Age, y
+60 6 2.0
+58 6 1.6
+0.42
+Weight, kg
+104.6 6 2.0
+104.8 6 2.2
+0.94
+BMI, kg/m2
+33.3 6 0.6
+32.4 6 0.5
+0.28
+Waist/hip ratio
+1.0 6 0.01
+1.0 6 0.01
+0.77
+Lean mass, kg
+67.2 6 1.1
+68.8 6 1.6
+0.41
+Fat mass, kg
+32.2 6 1.4
+31.1 6 1.2
+0.55
+Fat percentage, %
+31.3 6 1.0
+30.2 6 0.9
+0.41
+Abdominal visceral adipose tissue, cm2
+320.4 6 17.0
+295.5 6 16.3
+0.30
+Abdominal subcutaneous adipose tissue, cm2
+225.1 6 13.6
+229.6 6 12.9
+0.81
+HbA1c, mmol/mol
+39.8 6 0.8
+37.7 6 1.0
+0.10
+HOMA-IR
+2.9 6 0.4
+2.6 6 0.3
+0.52
+Fasting glucose, mmol/L
+5.7 6 0.1
+5.6 6 0.1
+0.45
+Fasting insulin, pmol/L
+77.0 6 9.0
+72.2 6 7.5
+0.69
+Fasting C-peptide, pmol/L
+866.2 6 64.0
+848.4 6 60.3
+0.84
+Fasting glucagon, pmol/L
+11.0 6 0.9
+8.8 6 1.0
+0.09
+Fasting GLP-1, pmol/L
+15.8 6 0.8
+14.7 6 0.6
+0.27
+Fasting GIP, pmol/L
+13.0 6 1.3
+12.9 6 1.1
+0.93
+Adipsin, ng/mL
+5294.7 6 232.4
+5160.7 6 307.9
+0.73
+Data are mean 6 SEM. Group comparisons were performed by unpaired two-sample t tests. Age, HbA1c, and body composition measures have previously
+been published (44).
+Figure 1. Time courses of (A) glucose, (B) insulin, (C) C-peptide, and (D) glucagon during a 75-g OGTT before and after 12 wk with NR
+supplementation (n 5 20) or placebo (n 5 20). Data are mean 6 SEM.
+doi: 10.1210/jc.2019-01081
+https://academic.oup.com/jcem
+5707
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+Incretin hormones and adipsin
+Secretion of the incretin hormones GLP-1 and GIP was
+evaluated during the OGTT as illustrated in Fig. 2, and as
+indicated in Table 2, there were no effects of NR on
+fasting levels, peak levels, or the total integrated AUC of
+either hormone. Fasting GLP-1 increased slightly in both
+groups independently of treatment. Fasting levels of se-
+rum adipsin did not change after 12 weeks of supple-
+mentation with NR or placebo (Table 2).
+b-Cell function indices
+Effects of NR supplementation on b-cell function
+were assessed based on calculations of various b-cell
+function indices, both in the basal, fasted state and
+dynamically during the OGTT (Table 3). No significant
+differences in b-cell function due to treatment were
+observed for any calculated index. b-Cell indices de-
+rived from basal state data increased in both groups
+during the study period, but this was independent of
+treatment.
+Circulating BAs
+Fifteen unconjugated, glycine-conjugated, and taurine-
+conjugated BAs were measured semiquantitatively in
+plasma before and after 12 weeks of NR supplementation
+or placebo (Fig. 3). Overall, there were no significant
+differences between groups, although glycoursodeox-
+ycholic acid tended to increase following NR supple-
+mentation (interaction, P 5 0.07). Several BAs differed
+significantly between visits, including cholic acid, mur-
+icholic acid g, and tauroursodeoxycholic acid, whereas
+glycocholic acid tended to increase between visits (main
+Table 2.
+Fasting, Peak, and AUC Values for Glucose, Insulin, C-Peptide, Glucagon, GLP-1, GIP, and Adipsin
+During a 75-g OGTT Before and After 12 wk With NR Supplementation or Placebo
+Placebo (n 5 20)
+NR (n 5 20)
+P Valuea
+Baseline
+End-of-trial
+Baseline
+End-of-trial
+Glucose
+Fasting, mmol/L
+5.7 6 0.1
+5.8 6 0.1
+5.6 6 0.1
+5.6 6 0.1
+0.33
+120 min, mmol/L
+7.61 6 0.6
+8.06 6 0.6
+7.55 6 0.4
+7.49 6 0.4
+0.29
+Peak, mmol/L
+10.9 6 0.6
+11.1 6 0.6
+10.4 6 0.3
+10.3 6 0.3
+0.53
+AUC0–120, mmol/L$min
+1080.4 6 50.2
+1093.6 6 53.8
+1042.1 6 28.4
+1036.2 6 28.9
+0.60
+Insulin
+Fasting, pmol/Lb
+77.0 6 9.0
+88.2 6 9.7
+72.2 6 7.5
+80.8 6 6.8
+0.70
+Peak, pmol/L
+592.6 6 52.2
+578.1 6 30.1
+583.4 6 56.5
+597.4 6 70.5
+0.69
+AUC0–120, pmol/L$min
+48,568.1 6 4266.9
+47,148.0 6 3004.6
+51,497.6 6 5069.1
+50,253.8 6 5725.9
+0.98
+AUC0–15, pmol/L$min
+2494.9 6 194.1
+2910.4 6 213.9
+2886.8 6 235.1
+2736.4 6 235.5
+0.09
+AUC15–60, pmol/L$min
+19,721.3 6 1596.7
+19,505.6 6 1299.8
+20,728.9 6 1919.5
+19,906.9 6 2035.2
+0.63
+C-peptide
+Fasting, pmol/Lb
+866.2 6 64.0
+960.8 6 73.6
+848.4 6 60.3
+928.5 6 51.5
+0.75
+Peak, pmol/L
+3117.7 6 167.0
+2989.8 6 137.1
+3090.2 6 171.3
+3068.9 6 200.6
+0.61
+AUC0–120, pmol/L$min
+287,297.3 6 13,606.0 279,238.1 6 11,930.0 295,910.3 6 16,653.9 288,537.4 6 15,912.6
+0.97
+AUC0–15, pmol/L$min
+17,745.4 6 919.9
+19,520.3 6 1042.9
+18,946.1 6 1092.4
+19,202.6 6 918.5
+0.13
+AUC15–60, pmol/L$min
+103,285.9 6 4457.5
+102,072.4 6 3639.3
+107,963.6 6 5946.2
+104,480.3 6 5534.9
+0.76
+Glucagon
+Fasting, pmol/L
+11.0 6 0.9
+10.4 6 0.9
+8.8 6 1.0
+8.5 6 1.1
+0.60
+Nadir, pmol/L
+3.5 6 0.5
+4.4 6 0.5
+3.1 6 0.6
+2.8 6 0.4
+0.12
+AUC0–120, pmol/L$minc
+900.8 6 78.6
+904.5 6 72.3
+664.9 6 92.2
+689.6 6 89.3
+0.83
+GLP-1
+Fasting, pmol/Lb
+15.8 6 0.8
+17.6 6 1.0
+14.7 6 0.6
+16.9 6 0.9
+0.69
+Peak, pmol/L
+34.8 6 1.7
+35.0 6 2.5
+29.7 6 2.0
+31.4 6 1.5
+0.59
+AUC0–120, pmol/L$min
+3317.6 6 133.9
+3242.3 6 218.9
+2926.9 6 183.3
+3114.8 6 147.5
+0.26
+GIP
+Fasting, pmol/L
+13.0 6 1.3
+11.7 6 0.9
+12.9 6 1.1
+14.1 6 1.8
+0.18
+Peak, pmol/L
+63.9 6 5.7
+61.4 6 5.6
+62.8 6 5.1
+67.7 6 7.0
+0.31
+AUC0–120, pmol/L$min
+5595.4 6 398.9
+5507.6 6 425.3
+5700.4 6 428.4
+5859.4 6 413.0
+0.60
+Adipsin
+Fasting, ng/mL
+5294.7 6 232.4
+5441.3 6 282.0
+5160.7 6 307.9
+5147.2 6 289.1
+0.63
+Data are mean 6 SEM. Group comparisons were made by two-way repeated measurement mixed model analysis.
+aP value denotes interaction (group 3 visit).
+bMain effect of visit (P , 0.05).
+cMain effect of group (P , 0.05).
+5708
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+effect of visit, P 5 0.09). However, these differences oc-
+curred independently of the intervention.
+Discussion
+The coordinated actions of b-cells, incretin hormone–
+producing cells, and a-cells are major determinants of
+healthy glucose homeostasis. In this study, we sought to
+test whether NAD1 precursor supplementation would
+affect the secretory capacity of these cells in humans. In
+this randomized placebo-controlled trial, we demon-
+strate that 12 weeks of supplementation with NR had no
+impact on fasting or post-OGTT levels of glucose, in-
+sulin, C-peptide, glucagon, GLP-1, or GIP in nondiabetic
+males with obesity and insulin resistance. Furthermore,
+our data indicate that NR does not change the level of
+circulating adipsin or BAs. As previously published (44),
+we have also conducted hyperinsulinemic euglycemic
+clamps in this study group and observed no changes in
+insulin sensitivity. Collectively, our data do not support that
+NR impacts glucose homeostasis in men with obesity and
+insulin resistance, either through mechanisms of amelio-
+rating insulin resistance or augmenting insulin secretion.
+Several preclinical studies have shown beneficial
+effects of NR on glucose metabolism and other aspects
+of metabolic regulation [reviewed in (12, 13)]. In ani-
+mal models of diet-induced obesity and diabetes, NR
+improves glucose tolerance primarily by requiring less
+insulin to counter glucose levels following glucose
+challenges, a finding indicative of increased insulin
+sensitivity (14–16). None of these studies focused on
+aspects of b-cell function or measured incretin hor-
+mones. Only the NAD1 precursor NMN has specifi-
+cally been shown to enhance GSIS in rodent and in in
+vitro models (27, 29–31). No clinical studies exam-
+ining NMN are available, but one study is currently
+Table 3.
+b-Cell Function Indices Assessed in Basal Conditions and During a 75-g OGTT Before and After 12 wk
+With NR Supplementation or Placebo
+Placebo (n 5 20)
+NR (n 5 20)
+Baseline
+End-of-Trial
+Baseline
+End-of-Trial
+P Valuea
+Basal assessments
+HOMA of b-cell function, %b,c
+91.8 6 10.7
+99.5 6 10.0
+93.2 6 14.3
+109.0 6 14.7
+0.40
+Fasting insulin/fasting glucose, pmol/mmolb
+13.3 6 1.5
+14.9 6 1.5
+13.0 6 1.4
+14.7 6 1.4
+0.95
+Fasting C-peptide/fasting glucose, pmol/mmolb
+150.6 6 10.4
+163.9 6 11.1
+152.0 6 11.2
+168.3 6 10.4
+0.71
+Dynamic assessments
+Insulinogenic index, pmol/mmol
+91.1 6 9.3
+97.3 6 9.8
+100.2 6 9.3
+98.0 6 10.6
+0.48
+C-peptidogenic index, pmol/mmol
+345.2 6 29.1
+342.6 6 33.3
+389.6 6 30.7
+355.7 6 28.4
+0.30
+Oral disposition index
+1.4 6 0.1
+1.5 6 0.3
+1.5 6 0.1
+1.3 6 0.1
+0.11
+Composite b-cell indices
+Insulin-AUC0–120/glucose-AUC0–120, pmol/mmol
+45.3 6 4.0
+44.0 6 3.0
+48.9 6 4.3
+48.6 6 5.4
+0.83
+C-peptide-AUC0–120/glucose-AUC0–120,
+pmol/mmol
+271.1 6 13.3
+260.9 6 11.8
+283.8 6 13.6
+280.9 6 16.0
+0.57
+Data are mean 6 SEM. Group comparisons were made by two-way repeated measurement mixed model analysis.
+aP value denotes interaction (group x visit).
+bMain effect of visit (P , 0.05).
+cGeometric mean 6 SEM.
+Figure 2. Time courses of (A) GLP-1 and (B) GIP during a 75-g OGTT before and after 12 wk with NR supplementation (n 5 20) or placebo
+(n 5 20). Data are mean 6 SEM.
+doi: 10.1210/jc.2019-01081
+https://academic.oup.com/jcem
+5709
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+recruiting and seeking to test NMN effects on in-
+sulin
+sensitivity
+and
+b-cell
+function
+in
+humans
+(NCT03151239). Differences in the cellular uptake in
+distinct tissues may aid in explaining dissimilarities
+between various forms of NAD1 precursors, and re-
+cently Slc12a8 was identified as a specific NMN
+transporter in mice, with high levels of gene expression
+in the murine pancreas (55). Although a specific NR
+transporter has been identified in yeast cells (56), NR is
+thought to enter mammalian cells via equilibrative
+nucleoside transporters (57), which are considered to be
+ubiquitously expressed in most human tissues, including
+the pancreas (58). Significantly, a requirement for ex-
+tracellular dephosphorylation of NMN to NR prior to
+tissue uptake has been suggested (28, 57). To which
+extent NR augments NAD1 metabolism in specific
+tissues in humans remain unknown and requires further
+exploration, for example, by using isotope-labeled NR
+tracers.
+The B3 vitamin nicotinamide has been tested in
+humans for b-cell protective effects. In the large-scale,
+randomized, placebo-controlled type 1 diabetes (T1D)
+prevention trial (ENDIT trial), 552 first-degree rela-
+tives of T1D patients were subjected to high-dose
+nicotinamide (1 to 2 g/m2) for 5
+years (59). IV glucose tolerance tests
+(IVGTTs) to determine first-phase
+insulin response were performed re-
+peatedly
+during
+the
+lengthy
+in-
+tervention period, but differences in
+first-phase insulin response were not
+detected between groups, and nico-
+tinamide did not reduce T1D occur-
+rence. Similar to NR, nicotinamide is
+an NAD1 precursor; however, in con-
+trast to NR, it is a direct inhibitor
+of SIRT1 activity (60), which may im-
+pede NAD1/SIRT1-derived effects on
+metabolism.
+Only a few human clinical studies
+investigating NR have been published,
+although several (.20) are recruiting
+(clinicaltrials.gov). It has been established
+that NR can provide increases in NAD1
+levels in blood, is well-tolerated, and
+appears safe in humans (44, 61–63). A
+single clinical trial investigated potential
+NR-derived effects on a wide range of
+outcomes in 24 healthy, middle-aged,
+and normal-weight individuals during a
+6-week randomized, placebo-controlled
+crossover trial (63). Although results
+pointed to effects of NR on blood
+pressure and arterial stiffness, no metabolic parameters
+changed following NR supplementation, including fasting
+insulin, glucose, HOMA-IR, and HOMA of b-cell function.
+Additionally, frequently sampled IVGTTs were performed
+to assess insulin sensitivity, but only in a subset of subjects
+(n 5 13), who did not display changes following treatment.
+However, the lack of changes in metabolic endpoints in the
+above-described study is perhaps not surprising considering
+the healthy, lean phenotype of the study participants.
+We chose to investigate men with obesity and in-
+sulin resistance who were otherwise healthy and non-
+medicated. We sought to obtain homogeneous groups
+and reduce confounding factors, which would limit de-
+tection of NR treatment effects. Furthermore, this design
+offered an opportunity to test NR as a potential pre-
+ventive strategy for T2D. However, although our study
+participants were insulin resistant according to an in-
+creased HOMA-IR .2.5, these middle-aged men with
+obesity did not have overt diabetes, suggesting an in-
+creased resilience toward obesity-derived metabolic
+perturbations. Thus, our groups had normal fasting
+glucose (,6.1 mmol/L) and 2-hour glucose following an
+OGTT (,7.8 mmol/L) on average, although approach-
+ing the cutoff values for IFG and IGT. Retaining
+Figure 3. Circulating BAs response to 12 wk with NR supplementation (n 5 20) or placebo
+(n 5 20). Data are presented as fold change from baseline to the end of the trial within
+each group. A dotted, horizontal line represents no change between baseline and end-of-
+trial values. Comparisons between groups were made by two-way repeated measurement
+mixed model analysis. No significant treatment effects were observed. Data are mean 6
+SEM. *P , 0.05, main effect of visit (baseline vs end-of-trial). CA, cholic acid; DCA,
+deoxycholic acid; GCA, glycocholic acid; GCDCA, glycochenodeoxycholic acid; GDCA,
+glycodeoxycholic acid; GUDCA, glycoursodeoxycholic acid; MCA alpha, muricholic acid a;
+MCA gamma, muricholic acid g; TCA, taurocholic acid; TCDCA, taurochenodeoxycholic acid;
+TDCA, taurodeoxycholic acid; TLCA, taurolithocholic acid; TMCA alpha, tauromuricholic acid
+a; TUDCA, tauroursodeoxycholic acid; UDCA, ursodeoxycholic acid.
+5710
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+normoglycemia in the face of insulin resistance expect-
+edly required insulin levels to rise above the normal
+range. Hence, an appropriate b-cell compensatory re-
+sponse was already present in these subjects, which
+possibly would make it difficult to detect further
+improvements.
+Raised fasting and postprandial levels of glucagon has
+detrimental effects on glucose homeostasis. To our
+knowledge, no studies have assessed glucagon in relation
+to NAD1 precursor supplementation. In our study, we did
+not observe effects of NR on prevailing glucagon levels.
+The placebo group displayed higher glucagon levels than
+did the NR group, suggesting a slightly more unhealthy
+metabolic profile. An initial paradoxical rise in glucagon
+levels following oral ingestion of glucose was observed in
+both groups (Fig. 1D). This phenomenon has previously
+been described among both individuals with insulin re-
+sistance and individuals with T2D (64). We considered
+whether NR might alter the circulating levels of adipsin, as
+this adipokine has been associated with NAD1 meta-
+bolism in mice (33). The adipsin concentrations measured
+in this study were comparable to those found in patients
+with impaired glucose tolerance (65); however, adipsin did
+not change in response to NR.
+Finally, we speculated whether NR would affect BA
+levels in plasma. This might occur directly through a
+direct effect of NR on hepatic NAD phosphate (16) or
+indirectly by NR-derived changes in the gut microbiome
+composition, which is known to modulate the BA pool
+(66). In the current study, we did not detect significant
+NR-derived changes in circulating BAs. Several BAs
+differed between visits, but independently of treatment.
+We noticed large variability in BA levels between study
+participants and visits, even though participants were
+carefully selected to match phenotypically, and we had
+controlled for diet 3 days preceding fasting measure-
+ments. A recent study suggested positive effects of NR in
+rejuvenating intestinal stem cells from aging mice (67).
+Future clinical studies should address whether NR di-
+rectly impacts gut health in humans, for example, by
+changing the microbiota profile.
+Strengths of the current study include the random-
+ized, parallel-group design, a fair sample size, and good
+compliance toward the investigational compounds. We
+chose to administer NR at 2000 mg daily, .100-fold
+higher than the daily requirement of B3 vitamin (68), to
+ensure that effects were not missed due to subtherapeutic
+dosing. Additionally, the study duration of 12 weeks
+is a reasonable timeframe to expect changes in glucose
+regulation.
+A certain degree of metabolic abnormalities might
+be a prerequisite to benefit from NR supplementa-
+tion, and our study groups could be too metabolically
+healthy. We cannot assume that NR supplementation
+will not have an effect in patients with more severely
+deranged glucose metabolism and b-cell function, for
+example, as in T2D. Furthermore, this study was
+powered to detect a difference in the primary endpoint
+insulin sensitivity, reported previously (44), and the
+possibility of type II errors cannot be excluded. However,
+the absence of changes of clinically relevant effect sizes
+observed in this study suggests adequate statistical
+power.
+Although the OGTT is a validated tool to assess b-cell
+function (69), this method is not considered a gold
+standard. Other more specific methods to examine b-cell
+function, such as the IVGTT and hyperglycemic clamp,
+would potentially enhance the possibility of detecting
+more subtle effects on b-cell function. However, con-
+sidering the complete lack of response to NR observed in
+the current study, these methods would probably not
+provide additional value. Moreover, in comparison with
+these methods, the OGTT has the advantage of being a
+more physiologically relevant test, capturing the in-
+terplay between glucose, insulin, glucagon, and the
+incretin axis following orally delivered glucose.
+In conclusion, the growing body of evidence estab-
+lished preclinically suggests benefits of NAD1 precursor
+supplementation to counter metabolic disease. In the
+present study, we designed and implemented an early
+proof-of-concept study in men with obesity and insulin
+resistance to test for translational value of NR in humans.
+Our data do not suggest effects of NR on modulating
+b-cell function, incretin hormones, glucagon, adipsin, or
+BAs in nondiabetics. Future studies should examine
+whether NR has effects in individuals with “prediabetic”
+states (e.g., IFG, IGT) or overt T2D. Additionally, other
+types of NAD1 precursors, such as NMN and NRPT
+(NR and SIRT1 activator pterostilbene) (70), should also
+be investigated, before making definitive conclusions on
+the lack of effects of NAD1-based therapies on glucose
+metabolism.
+Acknowledgments
+The authors thank the medical laboratory technicians Susanne
+Sørensen and Lone Kvist from the Medical Research Labora-
+tory, Aarhus University Hospital (Aarhus, Denmark). The
+authors also thank the dedicated study participants and
+ChromaDex for the provision of Niagen™and placebo
+capsules.
+Financial Support:
+This work was supported by grants
+obtained from the Novo Nordisk Foundation (Excellence Project
+Award NNF14OC0009315 to J.T.T. and NNF13OC0003882
+to N.J.), the Danish Council for Independent Research (DFF
+4004-00235 to J.T.T.), and the Danish Diabetes Academy to
+O.L.D. Additionally, support for this study was provided by the
+doi: 10.1210/jc.2019-01081
+https://academic.oup.com/jcem
+5711
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+Novo Nordisk Foundation Center for Basic Metabolic Research
+(NNF-CBMR). NNF-CBMR is an independent Research Center
+at the University of Copenhagen and is partially funded by an
+unrestricted donation from the Novo Nordisk Foundation.
+Clinical
+Trial
+Information:
+ClinicalTrials.gov
+no.
+NCT02303483 (registered 1 December 2014).
+Additional Information
+Correspondence and Reprint Requests:
+Niels Jessen, MD,
+PhD, Steno Diabetes Center Aarhus, Aarhus University Hos-
+pital, Hedeager 3, 2nd Floor, 8200 Aarhus N, Denmark.
+E-mail: Niels.jessen@biomed.au.dk; or Jonas T. Treebak, PhD,
+Novo Nordisk Foundation Center for Basic Metabolic Re-
+search, Faculty of Health and Medical Sciences, University of
+Copenhagen, Blegdamsvej 3B, 7.7.46, 2200 Copenhagen,
+Denmark. E-mail: jttreebak@sund.ku.dk.
+Disclosure
+Summary:
+The
+authors
+have
+nothing
+to
+disclose.
+Data Availability:
+Restrictions apply to the availability of
+data generated or analyzed during this study to preserve patient
+confidentiality or because they were used under license. The
+corresponding author will on request detail the restrictions and
+any conditions under which access to some data may be
+provided.
+References and Notes
+1. Kahn SE, Hull RL, Utzschneider KM. Mechanisms linking obesity
+to insulin resistance and type 2 diabetes. Nature. 2006;444(7121):
+840–846.
+2. Linnemann AK, Baan M, Davis DB. Pancreatic b-cell proliferation
+in obesity. Adv Nutr. 2014;5(3):278–288.
+3. Cerf ME. Beta cell dysfunction and insulin resistance. Front
+Endocrinol (Lausanne). 2013;4:37.
+4. Holst JJ, Gromada J. Role of incretin hormones in the regulation of
+insulin secretion in diabetic and nondiabetic humans. Am J Physiol
+Endocrinol Metab. 2004;287(2):E199–E206.
+5. Knop FK, Aaboe K, Vilsbøll T, Vølund A, Holst JJ, Krarup
+T, Madsbad S. Impaired incretin effect and fasting hyper-
+glucagonaemia characterizing type 2 diabetic subjects are early
+signs of dysmetabolism in obesity. Diabetes Obes Metab. 2012;
+14(6):500–510.
+6. Holst JJ, Knop FK, Vilsbøll T, Krarup T, Madsbad S. Loss of
+incretin effect is a specific, important, and early characteristic of
+type 2 diabetes. Diabetes Care. 2011;34(Suppl 2):S251–S257.
+7. Færch K, Torekov SS, Vistisen D, Johansen NB, Witte DR, Jonsson
+A, Pedersen O, Hansen T, Lauritzen T, Sandbæk A, Holst JJ,
+Jørgensen ME. GLP-1 response to oral glucose is reduced in pre-
+diabetes, screen-detected type 2 diabetes, and obesity and influ-
+enced by sex: the ADDITION-PRO study. Diabetes. 2015;64(7):
+2513–2525.
+8. Laakso M, Zilinskaite J, Hansen T, Boesgaard TW, V¨anttinen M,
+Stanc´akov´a A, Jansson PA, Pellm´e F, Holst JJ, Kuulasmaa T, Hribal
+ML, Sesti G, Stefan N, Fritsche A, H¨aring H, Pedersen O, Smith U;
+EUGENE2 Consortium. Insulin sensitivity, insulin release and
+glucagon-like peptide-1 levels in persons with impaired fasting
+glucose and/or impaired glucose tolerance in the EUGENE2 study.
+Diabetologia. 2008;51(3):502–511.
+9. Muscelli E, Mari A, Casolaro A, Camastra S, Seghieri G,
+Gastaldelli A, Holst JJ, Ferrannini E. Separate impact of obesity and
+glucose tolerance on the incretin effect in normal subjects and type
+2 diabetic patients. Diabetes. 2008;57(5):1340–1348.
+10. Vollmer K, Holst JJ, Baller B, Ellrichmann M, Nauck MA, Schmidt
+WE, Meier JJ. Predictors of incretin concentrations in subjects with
+normal, impaired, and diabetic glucose tolerance. Diabetes. 2008;
+57(3):678–687.
+11. Henkel E, Menschikowski M, Koehler C, Leonhardt W, Hanefeld
+M. Impact of glucagon response on postprandial hyperglycemia in
+men with impaired glucose tolerance and type 2 diabetes mellitus.
+Metabolism. 2005;54(9):1168–1173.
+12. Yoshino J, Baur JA, Imai SI. NAD1 intermediates: the biology and
+therapeutic potential of NMN and NR. Cell Metab. 2018;27(3):
+513–528.
+13. Rajman L, Chwalek K, Sinclair DA. Therapeutic potential of NAD-
+boosting molecules: the in vivo evidence. Cell Metab. 2018;27(3):
+529–547.
+14. Cant´o C, Houtkooper RH, Pirinen E, Youn DY, Oosterveer MH,
+Cen Y, Fernandez-Marcos PJ, Yamamoto H, Andreux PA, Cettour-
+Rose P, Gademann K, Rinsch C, Schoonjans K, Sauve AA, Auwerx
+J. The NAD1 precursor nicotinamide riboside enhances oxidative
+metabolism and protects against high-fat diet-induced obesity. Cell
+Metab. 2012;15(6):838–847.
+15. Gariani K, Menzies KJ, Ryu D, Wegner CJ, Wang X, Ropelle ER,
+Moullan N, Zhang H, Perino A, Lemos V, Kim B, Park YK,
+Piersigilli A, Pham TX, Yang Y, Ku CS, Koo SI, Fomitchova A,
+Cant´o C, Schoonjans K, Sauve AA, Lee JY, Auwerx J. Eliciting the
+mitochondrial unfolded protein response by nicotinamide adenine
+dinucleotide repletion reverses fatty liver disease in mice. Hep-
+atology. 2016;63(4):1190–1204.
+16. Trammell SAJ, Weidemann BJ, Chadda A, Yorek MS, Holmes A,
+Coppey LJ, Obrosov A, Kardon RH, Yorek MA, Brenner C.
+Nicotinamide riboside opposes type 2 diabetes and neuropathy in
+mice. Sci Rep. 2016;6(1):26933.
+17. Zhou CC, Yang X, Hua X, Liu J, Fan MB, Li GQ, Song J, Xu TY, Li
+ZY, Guan YF, Wang P, Miao CY. Hepatic NAD1 deficiency as a
+therapeutic target for non-alcoholic fatty liver disease in ageing. Br
+J Pharmacol. 2016;173(15):2352–2368.
+18. Haigis MC, Sinclair DA. Mammalian sirtuins: biological insights
+and disease relevance. Annu Rev Pathol. 2010;5(1):253–295.
+19. Imai S, Yoshino J. The importance of NAMPT/NAD/SIRT1 in the
+systemic regulation of metabolism and ageing. Diabetes Obes
+Metab. 2013;15(Suppl 3):26–33.
+20. Nogueiras R, Habegger KM, Chaudhary N, Finan B, Banks AS,
+Dietrich MO, Horvath TL, Sinclair DA, Pfluger PT, Tsch¨op MH.
+Sirtuin 1 and sirtuin 3: physiological modulators of metabolism.
+Physiol Rev. 2012;92(3):1479–1514.
+21. Pulla VK, Battu MB, Alvala M, Sriram D, Yogeeswari P. Can
+targeting SIRT-1 to treat type 2 diabetes be a good strategy? A
+review. Expert Opin Ther Targets. 2012;16(8):819–832.
+22. Bordone L, Motta MC, Picard F, Robinson A, Jhala US, Apfeld J,
+McDonagh T, Lemieux M, McBurney M, Szilvasi A, Easlon EJ, Lin
+SJ, Guarente L. Sirt1 regulates insulin secretion by repressing UCP2
+in pancreatic b cells [published correction appears in PLoS Biol.
+2006;4(9):e295]. PLoS Biol. 2006;4(2):e31.
+23. Luu L, Dai FF, Prentice KJ, Huang X, Hardy AB, Hansen JB, Liu Y,
+Joseph JW, Wheeler MB. The loss of Sirt1 in mouse pancreatic beta
+cells impairs insulin secretion by disrupting glucose sensing. Dia-
+betologia. 2013;56(9):2010–2020.
+24. Pinho AV, Bensellam M, Wauters E, Rees M, Giry-Laterriere M,
+Mawson A, Ly Q, Biankin AV, Wu J, Laybutt DR, Rooman I.
+Pancreas-specific Sirt1-deficiency in mice compromises beta-cell
+function without development of hyperglycemia. PLoS One.
+2015;10(6):e0128012.
+25. Lee JH, Song MY, Song EK, Kim EK, Moon WS, Han MK, Park
+JW, Kwon KB, Park BH. Overexpression of SIRT1 protects
+pancreatic b-cells against cytokine toxicity by suppressing the
+nuclear factor-kB signaling pathway. Diabetes. 2009;58(2):
+344–351.
+5712
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+26. Moynihan KA, Grimm AA, Plueger MM, Bernal-Mizrachi E, Ford
+E, Cras-M´eneur C, Permutt MA, Imai S. Increased dosage of
+mammalian Sir2 in pancreatic b cells enhances glucose-stimulated
+insulin secretion in mice. Cell Metab. 2005;2(2):105–117.
+27. Revollo JR, K¨orner A, Mills KF, Satoh A, Wang T, Garten A,
+Dasgupta B, Sasaki Y, Wolberger C, Townsend RR, Milbrandt J,
+Kiess W, Imai S. Nampt/PBEF/visfatin regulates insulin secretion in
+b cells as a systemic NAD biosynthetic enzyme. Cell Metab. 2007;
+6(5):363–375.
+28. Ratajczak J, Joffraud M, Trammell SA, Ras R, Canela N, Boutant
+M, Kulkarni SS, Rodrigues M, Redpath P, Migaud ME, Auwerx J,
+Yanes O, Brenner C, Cant´o C. NRK1 controls nicotinamide
+mononucleotide and nicotinamide riboside metabolism in mam-
+malian cells. Nat Commun. 2016;7(1):13103.
+29. Caton PW, Kieswich J, Yaqoob MM, Holness MJ, Sugden MC.
+Nicotinamide mononucleotide protects against pro-inflammatory
+cytokine-mediated impairment of mouse islet function. Dia-
+betologia. 2011;54(12):3083–3092.
+30. Yoshino J, Mills KF, Yoon MJ, Imai S. Nicotinamide
+mononucleotide, a key NAD1 intermediate, treats the patho-
+physiology of diet- and age-induced diabetes in mice. Cell Metab.
+2011;14(4):528–536.
+31. Spinnler R, Gorski T, Stolz K, Schuster S, Garten A, Beck-Sickinger
+AG, Engelse MA, de Koning EJ, K¨orner A, Kiess W, Maedler K.
+The adipocytokine Nampt and its product NMN have no effect on
+beta-cell survival but potentiate glucose stimulated insulin secre-
+tion. PLoS One. 2013;8(1):e54106.
+32. Lo JC, Ljubicic S, Leibiger B, Kern M, Leibiger IB, Moede T, Kelly
+ME, Chatterjee Bhowmick D, Murano I, Cohen P, Banks AS,
+Khandekar MJ, Dietrich A, Flier JS, Cinti S, Bl¨uher M, Danial NN,
+Berggren PO, Spiegelman BM. Adipsin is an adipokine that im-
+proves b cell function in diabetes. Cell. 2014;158(1):41–53.
+33. Stromsdorfer KL, Yamaguchi S, Yoon MJ, Moseley AC, Franczyk
+MP, Kelly SC, Qi N, Imai S, Yoshino J. NAMPT-mediated NAD1
+biosynthesis in adipocytes regulates adipose tissue function and
+multi-organ insulin sensitivity in mice. Cell Reports. 2016;16(7):
+1851–1860.
+34. BorraMT,Smith BC,DenuJM.MechanismofhumanSIRT1activation
+by resveratrol. J Biol Chem. 2005;280(17):17187–17195.
+35. Dao TM, Waget A, Klopp P, Serino M, Vachoux C, Pechere L,
+Drucker DJ, Champion S, Barth´elemy S, Barra Y, Burcelin R, S´er´ee
+E. Resveratrol increases glucose induced GLP-1 secretion in mice: a
+mechanism which contributes to the glycemic control. PLoS One.
+2011;6(6):e20700.
+36. Knop FK, Konings E, Timmers S, Schrauwen P, Holst JJ, Blaak EE.
+Thirty days of resveratrol supplementation does not affect post-
+prandial incretin hormone responses, but suppresses postprandial
+glucagon in obese subjects. Diabet Med. 2013;30(10):1214–1218.
+37. Thazhath SS, Wu T, Bound MJ, Checklin HL, Standfield S, Jones
+KL, Horowitz M, Rayner CK. Administration of resveratrol for 5
+wk has no effect on glucagon-like peptide 1 secretion, gastric
+emptying, or glycemic control in type 2 diabetes: a randomized
+controlled trial. Am J Clin Nutr. 2016;103(1):66–70.
+38. de Aguiar Vallim TQ, Tarling EJ, Edwards PA. Pleiotropic roles of
+bile acids in metabolism. Cell Metab. 2013;17(5):657–669.
+39. Ch´avez-Talavera O, Tailleux A, Lefebvre P, Staels B. Bile acid
+control of metabolism and inflammation in obesity, type 2 diabetes,
+dyslipidemia, and nonalcoholic fatty liver disease. Gastroenterol-
+ogy. 2017;152(7):1679–1694.e3.
+40. Purushotham A, Xu Q, Lu J, Foley JF, Yan X, Kim DH, Kemper
+JK, Li X. Hepatic deletion of SIRT1 decreases hepatocyte nuclear
+factor 1a/farnesoid X receptor signaling and induces formation
+of cholesterol gallstones in mice. Mol Cell Biol. 2012;32(7):
+1226–1236.
+41. Kazgan N, Metukuri MR, Purushotham A, Lu J, Rao A, Lee S,
+Pratt-Hyatt M, Lickteig A, Csanaky IL, Zhao Y, Dawson PA, Li X.
+Intestine-specific deletion of SIRT1 in mice impairs DCoH2–HNF-
+1a–FXR signaling and alters systemic bile acid homeostasis.
+Gastroenterology. 2014;146(4):1006–1016.
+42. Chen Q, Yang X, Zhang H, Kong X, Yao L, Cui X, Zou Y, Fang F,
+Yang J, Chang Y. Metformin impairs systemic bile acid homeo-
+stasis through regulating SIRT1 protein levels. Biochim Biophys
+Acta Mol Cell Res. 2017;1864(1):101–112.
+43. Kemper JK, Xiao Z, Ponugoti B, Miao J, Fang S, Kanamaluru D,
+Tsang S, Wu SY, Chiang CM, Veenstra TD. FXR acetylation is
+normally dynamically regulated by p300 and SIRT1 but consti-
+tutively elevated in metabolic disease states. Cell Metab. 2009;
+10(5):392–404.
+44. Dollerup OL, Christensen B, Svart M, Schmidt MS, Sulek K,
+Ringgaard S, Stødkilde-Jørgensen H, Møller N, Brenner C,
+Treebak JT, Jessen N. A randomized placebo-controlled clinical
+trial of nicotinamide riboside in obese men: safety, insulin-
+sensitivity, and lipid-mobilizing effects. Am J Clin Nutr. 2018;
+108(2):343–353.
+45. World Health Organization. Definition and Diagnosis of Diabetes
+Mellitus and Intermediate Hyperglycemia: Report of a WHO/IDF
+Consultation. Geneva, Switzerland: World Health Organization;
+2006.
+46. Orskov C, Rabenhøj L, Wettergren A, Kofod H, Holst JJ. Tissue
+and plasma concentrations of amidated and glycine-extended
+glucagon-like peptide I in humans. Diabetes. 1994;43(4):535–539.
+47. Lindgren O, Carr RD, Deacon CF, Holst JJ, Pacini G, Mari A,
+Ahr´en B. Incretin hormone and insulin responses to oral versus
+intravenous lipid administration in humans. J Clin Endocrinol
+Metab. 2011;96(8):2519–2524.
+48. Orskov C, Jeppesen J, Madsbad S, Holst JJ. Proglucagon products
+in plasma of noninsulin-dependent diabetics and nondiabetic
+controls in the fasting state and after oral glucose and intravenous
+arginine. J Clin Invest. 1991;87(2):415–423.
+49. Morville T, Sahl RE, Trammell SAJ, Svenningsen JS, Gillum MP,
+Helge JW, Clemmensen C. Divergent effects of resistance and
+endurance exercise on plasma bile acids, FGF19, and FGF21 in
+humans. JCI Insight. 2018;3(15):122737.
+50. Matthews DR, Hosker JP, Rudenski AS, Naylor BA, Treacher DF,
+Turner RC. Homeostasis model assessment: insulin resistance and
+b-cell function from fasting plasma glucose and insulin concen-
+trations in man. Diabetologia. 1985;28(7):412–419.
+51. den Biggelaar LJ, Sep SJS, Eussen SJ, Mari A, Ferrannini E, van
+Greevenbroek MM, van der Kallen CJ, Schalkwijk CG, Stehouwer
+CD, Dagnelie PC. Discriminatory ability of simple OGTT-based
+beta cell function indices for prediction of prediabetes and type 2
+diabetes: the CODAM study. Diabetologia. 2017;60(3):432–441.
+52. Phillips DI, Clark PM, Hales CN, Osmond C. Understanding oral
+glucose tolerance: comparison of glucose or insulin measurements
+during the oral glucose tolerance test with specific measurements of
+insulin resistance and insulin secretion. Diabet Med. 1994;11(3):
+286–292.
+53. Utzschneider KM, Prigeon RL, Faulenbach MV, Tong J, Carr DB,
+Boyko EJ, Leonetti DL, McNeely MJ, Fujimoto WY, Kahn SE. Oral
+disposition index predicts the development of future diabetes above
+and beyond fasting and 2-h glucose levels [published correction
+appears in Diabetes Care. 2009;32(7):1355]. Diabetes Care. 2009;
+32(2):335–341.
+54. Tura A, Kautzky-Willer A, Pacini G. Insulinogenic indices from
+insulin and C-peptide: comparison of beta-cell function from
+OGTT and IVGTT. Diabetes Res Clin Pract. 2006;72(3):298–301.
+55. Grozio A, Mills KF, Yoshino J, Bruzzone S, Sociali G, Tokizane K,
+Lei HC, Cunningham R, Sasaki Y, Migaud ME, Imai SI. Slc12a8
+is a nicotinamide mononucleotide transporter. Nat Metab. 2019;
+1(1):47–57.
+56. Belenky PA, Moga TG, Brenner C. Saccharomyces cerevisiae
+YOR071C encodes the high affinity nicotinamide riboside trans-
+porter Nrt1. J Biol Chem. 2008;283(13):8075–8079.
+57. Nikiforov A, D¨olle C, Niere M, Ziegler M. Pathways and sub-
+cellular compartmentation of NAD biosynthesis in human cells:
+doi: 10.1210/jc.2019-01081
+https://academic.oup.com/jcem
+5713
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+
+from entry of extracellular precursors to mitochondrial NAD
+generation. J Biol Chem. 2011;286(24):21767–21778.
+58. Boswell-Casteel RC, Hays FA. Equilibrative nucleoside transporters—a
+review. Nucleosides Nucleotides Nucleic Acids. 2017;36(1):7–30.
+59. Gale EA, Bingley PJ, Emmett CL, Collier T; European Nicotin-
+amide Diabetes Intervention Trial (ENDIT) Group. European
+Nicotinamide Diabetes Intervention Trial (ENDIT): a randomised
+controlled trial of intervention before the onset of type 1 diabetes.
+Lancet. 2004;363(9413):925–931.
+60. Avalos JL, Bever KM, Wolberger C. Mechanism of sirtuin in-
+hibition by nicotinamide: altering the NAD1 cosubstrate specificity
+of a Sir2 enzyme. Mol Cell. 2005;17(6):855–868.
+61. Trammell SA, Schmidt MS, Weidemann BJ, Redpath P, Jaksch F,
+Dellinger RW, Li Z, Abel ED, Migaud ME, Brenner C. Nicotin-
+amide riboside is uniquely and orally bioavailable in mice and
+humans. Nat Commun. 2016;7(1):12948.
+62. Airhart SE, Shireman LM, Risler LJ, Anderson GD, Nagana
+Gowda GA, Raftery D, Tian R, Shen DD, O’Brien KD. An
+open-label, non-randomized study of the pharmacokinetics of the
+nutritional supplement nicotinamide riboside (NR) and its effects
+on blood NAD1 levels in healthy volunteers. PLoS One. 2017;
+12(12):e0186459.
+63. Martens CR, Denman BA, Mazzo MR, Armstrong ML, Reisdorph
+N, McQueen MB, Chonchol M, Seals DR. Chronic nicotinamide
+riboside supplementation is well-tolerated and elevates NAD1 in
+healthy middle-aged and older adults. Nat Commun. 2018;9(1):
+1286.
+64. Bagger JI, Knop FK, Lund A, Holst JJ, Vilsbøll T. Glucagon re-
+sponses to increasing oral loads of glucose and corresponding
+isoglycaemic intravenous glucose infusions in patients with
+type 2 diabetes and healthy individuals. Diabetologia. 2014;57(8):
+1720–1725.
+65. Zhou Q, Ge Q, Ding Y, Qu H, Wei H, Wu R, Yao L, Wei Q, Feng
+Z, Long J, Deng H. Relationship between serum adipsin and the
+first phase of glucose-stimulated insulin secretion in individuals
+with different glucose tolerance. J Diabetes Investig. 2018;9(5):
+1128–1134.
+66. Ridlon JM, Kang DJ, Hylemon PB. Bile salt biotransformations by
+human intestinal bacteria. J Lipid Res. 2006;47(2):241–259.
+67. Igarashi M, Miura M, Williams E, Jaksch F, Kadowaki T,
+Yamauchi T, Guarente L. NAD1 supplementation rejuvenates
+aged gut adult stem cells. Aging Cell. 2019;18(3):e12935.
+68. Institute of Medicine (US) Standing Committee on the Scientific
+Evaluation of Dietary Reference Intakes and Its Panel on Folate,
+Other B Vitamins, and Choline. Dietary Reference Intakes for
+Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12,
+Pantothenic Acid, Biotin, and Choline. Washington, DC: National
+Academies Press; 1998.
+69. Cersosimo E, Solis-Herrera C, Trautmann ME, Malloy J, Triplitt
+CL. Assessment of pancreatic b-cell function: review of methods
+and clinical applications. Curr Diabetes Rev. 2014;10(1):2–42.
+70. Dellinger RW, Santos SR, Morris M, Evans M, Alminana D,
+Guarente L, Marcotulli E. Repeat dose NRPT (nicotinamide
+riboside and pterostilbene) increases NAD1 levels in humans safely
+and sustainably: a randomized, double-blind, placebo-controlled
+study [published correction appears in NPJ Aging Mech Dis.2018;
+4:8]. NPJ Aging Mech Dis. 2017;3(1):17.
+5714
+Dollerup et al
+NR Supplementation and the Enteroendocrine System
+J Clin Endocrinol Metab, November 2019, 104(11):5703–5714
+Downloaded from https://academic.oup.com/jcem/article/104/11/5703/5544497 by Johns Hopkins University user on 04 March 2026
+

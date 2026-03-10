@@ -1,0 +1,33 @@
+record_num,pmid,TN,BN,final,how resolved
+67,32758058,?,maybe,include,both agreed after rereading
+76,29992272,?,maybe,include,discussed - agreed include
+146,CN-01609303,?,maybe,include,discussed - agreed include
+173,CN-02939587,?,maybe,include,confirmed meets PICO
+299,CN-02941650,?,maybe,include,discussed - agreed include
+682,CN-02922754,?,maybe,include,both agreed after rereading
+934,WOS:001256220500001,?,maybe,include,discussed - agreed include
+936,WOS:001141896900001,?,maybe,include,discussed - agreed include
+24,39116016,N,maybe,exclude,FAD tiebreak - exclude
+29,38100537,N,maybe,exclude,"Tai pulled fulltext, confirmed exclude"
+45,36361882,N,maybe,exclude,discussed over zoom
+62,33744645,N,maybe,exclude,"Tai pulled fulltext, confirmed exclude"
+65,32942582,N,maybe,exclude,"Tai pulled fulltext, confirmed exclude"
+66,32791973,N,maybe,exclude,discussed - agreed exclude
+86,CN-02718911,N,maybe,exclude,"Bryan rechecked, agreed exclude"
+96,CN-02592363,N,maybe,exclude,discussed over zoom
+175,CN-02833077,N,maybe,exclude,discussed - agreed exclude
+285,CN-02381593,N,maybe,exclude,"Tai pulled fulltext, confirmed exclude"
+421,CN-02527433,N,maybe,exclude,discussed - agreed exclude
+463,CN-02604356,N,maybe,exclude,"Bryan rechecked, agreed exclude"
+806,CN-00173173,N,maybe,exclude,FAD tiebreak - exclude
+937,WOS:001281644800065,N,maybe,exclude,FAD tiebreak - exclude
+951,WOS:001266530200001,N,maybe,exclude,discussed over zoom
+965,WOS:000567519100001,N,maybe,exclude,discussed over zoom
+986,"Export Date: 03 March 2026; Cited By: 0; Correspondence Address: C.-Y. Miao; Department of Pharmacology, Second Military Medical University, Naval Medical University, Shanghai, 200433, China; email: cymiao@smmu.edu.cn",N,maybe,exclude,checked trial registry - not RCT
+1019,"Export Date: 03 March 2026; Cited By: 34; Correspondence Address: D.H. Craighead; Department of Integrative Physiology, University of Colorado Boulder, Boulder, United States; email: daniel.craighead@colorado.edu; CODEN: JGASF",N,maybe,exclude,FAD tiebreak - exclude
+1040,"Export Date: 03 March 2026; Cited By: 13; Correspondence Address: K.P. Mollen; Department of Surgery, University of Pittsburgh School of Medicine, Pittsburgh, United States; email: Kevin.Mollen@chp.edu",N,maybe,exclude,checked trial registry - not RCT
+1076,"Export Date: 03 March 2026; Cited By: 37; Correspondence Address: F.D. Khaidizar; Centre for Research in Biotechnology for Agriculture (CEBAR), University of Malaya, Kuala Lumpur, 50603, Malaysia; email: fiqri@um.edu.my; Y. Nakahata; Department of Neurobiology & Behavior, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, 852-8523, Japan; email: yasu-nakahata@nagasaki-u.ac.jp",N,maybe,exclude,discussed - agreed exclude
+1086,"Export Date: 03 March 2026; Cited By: 27; Correspondence Address: D. Ryu; Molecular and Integrative Biology Lab (MIB), Department of Molecular Cell Biology, Sungkyunkwan University School of Medicine, Suwon, South Korea; email: freefall@skku.edu; J.-Y. Choi; Department of Internal Medicine, Pusan National University School of Korean Medicine, Yangsan, South Korea; email: kmd@pusan.ac.kr; S. Stein; Center for Molecular Cardiology, University of Zurich, Schlieren, Switzerland; email: sokrates.stein@uzh.ch; S. Stein; Center for Molecular Cardiology, University of Zurich, Schlieren, Switzerland; email: sokrates.stein@uzh.ch; D. Ryu; Molecular and Integrative Biology Lab (MIB), Department of Molecular Cell Biology, Sungkyunkwan University School of Medicine, Suwon, South Korea; email: freefall@skku.edu; D. Ryu; Molecular and Integrative Biology Lab (MIB), Department of Molecular Cell Biology, Sungkyunkwan University School of Medicine, Suwon, South Korea; email: freefall@skku.edu; CODEN: EJCIB",N,maybe,exclude,discussed over zoom
+1104,"Export Date: 03 March 2026; Cited By: 65; Correspondence Address: E.F. Fang; Department of Clinical Molecular Biology, University of Oslo, Akershus University Hospital, Lørenskog, 1478, Norway; email: e.f.fang@medisin.uio.no",N,maybe,exclude,checked trial registry - not RCT
+1117,"Export Date: 03 March 2026; Cited By: 10; Correspondence Address: D. Della-Morte; Department of Neurology, Miller School of Medicine, University of Miami, Miami, FL 33136, 1120 NW 14th Street, United States; email: ddellamorte@med.miami.edu",N,maybe,exclude,discussed over zoom
+1121,"Export Date: 03 March 2026; Cited By: 173; Correspondence Address: A. Chiarugi; Department of Preclinical and Clinical Pharmacology, University of Florence, 50139 Florence, Italy; email: alberto.chiarugi@unifi.it; CODEN: JBCHA",N,maybe,exclude,discussed - agreed exclude

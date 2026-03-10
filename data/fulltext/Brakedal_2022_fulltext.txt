@@ -1,0 +1,1530 @@
+Clinical and Translational Report
+The NADPARK study: A randomized phase I trial of
+nicotinamide riboside supplementation in
+Parkinson’s disease
+Graphical abstract
+Highlights
+d Oral NR increases brain NAD levels in individuals with
+Parkinson’s disease
+d NR intake alters cerebral metabolism in Parkinson’s disease
+d Cerebral NAD increase is associated with clinical
+improvement in Parkinson’s disease
+d NR induces transcription of mitochondrial, lysosomal, and
+proteasomal pathways
+Authors
+Brage Brakedal, Christian Do¨ lle,
+Frank Riemer, ..., Renate Gr€uner,
+David Eidelberg, Charalampos Tzoulis
+Correspondence
+charalampos.tzoulis@uib.no
+In brief
+Researchers from Haukeland University
+Hospital conducted a phase I trial of NAD-
+replenishment therapy with oral
+nicotinamide riboside (NR) in Parkinson’s
+disease (PD). NR increased cerebral NAD
+levels, and this was associated with
+altered brain metabolism and clinical
+improvement. The ﬁndings nominate NR
+as a potential neuroprotective treatment
+for PD.
+Brakedal et al., 2022, Cell Metabolism 34, 396–407
+March 1, 2022 ª 2022 The Authors. Published by Elsevier Inc.
+https://doi.org/10.1016/j.cmet.2022.02.001
+ll
+
+Clinical and Translational Report
+The NADPARK study: A randomized
+phase I trial of nicotinamide riboside
+supplementation in Parkinson’s disease
+Brage Brakedal,1,2,9 Christian Do¨ lle,1,2,9 Frank Riemer,1,3,10 Yilong Ma,4,10 Gonzalo S. Nido,1,2 Geir Olve Skeie,1,2
+Alexander R. Craven,3,5,6 Thomas Schwarzlm€uller,2,7 Nja˚ l Brekke,3 Joseph Diab,8 Lars Sverkeli,8 Vivian Skjeie,7
+Kristin Varhaug,1,2 Ole-Bjørn Tysnes,1,2 Shichun Peng,4 Kristoffer Haugarvoll,1,2 Mathias Ziegler,1,8 Renate Gr€uner,3
+David Eidelberg,4 and Charalampos Tzoulis1,2,11,*
+1Neuro-SysMed, Department of Neurology, Haukeland University Hospital, Bergen, Norway
+2Department of Clinical Medicine, University of Bergen, Bergen, Norway
+3Mohn Medical Imaging and Visualization Centre (MMIV), Department of Radiology, Haukeland University Hospital, Bergen, Norway
+4Center for Neurosciences, Institute of Molecular Medicine, The Feinstein Institutes for Medical Research, Manhasset, NY, USA
+5Department of Biological and Medical Psychology, University of Bergen, Bergen, Norway
+6Department of Clinical Engineering, Haukeland University Hospital, Bergen, Norway
+7Department of Radiology, Haukeland University Hospital, Bergen, Norway
+8Department of Biomedicine, University of Bergen, Bergen, Norway
+9These authors contributed equally
+10These authors contributed equally
+11Lead contact
+*Correspondence: charalampos.tzoulis@uib.no
+https://doi.org/10.1016/j.cmet.2022.02.001
+SUMMARY
+We conducted a double-blinded phase I clinical trial to establish whether nicotinamide adenine dinucleotide
+(NAD) replenishment therapy, via oral intake of nicotinamide riboside (NR), is safe, augments cerebral NAD
+levels, and impacts cerebral metabolism in Parkinson’s disease (PD). Thirty newly diagnosed, treatment-
+naive patients received 1,000 mg NR or placebo for 30 days. NR treatment was well tolerated and led to a
+signiﬁcant, but variable, increase in cerebral NAD levels—measured by 31phosphorous magnetic resonance
+spectroscopy—and related metabolites in the cerebrospinal ﬂuid. NR recipients showing increased brain
+NAD levels exhibited altered cerebral metabolism, measured by 18ﬂuoro-deoxyglucose positron emission to-
+mography, and this was associated with mild clinical improvement. NR augmented the NAD metabolome and
+induced transcriptional upregulation of processes related to mitochondrial, lysosomal, and proteasomal
+function in blood cells and/or skeletal muscle. Furthermore, NR decreased the levels of inﬂammatory cyto-
+kines in serum and cerebrospinal ﬂuid. Our ﬁndings nominate NR as a potential neuroprotective therapy
+for PD, warranting further investigation in larger trials.
+INTRODUCTION
+Parkinson’s disease (PD) affects 1%–2% of the population
+above the age of 65 and is a major cause of death and disability,
+with a rapidly growing global socioeconomic impact (Gooch
+et al., 2017; de Rijk et al., 2000). Current treatments for PD can
+provide partial symptomatic relief, mainly for motor symptoms
+but make no substantial impact on disease progression
+(Athauda and Foltynie, 2015; Bloem et al., 2021; Kalia and
+Lang, 2015). Despite several candidate neuroprotective thera-
+pies showing encouraging preclinical results, these have failed
+to show disease-modifying effects in clinical trials (Athauda
+and Foltynie, 2015; Espay et al., 2017).
+A growing body of evidence supports that boosting cellular
+levels of nicotinamide adenine dinucleotide (NAD) may confer
+neuroprotective effects in both healthy aging and neurodegener-
+ation (Lautrup et al., 2019). NAD is reversibly interconverted be-
+tween its oxidized (NAD+) and reduced (NADH) state and thereby
+constitutes an essential cofactor for metabolic redox reactions,
+including mitochondrial respiration. Furthermore, NAD+ is sub-
+strate to vital signaling reactions involved in DNA repair, histone
+and other protein deacylation reactions, and second messenger
+generation (Katsyuba et al., 2020). These reactions consume
+NAD+ at high rates, requiring constant replenishment via NAD
+biosynthesis. NAD levels have been shown to decline with age
+and this is believed to contribute to age-related diseases (John-
+son and Imai, 2018; Katsyuba et al., 2020). Increasing the NAD-
+replenishment rate (e.g., via supplementation of precursors) and/
+or enhancing the NAD+/NADH ratio (e.g., via caloric restriction)
+have shown beneﬁcial effects on lifespan and healthspan in
+396
+Cell Metabolism 34, 396–407, March 1, 2022 ª 2022 The Authors. Published by Elsevier Inc.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ll
+OPEN ACCESS
+
+multiple model systems and provided evidence of neuroprotec-
+tion in animal models of neurodegeneration and other age-
+related diseases (Braidy and Liu, 2020; Johnson and Imai,
+2018; Katsyuba et al., 2020)
+Enhancing NAD replenishment could potentially help amelio-
+rate several major processes implicated in the pathogenesis of
+PD, including mitochondrial respiratory dysfunction (Flønes
+et al., 2018; Hattori et al., 1991; Schapira et al., 1989), neuroin-
+ﬂammation (Hirsch and Hunot, 2009), epigenomic dysregulation
+(Park et al., 2016; Toker et al., 2021), and increased neuronal
+DNA damage (Gonzalez-Hunt and Sanders, 2021).
+NAD can be replenished via supplementation of nicotinamide
+riboside (NR), a vitamin B3 molecule and biosynthetic precursor
+of NAD (Bieganowski and Brenner, 2004; Katsyuba et al.,
+2020). NR has undergone extensive preclinical testing (Conze
+et al., 2016) and is well tolerated by adult humans, showing no ev-
+idence of toxicity with doses up to at least 2,000 mg daily (Dol-
+lerup et al., 2018). Trials in healthy individuals have shown that
+an oral intake of 1,000 mg NR daily substantially elevates total
+levels of NAD and related metabolites in blood and muscle,
+boosts mitochondrial bioenergetics, and decreases circulating
+inﬂammatory cytokines (Conze et al., 2019; Elhassan et al.,
+2019; Martens et al., 2018; Trammell et al., 2016). Moreover, ev-
+idence from cell and animal studies suggests that NR supple-
+mentation promotes health span and has neuroprotective effects
+in models of Cockayne syndrome (Okur et al., 2020), noise-
+induced injury (Brown et al., 2014; Han et al., 2020), amyotrophic
+lateral sclerosis (Harlan et al., 2020), Alzheimer’s disease (Sorren-
+tino et al., 2017; Xie et al., 2019), and PD (Scho¨ ndorf et al., 2018).
+Taken together, this evidence suggests that NR may hold
+promise as a potential neuroprotective agent for PD. However,
+several critical knowledge gaps have yet to be addressed. Spe-
+ciﬁcally, it needs to be established whether NR is well tolerated,
+augments cerebral NAD levels, and affects cerebral metabolism
+in patients with PD.
+To address these questions, we conducted a double-blinded,
+randomized, placebo-controlled phase I study of NR in newly
+diagnosed PD patients, naive to dopaminergic therapy (the NAD-
+PARK study, Clinicaltrials.gov: NCT03816020). Primary out-
+comes were the detection of cerebral penetration and metabolic
+response, measured by 31phospohorous-magnetic resonance
+spectroscopy (31P-MRS), cerebrospinal ﬂuid (CSF) metabolo-
+mics, and 18ﬂuoro-deoxyglucose positron emission tomography
+(FDG-PET). Secondary outcomes were the safety and tolerability
+of NR in the study population (measured by the frequency and
+severity of adverse events and changes in vital signs and clinical
+laboratory values), the impact of NR on clinical symptoms
+(measured using the Movement Disorder Society uniﬁed Parkin-
+son’s disease rating scale [MDS-UPDRS]), and the impact of NR
+on the NAD metabolome in peripheral tissues of PD patients. We
+found that NR supplementation was well tolerated with no
+adverse effects. Treatment increased brain NAD levels, as well
+as related metabolites in the CSF and peripheral tissues. At the
+individual level, the increase in cerebral NAD was not universal
+but evident in 10/13 NR recipients from whom data were avail-
+able. The NR recipients who showed increased brain NAD levels
+exhibited altered cerebral metabolism, inducing a speciﬁc treat-
+ment-related metabolic network that overlapped with key ele-
+ments of the PD-related spatial covariance pattern (PDRP)
+(Schindlbeck and Eidelberg, 2018) and were associated with
+mild clinical improvement.
+Our ﬁndings suggest that NR may be useful as a neuroprotec-
+tive therapy in PD, pending further investigation in a phase
+II study.
+RESULTS
+In total, 36 patients were screened, and 30 eligible patients were
+enrolled, all of whom completed the study (Figure S1). There
+were no signiﬁcant demographic differences between the NR
+and placebo group (Table 1). Seven subjects in the NR group
+and three subjects in the placebo group reported adverse
+events, all of which were minor and considered to be unrelated
+to NR (Table S1). Based on the number of remaining capsules
+in returned vials, we estimated a mean study drug adherence
+in the NR and placebo group to be 98%. The average time on
+study drug was 32.5 (±2.7) days for the NR group and 32.4
+(±2.53) days for the placebo group (Table S2). Four participants
+(two in the NR and two in the placebo group) did not return any
+capsules but reported they were drug compliant.
+Table 1. Demographic and anamnestic information
+Placebo (n = 15)
+NR (n = 15)
+MRS respondersa (n = 10)
+Sex (male/female)
+14/1
+11/4
+8/2
+Mean age
+63.7 ± 11.0
+63.9 ± 8.0
+63.2 ± 9.8
+Height (cm)
+179.0 ± 6.0
+176.9 ± 7.8
+179.3 ± 7.6
+Weight (kg)
+83.6 ± 11.7
+83.0 ± 14.0
+87.1 ± 10.1
+Drug compliance, %
+98.53 ± 0.99
+97.3 ± 2.38
+96.9 ± 2.7
+Time on study drug (days)
+32.4 ± 2.5
+32.5 ± 2.7
+32.5 ± 2.5
+MDS diagnosisb (established/probable)
+5/10
+9/6
+6/4
+Anamnestic loss of smell (yes/no)
+9/6
+12/3
+7/3
+Anamnestic RBDc (yes/no)
+4/11
+3/12
+3/7
+Anamnestic PD symptomsd (months)
+20.3 ± 13.2
+26.6 ± 11.5
+27.8 ± 12.3
+aMagnetic resonance spectroscopy responders
+bMovement Disorder Society clinical diagnostic criteria
+cRapid eye movement sleep behavior disorder
+dTime from ﬁrst subjective symptom of parkinsonism to visit 1
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+397
+
+NR increases cerebral NAD levels
+31P-MRS was employed to assess phosphorylated metabolites
+in the patients’ brain. At the end of the study, data were available
+from 27 individuals, including 13 in the NR group and 14 in the
+placebo group (Table S2). 31P-MRS data analyses allowed for
+identiﬁcation and quantitation of multiple phosphorylated com-
+pounds (Figures 1A–1C; Table S3). NAD levels, which were
+normalized to ATP-a, showed a signiﬁcant increase in the NR
+group (paired t test, p = 0.016), but not in the placebo group (Fig-
+ure 1D). Direct comparison between the groups showed that the
+between visit change (visit 2/visit 1) in the NAD/ATP-a ratio was
+signiﬁcantly higher in the NR group compared with the placebo
+group (t test, p = 0.025). No other detected cerebral metabolites
+exhibited signiﬁcant change in either the NR or placebo group
+between visits. At the individual level, the cerebral NAD response
+was heterogeneous, with 10/13 patients showing an increase, of
+whom 9 showed a change exceeding 10% of baseline levels. We
+will henceforth refer to the subgroup of 10 NR recipients who
+showed an increase in cerebral NAD levels as MRS responders.
+Since this variability raised the possibility of heterogeneous
+treatment effects, we chose to stratify downstream neurometa-
+bolic and clinical analyses.
+NR induces a novel treatment-related metabolic
+network
+We next interrogated the FDG-PET data of the NR recipients to
+determine whether treatment-related increases in cerebral
+NAD levels were associated with a signiﬁcant metabolic brain
+network. To this end, we applied a supervised principal compo-
+nent analysis (PCA) algorithm (ordinal trends/canonical variates
+analysis [OrT/CVA]) to paired scan data from the NR participants
+(n = 10) for whom brain NAD levels were simultaneously
+increased with treatment. The analysis revealed a signiﬁcant
+ordinal trend pattern, which was represented by the ﬁrst prin-
+cipal component (PC1), accounting for 20.6% of the variance
+in the paired data. This NR-related metabolic pattern (NRRP; Fig-
+ures 2A and S2) was characterized by bilateral metabolic reduc-
+tions in the caudate and putamen, extending into the adjacent
+globus pallidus, and in the thalamus (Table S4). As part of the
+network, these changes were also associated with localized
+cortical reductions along the medial wall of the hemisphere
+involving the precuneus (Brodmann area [BA] 7), medial frontal
+cortex (BA 9 and 10), anterior cingulate area (BA 24 and 32),
+and in the posterior cingulate gyrus (BA 31). The reliability of
+these regions was demonstrated by bootstrap iteration (inverse
+coefﬁcient of variation [ICV] z = 3.83, 2.58, p < 0.005; 1,000
+iterations). Areas with relative metabolic increases did not
+contribute signiﬁcantly to this topography.
+At the individual subject level, a signiﬁcant ordinal trend in
+NRRP expression was observed (p < 0.018; permutation test,
+1,000 iterations) in the 10 NR recipients in the pattern identiﬁca-
+tion group (Figure 2B, black lines; Figure 2C). Although analo-
+gous NR-mediated increases in pattern expression were not
+seen in the remaining 4 NR recipients who either did not exhibit
+NAD responses on MRS or for whom MRS data were not avail-
+able (Figure 2B, gray lines), the ordinal trend remained signiﬁcant
+for the NR group as a whole (p = 0.027). That said, consistent
+changes in NRRP expression were not signiﬁcant in the placebo
+group (p = 0.497). Signiﬁcant correlations were not observed be-
+tween treatment-related changes in cerebral NAD levels and
+NRRP expression in either of the trial groups (p > 0.10).
+Nevertheless, changes in NRRP expression in the NR group
+correlated signiﬁcantly (r = 0.59, p = 0.026) with the changes
+in UPDRS motor ratings recorded at the time of PET (Figure 2D;
+Table S2). Thus, the largest NRRP increases were observed in
+the NR subjects with the greatest improvement in motor ratings.
+An analogous correlation was not seen in the placebo group (p =
+0.79). We noted that certain NRRP regions were shared with the
+previously validated PDRP topography (Figure 2E, top; Figure S2,
+middle). In particular, areas of reduced activity in the caudate
+and putamen, extending into the adjacent globus pallidus, over-
+lapped with corresponding areas of overactivity in the PDRP
+(Figure 2E, bottom, hot voxels; Figure S2). Likewise, spatial over-
+lap was observed between underactive regions in the frontal and
+parietal cortex for the two patterns (Figure 2E, bottom, purple
+voxels; Figure S2, bottom). Indeed, a signiﬁcant correlation
+was observed between baseline PDRP and NRRP expression
+values across the trial population (r = 0.56, p = 0.002; Figure 2F).
+As typically seen in PD populations, PDRP expression values at
+baseline correlated with UPDRS motor ratings (r = 0.374, p =
+0.046 for the two groups; Figure 2G). In contrast to NRRP in
+which the changes in pattern expression with NR correlated
+with clinical improvement (Figure 2D), no correlation with
+outcome was observed for the PDRP changes (p = 0.73).
+NR-induced increase in cerebral NAD is associated with
+clinical improvement of PD
+No signiﬁcant change was found in the MDS-UPDRS (total or
+subsections I–III) in the NR or placebo groups. However, a trend
+for decreased MDS-UPDRS was seen in the MRS-responder
+Table 2. MDS-UPDRS mean clinical scores
+Placebo
+(n = 15)
+NR (n = 15)
+MRS
+respondersa
+(n = 10)
+Mean score ± SD
+MDS-UPDRSb I
+Visit 1
+6.3 ± 4.5
+6.3 ± 4.0
+6.2 ± 4.6
+Visit 2
+6.0 ± 3.7
+5.4 ± 3.9
+5.3 ± 4.3
+MDS-UPDRS II
+Visit 1
+7.5 ± 4.4
+7.9 ± 4.3
+6.4 ± 4.3
+Visit 2
+7.6 ± 4.6
+8.3 ± 4.3
+6.4 ± 3.8
+MDS-UPDRS III
+Visit 1
+27.0 ± 8.7
+31.1 ± 10.0
+29.6 ± 11.0
+Visit 2
+26.3 ± 11.0
+30.5 ± 9.8
+28.7 ± 10.6
+Total score MDS-UPDRS (I–III)
+Visit 1
+40.7 ± 13.3
+45.2 ± 13.2
+42.2 ± 15.3
+Visit 2
+39.9 ± 14.3
+44.1 ± 13.2
+40.4 ± 14.2
+Hoehn and Yahrc stage
+Visit 1
+1.9 ± 0.6
+1.8 ± 0.4
+1.7 ± 0.5
+Visit 2
+1.8 ± 0.6
+1.9 ± 0.5
+1.8 ± 0.4
+aMagnetic resonance spectroscopy responders
+bMovement Disorder Society uniﬁed Parkinson’s disease rating scale
+cHoehn and Yahr rating scale
+ll
+OPEN ACCESS
+Clinical and Translational Report
+398
+Cell Metabolism 34, 396–407, March 1, 2022
+
+subgroup (mean decrease 1.9 ± 2.78; paired t test, p = 0.071),
+and this reached statistical signiﬁcance when only the 9 individ-
+uals showing >10% increase in cerebral NAD levels were consid-
+ered (mean decrease 2.33 ± 2.35; paired t test, p = 0.017). Upon
+closer inspection, this effect appeared to be mainly driven by
+subsections I and III of the MDS-UPDRS. The clinical scores of
+the participants at each visit are shown in Tables 2 and S2.
+NR supplementation augments the NAD metabolome in
+the CSF and peripheral tissues of PD patients
+Metabolomic analyses were carried out in CSF, skeletal muscle,
+and peripheral blood mononuclear cells (PBMCs) to conﬁrm NR
+intake and investigate potential changes in related metabolic
+pathways. In CSF, we detected a substantial increase of the
+nicotinamide (Nam) degradation product N-methyl-2-pyridone-
+5-carboxamide (Me-2-PY), an established indicator of NR sup-
+plementation (Elhassan et al., 2019; Trammell et al., 2016) (Fig-
+ure 3) in all NR recipients. Other related metabolites, including
+NAD+, NADH, nicotinamide mononucleotide (NMN), nicotinic
+acid adenine dinucleotide (NAAD), and methyl nicotinamide
+(Me-Nam), were below the detection limit in the CSF. This ﬁnding
+further corroborated that oral NR therapy increases brain NAD
+levels across the blood brain barrier, as indicated by the 31P-
+MRS data. In muscle tissue, several NAD-related metabolites,
+including Nam degradation products nicotinamide N-oxide
+(Nam N-oxide), Me-Nam, and the methyl pyridones (Me-2-PY)
+and N-methyl-4-pyridone-5-carboxamide (Me-4-PY), as well
+as the acid form of NAD, NAAD, were strongly elevated after
+treatment with NR (Figure 3). The steady-state levels of NAD it-
+self (both oxidized NAD+ and reduced NADH), and NAD precur-
+sors and intermediates, were not signiﬁcantly changed by NR
+treatment (Figure S3), similar to reports from previous trials in hu-
+mans (Elhassan et al., 2019). PBMCs showed less extensive
+changes, recapitulating the increase in NAAD and Me-Nam (Fig-
+ures 3 and S4). Additional metabolites that could potentially be
+affected by changes in the NAD metabolome were investigated,
+including acetyl-CoA and CoA, the methyl donor S-adenosylme-
+thionine (SAM) and its metabolites, and energy compounds,
+such as ATP. These showed no signiﬁcant change in PBMCs
+or muscle (Figures S3 and S4). Importantly, substantial meta-
+bolic changes were seen in the entire NR group in all tissues, ir-
+respective of the cerebral NAD response in 31P-MRS.
+NR therapy induces the expression of mitochondrial,
+antioxidant, and proteostatic processes
+To investigate the effects of NR therapy on gene expression, we
+carried out RNA-seq analysis in PBMCs and muscle tissue from
+all study participants and assessed the between visit differences
+A
+B
+C
+D
+Figure 1. 31P-MRS analysis reveals NR-mediated increase in cerebral NAD
+(A–C) Exemplary data from one subject.
+(A) Spectroscopy voxel position in the occipital cortex. Spectra were acquired for each grid position.
+(B) Averaged processed spectra from several occipital lobe voxels in black. The model ﬁt of the data is shown in red. The model ﬁt is composed of the convolution
+of all spectral contributions of a simulated dataset ﬁtted to the experimental data shown in (C). The position of NAD+/NADH is indicated.
+(C) Phosphocreatine (PCr) was chosen as the chemical shift reference at 0 ppm. Other detected phosphometabolites are indicated.
+(D) Relative total NAD levels normalized to ATP-a at visit 1 and 2. Data points show individual measurements (gray) and averages (black).
+*p = 0.0105 (Wilcoxon test).
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+399
+
+in the NR group compared with the placebo group. In muscle tis-
+sue, NR supplementation was signiﬁcantly associated with dif-
+ferential expression of 58 genes (FDR < 0.05; Table S5). These
+included substantial upregulation of KLF2, which is associated
+with decreased adipogenesis and induction of the nuclear factor
+erythroid 2-related factor 2 (Nrf2), a transcription factor with a
+key role in protection against oxidative damage, which has
+been linked to PD (Petrillo et al., 2020). We also noted
+A
+B
+D
+F
+G
+C
+E
+Figure 2. Metabolic brain network topography associated with NR treatment
+(A) NR-related metabolic pattern (NRRP) identiﬁed with FDG-PET in MRS responders with negative loading (blue). The values of region weight were thresholded at
+a Z value of 1.5.
+(B) Between visit changes showing increased NRRP expression in the NR versus the placebo group. The red line indicates mean values before and after the
+treatment. Black lines indicate individuals with a positive NAD response in the MRS analysis. Gray lines indicate the remaining individuals (i.e., the 4 individuals
+who either showed no NAD response in the MRS [n = 2] or for whom MRS data were not available [n = 2]; see also Table S3). *p = 0.027 (permutation test, 1,000
+iterations).
+(C) Changes in NRRP expression in the MRS responders treated with NR. NRRP expression increased in 8 of 10 subjects (p = 0.018, permutation test, 1,000
+iterations) showing elevated occipital NAD levels. Individual (gray lines) and average values (black line) are shown.
+(D) NR-related changes in UPDRS motor ratings and NRRP expression correlated in the NR group (r = 0.590, p = 0.026), including the MRS responders (ﬁlled
+circles) and the others (open circles). The correlation was still signiﬁcant (r = 0.556, p = 0.048) after excluding the data point with the greatest increase in UPDRS
+motor score at the top left corner of the graph.
+(E) Top: PD-related metabolic pattern (PDRP) with positive (hot) and negative (purple) loadings previously identiﬁed with FDG-PET in the American patient
+population (Peng et al., 2014; Schindlbeck and Eidelberg, 2018). Bottom: composite imaging display showing overlap in putamen and pallidum or prefrontal
+cortex and precuneus between NRRP (blue) and PDRP (hot or purple).
+(F and G) Correlations of NRRP and PDRP expression scores at baseline (r = 0.546, p = 0.002) and corresponding UPDRS motor ratings and PDRP expression at
+baseline (r = 0.374, p = 0.046) in the combined NR (ﬁlled circles) and PL (open circles) group.
+ll
+OPEN ACCESS
+Clinical and Translational Report
+400
+Cell Metabolism 34, 396–407, March 1, 2022
+
+upregulation of genes linked to NAD-degradation, such as ADP-
+ribosylation (PARP15), and NAD-dependent redox processes,
+such as the glycine cleavage system (AMT), as well as mitochon-
+drial translation and respiratory complex assembly (FARS2,
+TMEM242). Gene set enrichment analyses revealed NR-induced
+upregulation of biological processes, including proteasomal
+function, and RNA transport and stability. In PBMCs, a total of
+13 genes were signiﬁcantly associated with NR supplementa-
+tion, including upregulation of BLOC1S2, a component of the
+BLOC-1 complex involved in lysosomal biogenesis and traf-
+ﬁcking (Starcevic and Dell’Angelica, 2004). Functional enrich-
+ment revealed highly signiﬁcant upregulation of multiple biolog-
+ical processes, including ribosomal, proteasomal, lysosomal,
+and mitochondrial (oxidative phosphorylation) pathways. A com-
+plete account of NR-regulated pathways is provided in Table S6.
+No signiﬁcant changes were found in genes encoding known
+NAD biosynthetic enzymes, including NMRK1, encoding nicotin-
+amide riboside kinase 1, which converts NR to NMN. Finally, NR
+treatment did not show a signiﬁcant association with estimated
+cell type proportions in the PBMC samples (p > 0.5, visit:treat-
+ment
+interaction
+term,
+linear
+mixed
+model,
+Welch-Sat-
+terthwaite’s t test, p < 0.05; Figure S5).
+NR modulates biomarkers of inﬂammation and
+mitochondrial dysfunction
+Since mitochondrial dysfunction (Flønes et al., 2018; Hattori
+et al., 1991; Schapira et al., 1989) and inﬂammation (Hirsch
+and Hunot, 2009) have been associated with the pathophysi-
+ology of PD, we sought to identify NR-induced changes in rele-
+vant biomarkers in the serum and CSF of our patients. We as-
+sessed the levels of growth factors FGF21 and GDF15, which
+have been associated with mitochondrial dysfunction (Boenzi
+Figure 3. NR augments the NAD metabolome in CSF and peripheral tissues of PD patients
+The graph shows NAD+ biosynthesis and degradation routes, including precursors, intermediates, and catabolic end products. Boxed plots show concentrations
+in placebo and NR-treated individuals at visit 1 and visit 2 for those detectable metabolites that changed signiﬁcantly with treatment in muscle, PBMCs, and CSF.
+Metabolites that changed signiﬁcantly with NR treatment are highlighted in green. Data points show individual measurements (gray) and averages (black).
+NA, nicotinic acid; NAR, nicotinic acid riboside; Nam, nicotinamide; NR, nicotinamide riboside; NAMN, nicotinic acid mononucleotide; NMN, nicotinamide
+mononucleotide; NAAD, nicotinic acid adenine dinucleotide; NAD+, nicotinamide adenine dinucleotide; Me-Nam, methyl nicotinamide; Nam N-oxide, nicotin-
+amide N-oxide; Me-2-PY, N-methyl-2-pyridone-5-carboxamide; Me-4-PY, N-methyl-4-pyridone-5-carboxamide.
+*p < 0.05, **p < 0.01, ***p < 0.001, ****p < 0.0001 (Wilcoxon test).
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+401
+
+and Diodato, 2018; Lehtonen et al., 2016), and a panel of 35 in-
+ﬂammatory cytokines. Growth factor analysis revealed a mild but
+signiﬁcant decrease of GDF15 levels in the serum, but not in the
+CSF. FGF21 was unchanged in the serum and was below detec-
+tion limit in CSF. Several inﬂammatory cytokines decreased in
+the serum and/or CSF of the NR-treated group (Figures 4 and
+S6). Notably, several of the serum cytokines also showed a sig-
+niﬁcant decrease in the placebo group. Comparing the fold
+change of those cytokines between the groups revealed no sig-
+niﬁcant difference (Figure S6A). In addition, we assessed the
+levels of neuroﬁlament light chain (Nf-L), which are indicative of
+neuronal damage. These were unchanged by NR treatment in
+both the serum and CSF.
+DISCUSSION
+We present the results of the ﬁrst NR trial in PD. Our study met its
+primary outcome, which was to assess penetration and meta-
+bolic responses of the brain in patients with PD. We established
+that orally administered NR is safe, leads to an increase in cere-
+bral NAD levels, and alters cerebral metabolism in patients with
+PD. Cerebral penetration was further validated by detecting an
+increase of the metabolite Me-2-PY in the CSF of participants
+receiving
+NR, but not
+in the placebo.
+Furthermore,
+NR
+augmented the NAD metabolome and increased the expression
+of genes related to mitochondrial, lysosomal, and proteasomal
+function in blood and muscle and decreased the levels of inﬂam-
+matory cytokines in serum and CSF.
+Although a signiﬁcant increase in cerebral NAD levels was de-
+tected by 31P-MRS in the NR group, this effect was not universal.
+Three patients showed no evidence of cerebral NAD increase,
+despite a clear metabolic response in CSF, blood, and muscle,
+thereby conﬁrming treatment compliance and an impact on the
+NAD metabolome. The fact that we detected an increase of
+Me-2-PY in the CSF of all NR recipients suggests that central
+nervous system penetration was universal. Thus, the variable ce-
+rebral NAD response observed by 31P-MRS is likely to reﬂect
+interindividual variability in cerebral NAD metabolism and,
+possibly, limited sensitivity of the NAD measurement by MRS
+(i.e., MRS non-responders may have a positive, but mild cerebral
+NAD increase, which is below the detection limits of the method).
+Irrespective
+of
+the
+mechanisms
+underlying
+this
+variable
+response, our ﬁndings indicate that assessment of cerebral
+NAD levels may be an important monitoring parameter in clinical
+trials evaluating NR supplementation for brain health and dis-
+ease. Variability in the achieved NAD increase in the patient brain
+raises the possibility of a heterogeneous biological and, poten-
+tially, clinical response to NR therapy. Increase in cerebral
+NAD levels was indeed associated with both neurometabolic
+and clinical response in our patients. Notably, a trend for clinical
+improvement, in the form of decreased MDS-UPDRS score, was
+seen in the subgroup of NR recipients who had an increase in ce-
+rebral NAD levels by 31P-MRS.
+FDG-PET analyses identiﬁed the NRRP—a novel network
+topography that was induced in PD trial participants receiving
+NR, but not placebo, under blinded conditions. Apart from its
+deﬁning ordinal trend, changes in pattern expression with NR
+correlated with clinical improvement as measured by reductions
+in
+MDS-UPDRS
+ratings.
+The
+NRRP
+consisted
+mainly
+of
+decreased glucose uptake in the basal ganglia and neocortical
+areas. This may reﬂect a more efﬁcient bioenergetic state,
+requiring less glucose consumption to maintain required ATP
+production. Increased NAD+ levels would promote fatty acid
+beta-oxidation (Akie et al., 2015; Guarino and Dufour, 2019; Mu-
+kherjee et al., 2017), thereby providing an increased supply of
+reducing equivalents (i.e., NADH, FADH2) to the respiratory chain
+independent of glycolysis. While the organization of the NRRP
+remains unknown at the systems level, the network shares a
+number of topographic features with the PDRP, which support
+a potential role for NR in PD therapeutics. The overlap between
+metabolically active PDRP regions in the posterior putamen and
+globus pallidus and areas of treatment-related metabolic reduc-
+tion in the NRRP is particularly relevant. In recent graph theoretic
+studies of PDRP organization, we found that these regions
+comprise a discrete core zone, which drives overlap network ac-
+tivity. Metabolic reductions in core nodes have been observed in
+symptomatic PD treatments, such as levodopa administration
+and subthalamic deep brain stimulation (Asanuma et al., 2006;
+Niethammer and Eidelberg, 2012). The presence of similar
+changes with NR suggests that these regions may also be
+modulated by this treatment. In any event, clinical outcomes
+in the NR group relate more to the induction of NRRP than to
+the modulation of the PDRP activity—a situation similar to that
+encountered
+with
+subthalamic
+gene therapy
+(Niethammer
+et al., 2018).
+Metabolomic analyses in PBMCs and muscle conﬁrmed NR
+intake in the treatment group and excluded this in the placebo
+group. Notably, a highly signiﬁcant increase in established
+markers of NR-mediated NAD biosynthesis, such as NAAD and
+Me-Nam, was seen in all patients in the NR group, corroborating
+previous studies in healthy subjects (Elhassan et al., 2019).
+Measured NAD+ values were substantially lower than previously
+reported concentrations in these tissues (Elhassan et al., 2019;
+Lamb et al., 2020; Martens et al., 2018; Trammell et al., 2016);
+however, we did not detect an increase in NAD+ levels (Figures
+S3 and S4). It is conceivable that a new steady state of increased
+NAD ﬂux may be established over time in muscle and blood cells
+without detectable changes in the measured NAD concentra-
+tions at any given time point. This could be due to increased
+NAD consumption combined with increased NAD biosynthesis,
+facilitated via continuous NR supply. Evidence of increased
+ﬂux in the NAD metabolome was indeed detected in both
+PBMCs and muscle of our patients, indicating higher NAD avail-
+ability in the NR group. Notably, unchanged NAD levels in muscle
+were also seen in a recent study of NR in healthy adults (Elhassan
+et al., 2019), whereas another study detected elevated NAD+
+levels in PBMCs (Trammell et al., 2016).
+In addition to the NAD metabolome, we investigated other me-
+tabolites, which are functionally linked to NAD metabolism and
+signaling, and may be affected by NR treatment. Synthesis of
+Me-Nam, which was greatly increased by NR supplementation,
+requires the methyl donor SAM. This, in turn, could limit SAM
+availability for other essential methylation reactions, such as
+DNA and histone methylation, and neurotransmitter synthesis,
+including dopamine (Jadavji et al., 2015). We found no signiﬁcant
+changes in SAM or its related metabolites SAH and homocyste-
+ine, indicating that NR supplementation does not limit SAM avail-
+ability for other vital reactions.
+ll
+OPEN ACCESS
+Clinical and Translational Report
+402
+Cell Metabolism 34, 396–407, March 1, 2022
+
+A
+D
+F
+J
+L
+M
+N
+O
+K
+G
+H
+I
+E
+B
+C
+Figure 4. Serological markers affected by NR treatment
+(A–C) Serological marker analysis in serum and CSF of PD patients in the placebo (PL) and NR-treated (NR) group before (V1) and after (V2) treatment. Data points
+show individual measurements (gray) and averages (black). Levels of GDF15 in serum (A) and CSF (B), and serum levels of FGF21 (C) are shown.
+(D and E) Neuroﬁlament light (Nf-L) chain levels in serum and CSF.
+(F–O) Cytokine analysis in serum (F–K) and CSF (L–O). The plots show the cytokines that changed only, or with stronger signiﬁcance, in the NR group.
+*p < 0.05, **p < 0.01, ***p < 0.001 (Wilcoxon test).
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+403
+
+Another metabolite of interest was acetyl-CoA, donor of
+acetyl-groups for acetylation reactions, including histone acety-
+lation (Pietrocola et al., 2015). Higher NAD availability could lead
+to increased acetyl-CoA synthesis by promoting glucose and
+fatty acid catabolism. This could, in turn, exacerbate the histone
+hyperacetylation state observed in the PD brain (Park et al.,
+2016; Toker et al., 2021), further dysregulating gene expression.
+Our analyses detected no signiﬁcant changes in acetyl-CoA or
+CoA levels upon NR supplementation. Finally, we monitored
+energy metabolites, such as ATP, ADP, AMP, as well as GTP
+and GDP. None of these showed a signiﬁcant change upon NR
+supplementation.
+The downstream metabolic impact of NR treatment was sup-
+ported by the transcriptomic analyses in PBMC and muscle,
+which revealed effects in multiple disease-relevant pathways.
+Notably, NR was associated with upregulation of genes involved
+in mitochondrial respiration, antioxidant response, and protein
+degradation, including the proteasome and lysosome. Quantita-
+tive and functional respiratory deﬁciency (Flønes et al., 2018;
+Schapira et al., 1989), increased oxidative damage (Dias et al.,
+2013; Jenner, 2003), and impaired proteasomal and lysosomal
+function (Lehtonen et al., 2019) have all been strongly implicated
+in the pathophysiology of PD. Therefore, these ﬁndings are
+encouraging, and they support a potential neuroprotective effect
+of NR in PD. Furthermore, our results indicate that NR may have
+anti-inﬂammatory action by decreasing the levels of inﬂamma-
+tory cytokines not only peripherally as previously shown in
+healthy aged individuals (Elhassan et al., 2019) but also in the
+central nervous system. Interestingly, almost all serum cytokines
+showing a signiﬁcant decrease in the NR group also decreased
+in the placebo group, making the signiﬁcance of these ﬁndings
+uncertain. In contrast, several CSF cytokines showed a signiﬁ-
+cant decrease exclusively in the NR-treated group, suggesting
+a potential anti-inﬂammatory effect in the nervous system. Neu-
+roinﬂammation has been implicated in the pathogenesis of PD,
+and it is considered a potential target for neuroprotection (Rocha
+et al., 2015).
+Mitochondrial biomarker analyses revealed a mild, but signiﬁ-
+cant, decrease of GDF15 in the serum, but not CSF, of NR
+recipients. This is in line with the observed transcriptomic upre-
+gulation of mitochondrial genes and could be indicative of
+improved mitochondrial function in our patients. Nf-L levels
+were not signiﬁcantly affected by NR treatment in serum or
+CSF. However, Nf-L is only mildly elevated in PD (especially in
+early stages of the disease) compared with healthy controls
+and is better suited as a biomarker for monitoring disease pro-
+gression over time (Mollenhauer et al., 2020). Therefore, also
+given the small sample size and short duration of our trial, the
+lack of Nf-L change is not surprising.
+Conclusions
+In conclusion, the study meets its primary outcome and shows
+that oral NR therapy increases brain NAD levels and impacts
+cerebral metabolism in PD. Furthermore, our ﬁndings suggest
+that NR may target multiple processes implicated in the patho-
+physiology of the disease by upregulating the expression of
+genes involved in mitochondrial respiration, oxidative damage
+response, lysosomal and proteasomal function, and downregu-
+lating inﬂammatory cytokines in the central nervous system. In
+addition, it is possible that NR may mitigate epigenomic dysre-
+gulation in PD by regulating histone acetylation. Genome-wide
+histone hyperacetylation and altered transcriptional regulation
+occur in the brain of individuals with PD (Toker et al., 2021).
+Increasing neuronal NAD levels would boost the activity of the
+NAD-dependent histone deacetylases of the sirtuin family,
+potentially ameliorating histone hyperacetylation in PD. Taken
+together, our ﬁndings nominate NR as a potential neuroprotec-
+tive agent against PD, which warrants further investigation in a
+larger trial. To this end, we are currently conducting the phase
+II trial NOPARK (Clinicaltrials.gov: NCT03568968), aiming to
+assess whether NR can delay nigrostriatal degeneration and
+clinical disease progression in patients with early PD.
+Limitations of study
+The sample size of this trial was relatively small, although we had
+adequate power to robustly support the primary and most of the
+secondary and tertiary outcomes. The observed trend for clinical
+improvement among the NR recipients with increased cerebral
+NAD levels should be interpreted with caution due to the low
+number of subjects, short observation time, and high interindi-
+vidual variability in MDS-UPDRS scores. While these observa-
+tions are encouraging, only a phase II trial will provide conclusive
+clinical evidence on any disease-modifying effects of NR in PD.
+Although we were able to conﬁdently detect and measure total
+cerebral NAD levels by 31P-MRS, our analyses were limited by
+the strength of the magnet used in this study, as well as adhering
+to normal-mode speciﬁc absorption rate (SAR) levels, which did
+not allow us to conﬁdently discriminate between the oxidized
+(NAD+) and reduced (NADH) forms. A higher ﬁeld strength or
+more effective decoupling by increasing SAR deposition limit
+may make discrimination possible (Lu et al., 2014; Peeters
+et al., 2019). More detailed analysis of the NAD+/NADH redox ra-
+tio in the brain upon NR treatment would improve our knowledge
+about the metabolic impacts of NR in the brain. The transcrip-
+tomic analyses showed an NR-associated upregulation of genes
+involved in mitochondrial respiration. Establishing whether this
+leads to improved mitochondrial respiration would require the
+assessment of respiratory enzyme activities in the patients’ tis-
+sue. Performing these analyses post hoc was not feasible in
+this trial due to the limited tissue sample availability.
+STAR+METHODS
+Detailed methods are provided in the online version of this paper
+and include the following:
+d KEY RESOURCES TABLE
+d RESOURCE AVAILABILITY
+B Lead contact
+B Materials availability
+B Data and code availability
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+B Participants and study design
+B Approval, registration, and patient consent
+B Randomization and masking
+d METHOD DETAILS
+B Outcomes
+B Procedures
+ll
+OPEN ACCESS
+Clinical and Translational Report
+404
+Cell Metabolism 34, 396–407, March 1, 2022
+
+B RNA sequencing
+B Metabolomic analysis
+B Nf-L, GDF15, FGF21, and Cytokine detection
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+B Sample size
+B Statistical analyses
+d ADDITIONAL RESOURCES
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.1016/j.
+cmet.2022.02.001.
+ACKNOWLEDGMENTS
+We are grateful to our study nurse, Marit Rensa˚ , and technical laboratory staff,
+Hanne Linda Nakkestad, Gry Hilde Nilsen, Dagny-Ann Sandnes, Kibret Yimer
+Mazengia, Wenche Hauge Eilifsen, and Kristin Paulsen Rye, for excellent tech-
+nical assistance. We thank Prof. Kjell-Morten Myhr for the fruitful discussions
+and ChromaDex (Irvine, California) for providing the NR and placebo capsules.
+We also thank Anne Mathilde Kvammen, Research and Development Depart-
+ment, Haukeland University Hospital; Dr Ann Cathrine Kroksveen, Biobank
+Haukeland, Haukeland University Hospital; Dr Cecilie B. Rygh, Department
+of Radiology, Haukeland University Hospital; and Prof. Martin Biermann,
+Department of Nuclear Medicine, Haukeland University Hospital. We are
+grateful to the staff at the Department of Neurology, Department of Radiology
+and the PET-Center, Haukeland University Hospital, for providing essential
+personnel and infrastructure for the study. This work was supported by grants
+from The Research Council of Norway (288164), Bergen Research Foundation
+(BFS2017REK05), and the Western Norway Regional Health Authority
+(F-11470). The funder of the study had no role in study design, data collection,
+data analysis, data interpretation, or writing of the report.
+AUTHOR CONTRIBUTIONS
+Study conceptualization, C.T. and C.D.; design, C.T., B.B., and C.D.; clinical
+trial execution, B.B., K.H., G.O.S., O.-B.T., and C.T.; data collection, B.B.,
+C.D., K.H., G.O.S., O.-B.T., T.S., N.B., V.S., K.V., L.S., J.D., R.G., and C.T.;
+data analyses and interpretation, B.B., C.D., F.R., Y.M., G.S.N., A.R.C., T.S.,
+N.B., V.S., K.V., L.S., J.D., S.P., R.G., D.E., M.Z., and C.T.; drafting the manu-
+script, B.B., C.D., F.R., Y.M., G.S.N., A.R.C., T.S., S.P., D.E., M.Z., and C.T. All
+authors have read and approved the manuscript.
+DECLARATION OF INTERESTS
+C.T. and C.D. have ﬁled a patent application relating to the use of NR in PD. All
+other authors declare no competing interests.
+Received: July 15, 2021
+Revised: November 17, 2021
+Accepted: January 31, 2022
+Published: March 1, 2022
+REFERENCES
+Akie, T.E., Liu, L., Nam, M., Lei, S., and Cooper, M.P. (2015). OXPHOS-medi-
+ated induction of NAD+ promotes complete oxidation of fatty acids and inter-
+dicts non-alcoholic fatty liver disease. PLoS One 10, e0125617.
+Andrews, S. (2010). FastQC: a quality control tool for high throughput
+sequence data (Babraham Bioinformatics).
+Asanuma, K., Tang, C., Ma, Y., Dhawan, V., Mattis, P., Edwards, C., Kaplitt,
+M.G., Feigin, A., and Eidelberg, D. (2006). Network modulation in the treatment
+of Parkinson’s disease. Brain 129, 2667–2678.
+Ashburner, M., Ball, C.A., Blake, J.A., Botstein, D., Butler, H., Cherry, J.M.,
+Davis, A.P., Dolinski, K., Dwight, S.S., Eppig, J.T., et al. (2000). Gene ontology:
+tool for the uniﬁcation of biology. The Gene Ontology Consortium. Nat. Genet.
+25, 25–29.
+Athauda, D., and Foltynie, T. (2015). The ongoing pursuit of neuroprotective
+therapies in Parkinson disease. Nat. Rev. Neurol. 11, 25–40.
+Bieganowski, P., and Brenner, C. (2004). Discoveries of nicotinamide riboside
+as a nutrient and conserved NRK genes establish a Preiss-Handler indepen-
+dent route to NAD+ in fungi and humans. Cell 117, 495–502.
+Bloem, B.R., Okun, M.S., and Klein, C. (2021). Parkinson’s disease. Lancet
+397, 2284–2303.
+Boenzi, S., and Diodato, D. (2018). Biomarkers for mitochondrial energy meta-
+bolism diseases. Essays Biochem. 62, 443–454.
+Braidy, N., and Liu, Y. (2020). NAD+ therapy in age-related degenerative dis-
+orders: a beneﬁt/risk analysis. Exp. Gerontol. 132, 110831.
+Brown, K.D., Maqsood, S., Huang, J.Y., Pan, Y., Harkcom, W., Li, W., Sauve,
+A., Verdin, E., and Jaffrey, S.R. (2014). Activation of SIRT3 by the NAD(+) pre-
+cursor nicotinamide riboside protects from noise-induced hearing loss. Cell
+Metab. 20, 1059–1068.
+Br€uggemann, N., and Klein, C. (1993). Parkin type of early-onset Parkinson
+disease. In GeneReviews, M.P. Adam, H.H. Ardinger, R.A. Pagon, S.E.
+Wallace, L.J. Bean, G. Mirzaa, and A. Amemiya, eds. (University of
+Washington).
+Conze, D.B., Crespo-Barreto, J., and Kruger, C.L. (2016). Safety assessment
+of nicotinamide riboside, a form of vitamin B3. Hum. Exp. Toxicol. 35,
+1149–1160.
+Conze, D., Brenner, C., and Kruger, C.L. (2019). Safety and metabolism of
+long-term administration of NIAGEN (nicotinamide riboside chloride) in a ran-
+domized, double-blind, placebo-controlled clinical trial of healthy overweight
+adults. Sci. Rep. 9, 9772.
+de Rijk, M.C., Launer, L.J., Berger, K., Breteler, M.M., Dartigues, J.F.,
+Baldereschi, M., Fratiglioni, L., Lobo, A., Martinez-Lage, J., Trenkwalder, C.,
+and Hofman, A. (2000). Prevalence of Parkinson’s disease in Europe: a collab-
+orative study of population-based cohorts. Neurologic Diseases in the Elderly
+Research Group. Neurology 54 (Suppl 5), S21–S23.
+Deelchand, D.K., Nguyen, T.-M., Zhu, X.-H., Mochel, F., and Henry, P.-G.
+(2015). Quantiﬁcation of in vivo 31P NMR brain spectra using LCModel.
+NMR Biomed. 28, 633–641.
+Dias, V., Junn, E., and Mouradian, M.M. (2013). The role of oxidative stress in
+Parkinson’s disease. J. Parkinsons Dis. 3, 461–491.
+Dollerup, O.L., Christensen, B., Svart, M., Schmidt, M.S., Sulek, K., Ringgaard,
+S., Stødkilde-Jørgensen, H., Møller, N., Brenner, C., Treebak, J.T., and
+Jessen, N. (2018). A randomized placebo-controlled clinical trial of nicotin-
+amide riboside in obese men: safety, insulin-sensitivity, and lipid-mobilizing ef-
+fects. Am. J. Clin. Nutr. 108, 343–353.
+Edden, R.A., Puts, N.A., Harris, A.D., Barker, P.B., and Evans, C.J. (2014).
+Gannet: a batch-processing tool for the quantitative analysis of gamma-ami-
+nobutyric acid–edited MR spectroscopy spectra. J. Magn. Reson. Imaging
+40, 1445–1452.
+Elhassan, Y.S., Kluckova, K., Fletcher, R.S., Schmidt, M.S., Garten, A., Doig,
+C.L., Cartwright, D.M., Oakey, L., Burley, C.V., Jenkinson, N., et al. (2019).
+Nicotinamide riboside augments the aged human skeletal muscle NAD+ me-
+tabolome and induces transcriptomic and anti-inﬂammatory signatures. Cell
+Rep. 28, 1717–1728.e6.
+Espay, A.J., Brundin, P., and Lang, A.E. (2017). Precision medicine for disease
+modiﬁcation in Parkinson disease. Nat. Rev. Neurol. 13, 119–126.
+Flønes, I.H., Fernandez-Vizarra, E., Lykouri, M., Brakedal, B., Skeie, G.O.,
+Miletic, H., Lilleng, P.K., Alves, G., Tysnes, O.-B., Haugarvoll, K., et al.
+(2018). Neuronal complex I deﬁciency occurs throughout the Parkinson’s dis-
+ease brain, but is not associated with neurodegeneration or mitochondrial
+DNA damage. Acta Neuropathol. 135, 409–425.
+Gillis, J., Mistry, M., and Pavlidis, P. (2010). Gene function analysis in complex
+data sets using ErmineJ. Nat. Protoc. 5, 1148–1159.
+Gonzalez-Hunt, C.P., and Sanders, L.H. (2021). DNA damage and repair in
+Parkinson’s disease: recent advances and new opportunities. J. Neurosci.
+Res. 99, 180–189.
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+405
+
+Gooch, C.L., Pracht, E., and Borenstein, A.R. (2017). The burden of neurolog-
+ical disease in the United States: a summary report and call to action. Ann.
+Neurol. 81, 479–484.
+Guarino, M., and Dufour, J.-F. (2019). Nicotinamide and NAFLD: is there
+nothing new under the sun? Metabolites 9, 180.
+Habeck, C., Krakauer, J.W., Ghez, C., Sackeim, H.A., Eidelberg, D., Stern, Y.,
+and Moeller, J.R. (2005). A new approach to spatial covariance modeling of
+functional brain imaging data: ordinal trend analysis. Neural Comput. 17,
+1602–1645.
+Habeck, C., and Stern, Y.; Alzheimer’s Disease Neuroimaging Initiative (2010).
+Multivariate data analysis for neuroimaging data: overview and application to
+Alzheimer’s disease. Cell Biochem. Biophys. 58, 53–67.
+Han, S., Du, Z., Liu, K., and Gong, S. (2020). Nicotinamide riboside protects
+noise-induced hearing loss by recovering the hair cell ribbon synapses.
+Neurosci. Lett. 725, 134910.
+Harlan, B.A., Killoy, K.M., Pehar, M., Liu, L., Auwerx, J., and Vargas, M.R.
+(2020). Evaluation of the NAD+ biosynthetic pathway in ALS patients and effect
+of modulating NAD+ levels in hSOD1-linked ALS mouse models. Exp. Neurol.
+327, 113219.
+Hattori,
+N.,
+Tanaka,
+M.,
+Ozawa,
+T.,
+and
+Mizuno,
+Y.
+(1991).
+Immunohistochemical studies on complexes I, II, III, and IV of mitochondria
+in Parkinson’s disease. Ann. Neurol. 30, 563–571.
+Hirsch, E.C., and Hunot, S. (2009). Neuroinﬂammation in Parkinson’s disease:
+a target for neuroprotection? Lancet Neurol. 8, 382–397.
+Jadavji,
+N.M.,
+Wieske,
+F.,
+Dirnagl,
+U.,
+and
+Winter,
+C.
+(2015).
+Methylenetetrahydrofolate reductase deﬁciency alters levels of glutamate
+and g-aminobutyric acid in brain tissue. Mol. Genet. Metab. Rep. 3, 1–4.
+Jenner, P. (2003). Oxidative stress in Parkinson’s disease. Ann. Neurol. 53
+(Suppl 3), S26–S38.
+Johnson, S., and Imai, S.-I. (2018). NAD+ biosynthesis, aging, and disease.
+F1000Res. 7, 132.
+Kalia, L.V., and Lang, A.E. (2015). Parkinson’s disease. Lancet 386, 896–912.
+Katsyuba, E., Romani, M., Hofer, D., and Auwerx, J. (2020). NAD+ homeosta-
+sis in health and disease. Nat. Metab. 2, 9–31.
+Ko, J.H., Feigin, A., Mattis, P.J., Tang, C.C., Ma, Y., Dhawan, V., During, M.J.,
+Kaplitt, M.G., and Eidelberg, D. (2014). Network modulation following sham
+surgery in Parkinson’s disease. J. Clin. Invest. 124, 3656–3666.
+Lamb, D.A., Moore, J.H., Mesquita, P.H.C., Smith, M.A., Vann, C.G., Osburn,
+S.C., Fox, C.D., Lopez, H.L., Ziegenfuss, T.N., Huggins, K.W., et al. (2020).
+Resistance training increases muscle NAD+ and NADH concentrations as
+well as NAMPT protein levels and global sirtuin activity in middle-aged, over-
+weight, untrained individuals. Aging (Albany, NY) 12, 9447–9460.
+Lautrup, S., Sinclair, D.A., Mattson, M.P., and Fang, E.F. (2019). NAD+ in brain
+aging and neurodegenerative disorders. Cell Metab. 30, 630–655.
+Lehtonen, J.M., Forsstro¨ m, S., Bottani, E., Viscomi, C., Baris, O.R., Isoniemi,
+H., Ho¨ ckerstedt, K., O¨ sterlund, P., Hurme, M., Jylh€av€a, J., et al. (2016).
+FGF21 is a biomarker for mitochondrial translation and mtDNA maintenance
+disorders. Neurology 87, 2290–2299.
+Lehtonen, S., Sonninen, T.-M., Wojciechowski, S., Goldsteins, G., and
+Koistinaho, J. (2019). Dysfunction of cellular proteostasis in Parkinson’s dis-
+ease. Front. Neurosci. 13, 457.
+Love, M.I., Huber, W., and Anders, S. (2014). Moderated estimation of fold
+change and dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550.
+Lozza, C., Baron, J.-C., Eidelberg, D., Mentis, M.J., Carbon, M., and Marie´ ,
+R.M. (2004). Executive processes in Parkinson’s disease: FDG-PET and
+network analysis. Hum. Brain Mapp. 22, 236–245.
+Lu, M., Zhu, X.-H., Zhang, Y., and Chen, W. (2014). Intracellular redox state re-
+vealed by in vivo (31) P MRS measurement of NAD(+) and NADH contents in
+brains. Magn. Reson. Med. 71, 1959–1972.
+Martens, C.R., Denman, B.A., Mazzo, M.R., Armstrong, M.L., Reisdorph, N.,
+McQueen, M.B., Chonchol, M., and Seals, D.R. (2018). Chronic nicotinamide
+riboside supplementation is well-tolerated and elevates NAD+ in healthy mid-
+dle-aged and older adults. Nat. Commun. 9, 1286.
+Mollenhauer, B., Dakna, M., Kruse, N., Galasko, D., Foroud, T., Zetterberg, H.,
+Schade, S., Gera, R.G., Wang, W., Gao, F., et al. (2020). Validation of serum
+neuroﬁlament light chain as a biomarker of Parkinson’s disease progression.
+Mov. Disord. 35, 1999–2008.
+Monaco, G., Lee, B., Xu, W., Mustafah, S., Hwang, Y.Y., Carre´ , C., Burdin, N.,
+Visan, L., Ceccarelli, M., Poidinger, M., et al. (2019). RNA-seq signatures
+normalized by mRNA abundance allow absolute deconvolution of human im-
+mune cell types. Cell Rep. 26, 1627–1640.e7.
+Mukherjee, S., Chellappa, K., Mofﬁtt, A., Ndungu, J., Dellinger, R.W., Davis,
+J.G., Agarwal, B., and Baur, J.A. (2017). Nicotinamide adenine dinucleotide
+biosynthesis promotes liver regeneration. Hepatology 65, 616–630.
+Mure, H., Hirano, S., Tang, C.C., Isaias, I.U., Antonini, A., Ma, Y., Dhawan, V.,
+and Eidelberg, D. (2011). Parkinson’s disease tremor-related metabolic
+network: characterization, progression, and treatment effects. Neuroimage
+54, 1244–1253.
+Mure, H., Tang, C.C., Argyelan, M., Ghilardi, M.-F., Kaplitt, M.G., Dhawan, V.,
+and Eidelberg, D. (2012). Improved sequence learning with subthalamic nu-
+cleus deep brain stimulation: evidence for treatment-speciﬁc network modu-
+lation. J. Neurosci. 32, 2804–2813.
+Near, J., Edden, R., Evans, C.J., Paquin, R., Harris, A., and Jezzard, P. (2015).
+Frequency and phase drift correction of magnetic resonance spectroscopy
+data by spectral registration in the time domain. Magn. Reson. Med. 73, 44–50.
+Niethammer, M., and Eidelberg, D. (2012). Metabolic brain networks in trans-
+lational neurology: concepts and applications. Ann. Neurol. 72, 635–647.
+Niethammer, M., Tang, C.C., Vo, A., Nguyen, N., Spetsieris, P., Dhawan, V.,
+Ma, Y., Small, M., Feigin, A., During, M.J., et al. (2018). Gene therapy reduces
+Parkinson’s disease symptoms by reorganizing functional brain connectivity.
+Sci. Transl. Med. 10, eaau0713.
+Okur, M.N., Mao, B., Kimura, R., Haraczy, S., Fitzgerald, T., Edwards-
+Hollingsworth, K., Tian, J., Osmani, W., Croteau, D.L., Kelley, M.W., and
+Bohr, V.A. (2020). Short-term NAD+ supplementation prevents hearing loss
+in mouse models of Cockayne syndrome. NPJ Aging Mech. Dis. 6, 1.
+Park, G., Tan, J., Garcia, G., Kang, Y., Salvesen, G., and Zhang, Z. (2016).
+Regulation of histone acetylation by autophagy in Parkinson disease. J. Biol.
+Chem. 291, 3531–3540.
+Patro, R., Duggal, G., Love, M.I., Irizarry, R.A., and Kingsford, C. (2017).
+Salmon provides fast and bias-aware quantiﬁcation of transcript expression.
+Nat. Methods 14, 417–419.
+Peeters, T.H., van Uden, M.J., Rijpma, A., Scheenen, T.W., and Heerschap, A.
+(2019). 3D 31P MR spectroscopic imaging of the human brain at 3 T with a 31P
+receive array: an assessment of 1H decoupling, T1 relaxation times, 1H–31P
+nuclear Overhauser effects and NAD+. NMR Biomed. 34, e4169.
+Peng, S., Ma, Y., Spetsieris, P.G., Mattis, P., Feigin, A., Dhawan, V., and
+Eidelberg, D. (2014). Characterization of disease-related covariance topogra-
+phies with SSMPCA toolbox: effects of spatial normalization and PET scan-
+ners. Hum. Brain Mapp. 35, 1801–1814.
+Petrillo, S., Schirinzi, T., Di Lazzaro, G.D., D’Amico, J., Colona, V.L., Bertini, E.,
+Pierantozzi, M., Mari, L., Mercuri, N.B., Piemonte, F., and Pisani, A. (2020).
+Systemic activation of Nrf2 pathway in Parkinson’s disease. Mov. Disord.
+35, 180–184.
+Pietrocola, F., Galluzzi, L., Bravo-San Pedro, J.M., Madeo, F., and Kroemer, G.
+(2015). Acetyl coenzyme A: a central metabolite and second messenger. Cell
+Metab. 21, 805–821.
+Postuma, R.B., Berg, D., Stern, M., Poewe, W., Olanow, C.W., Oertel, W.,
+Obeso, J., Marek, K., Litvan, I., Lang, A.E., et al. (2015). MDS clinical diagnostic
+criteria for Parkinson’s disease. Mov. Disord. 30, 1591–1601.
+Purvis, L.A.B., Clarke, W.T., Biasiolli, L., Valkovic, L., Robson, M.D., and
+Rodgers, C.T. (2017). OXSA: an open-source magnetic resonance spectros-
+copy analysis toolbox in MATLAB. PLoS One 12, e0185356.
+Ren, J., Shang, T., Sherry, A.D., and Malloy, C.R. (2018). Unveiling a hidden
+31P signal coresonating with extracellular inorganic phosphate by outer-vol-
+ume-suppression and localized 31P MRS in the human brain at 7T. Magn.
+Reson. Med. 80, 1289–1297.
+ll
+OPEN ACCESS
+Clinical and Translational Report
+406
+Cell Metabolism 34, 396–407, March 1, 2022
+
+Rocha, N.P., de Miranda, A.S., and Teixeira, A.L. (2015). Insights into neuroin-
+ﬂammation in Parkinson’s disease: from biomarkers to anti-inﬂammatory
+based therapies. BioMed Res. Int. 2015, 628192.
+Schapira, A.H., Cooper, J.M., Dexter, D., Jenner, P., Clark, J.B., and Marsden,
+C.D. (1989). Mitochondrial complex I deﬁciency in Parkinson’s disease. Lancet
+1, 1269.
+Schindlbeck, K.A., and Eidelberg, D. (2018). Network imaging biomarkers: in-
+sights and clinical applications in Parkinson’s disease. Lancet Neurol. 17,
+629–640.
+Scho¨ ndorf, D.C., Ivanyuk, D., Baden, P., Sanchez-Martinez, A., De Cicco, S.,
+Yu, C., Giunta, I., Schwarz, L.K., Di Napoli, G., Panagiotakopoulou, V., et al.
+(2018). The NAD+ precursor nicotinamide riboside rescues mitochondrial de-
+fects and neuronal loss in iPSC and ﬂy models of Parkinson’s disease. Cell
+Rep. 23, 2976–2988.
+Soneson, C., Love, M.I., and Robinson, M.D. (2015). Differential analyses for
+RNA-seq:
+transcript-level
+estimates
+improve
+gene-level
+inferences.
+F1000Res. 4, 1521.
+Sorrentino, V., Romani, M., Mouchiroud, L., Beck, J.S., Zhang, H., D’Amico,
+D., Moullan, N., Potenza, F., Schmid, A.W., Rietsch, S., et al. (2017).
+Enhancing mitochondrial proteostasis reduces amyloid-b proteotoxicity.
+Nature 552, 187–193.
+Spetsieris, P., Ma, Y., Peng, S., Ko, J.H., Dhawan, V., Tang, C.C., and
+Eidelberg, D. (2013). Identiﬁcation of disease-related spatial covariance pat-
+terns using neuroimaging data. J. Vis. Exp. 50319.
+Starcevic, M., and Dell’Angelica, E.C. (2004). Identiﬁcation of snapin and three
+novel proteins (BLOS1, BLOS2, and BLOS3/reduced pigmentation) as sub-
+units of biogenesis of lysosome-related organelles complex-1 (BLOC-1).
+J. Biol. Chem. 279, 28393–28401.
+Tang, C.C., Feigin, A., Ma, Y., Habeck, C., Paulsen, J.S., Leenders, K.L.,
+Teune, L.K., van Oostrom, J.C., Guttman, M., Dhawan, V., and Eidelberg, D.
+(2013). Metabolic network as a progression biomarker of premanifest
+Huntington’s disease. J. Clin. Invest. 123, 4076–4088.
+Teune, L.K., Renken, R.J., Mudali, D., De Jong, B.M., Dierckx, R.A., Roerdink,
+J.B.T.M., and Leenders, K.L. (2013). Validation of parkinsonian disease-
+related metabolic brain patterns. Mov. Disord. 28, 547–551.
+Toker, L., Tran, G.T., Sundaresan, J., Tysnes, O.-B., Alves, G., Haugarvoll, K.,
+Nido, G.S., Do¨ lle, C., and Tzoulis, C. (2021). Genome-wide histone acetylation
+analysis reveals altered transcriptional regulation in the Parkinson’s disease
+brain. Mol. Neurodegener. 16, 31.
+Trammell, S.A., Schmidt, M.S., Weidemann, B.J., Redpath, P., Jaksch, F.,
+Dellinger, R.W., Li, Z., Abel, E.D., Migaud, M.E., and Brenner, C. (2016).
+Nicotinamide riboside is uniquely and orally bioavailable in mice and humans.
+Nat. Commun. 7, 12948.
+Wu, P., Wang, J., Peng, S., Ma, Y., Zhang, H., Guan, Y., and Zuo, C. (2013).
+Metabolic brain network in the Chinese patients with Parkinson’s disease
+based on 18F-FDG PET imaging. Parkinsonism Relat. Disord. 19, 622–627.
+Xie, X., Gao, Y., Zeng, M., Wang, Y., Wei, T.-F., Lu, Y.-B., and Zhang, W.-P.
+(2019). Nicotinamide ribose ameliorates cognitive impairment of aged and
+Alzheimer’s disease model mice. Metab. Brain Dis. 34, 353–366.
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407, March 1, 2022
+407
+
+STAR+METHODS
+KEY RESOURCES TABLE
+RESOURCE AVAILABILITY
+Lead contact
+Further information and requests for resources and reagents should be directed to and will be fulﬁlled by the lead contact, Chara-
+lampos Tzoulis (charalampos.tzoulis@uib.no).
+Materials availability
+This study did not generate new unique reagents.
+Data and code availability
+The data associated with Figures 1, 2, 3, 4, S1, and S3–S6 are available in the Data S1. The datasets required to reproduce the
+results of the RNA-seq analyses, including pre-processed raw counts and code for all downstream analyses, are publicly available
+in the Neuromics Group repository, https://git.app.uib.no/neuromics/nadpark.
+REAGENT or RESOURCE
+SOURCE
+IDENTIFIER
+Critical commercial assays
+Simoa NF-light Advantage (SR-X) Kit
+Quanterix
+Cat#103400
+GDF-15/MIC-1 Human ELISA
+BioVendor
+Cat# RD191135200R
+Fibroblast Growth Factor 21 Human ELISA
+BioVendor
+RD191108200R
+Human Cytokine Magnetic 35-plex panel
+Invitrogen
+LHC6005M
+Deposited data
+Raw sequencing counts
+This paper
+https://git.app.uib.no/neuromics/nadpark
+Software and algorithms
+fastQC v0.11.9
+Babraham Institute
+http://www.bioinformatics.babraham.ac.
+uk/projects/fastqc
+Salmon v1.3.0
+Patro et al., 2017
+https://github.com/COMBINE-lab/salmon
+R v4.0.4
+R core team
+https://www.R-project.org/
+DESeq2 R package v1.22.2
+Love et al., 2014
+https://bioconductor.org/packages/
+release/bioc/html/DESeq2.html
+tximport R package v1.8.0
+Soneson et al., 2015
+https://bioconductor.org/packages/
+release/bioc/html/tximport.html
+ermineR R package v1.0.1
+Gillis et al., 2010
+https://github.com/PavlidisLab/ermineR
+ABIS algorithm
+Monaco et al., 2019
+https://github.com/giannimonaco/ABIS
+GraphPad Prism v 6.07
+GraphPad Software
+N/A
+SPSS
+SPSS, Chicago, IL
+N/A
+3T Siemens Biograph mMR scanner,
+software version VE11P-SP03
+Siemens, Munich, Germany
+N/A
+in-house Scan Analysis and Visualization
+(ScAnVP) software
+N/A
+http://feinsteinneuroscience.org
+Statistical Parametric Mapping (SPM8)
+software
+Wellcome Centre for Human Neuroimaging,
+London, UK
+http://ﬁl.ion.ucl.ac.uk/spm
+Spectral Registration implementation from
+Gannet 3.0
+Edden et al., 2014; Near et al., 2015
+N/A
+Matlab 9.5
+MathWorks, Natick, MA
+N/A
+OXSA toolbox
+Purvis et al., 2017
+https://github.com/oxsatoolbox/oxsa
+Thermo Xcalibur software
+ThermoFisher Scientiﬁc
+N/A
+Other
+RNA-sequencing analyses and resources
+This paper
+https://git.app.uib.no/neuromics/nadpark
+ll
+OPEN ACCESS
+Clinical and Translational Report
+e1
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+
+All original code has been deposited in the Neuromics Group repository, https://git.app.uib.no/neuromics/nadpark and is publicly
+available as of the date of publication.
+Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+Participants and study design
+A single-center, double-blinded, randomized, placebo-controlled phase I trial of oral NR supplementation in newly diagnosed, treat-
+ment naı¨ve patients with PD, was conducted at the Department of Neurology, Haukeland University Hospital, from January, 25th,
+2019 to February, 12th, 2020. Inclusion criteria were: (i) a new clinical diagnosis of PD, (ii) drug naı¨ve state with respect to dopami-
+nergic treatment, (iii) clinical diagnosis of PD, according to the Movement Disorder Society Clinical Diagnostic Criteria (Postuma et al.,
+2015). Exclusion Criteria were: (i) [123I]FP-CIT single photon emission CT (DaTscan) without evidence of nigrostriatal degeneration, (ii)
+Magnetic Resonance Imaging (MRI) suggestive of atypical parkinsonism, (iii) dementia or other neurological disorder at baseline visit,
+and (iv) metabolic, neoplastic, or other physically or mentally debilitating disorder at baseline visit. One participant (patient 1-027) had
+disease onset below the age of 40 years. Due to the early onset, this patient underwent genetic investigation with whole-exome
+sequencing and SNP-chip based genome-wide copy number variation analysis. These analyses excluded pathogenic mutations
+in PD-related genes, including PRKN, PINK1 and PARK7, mutations in which are known to cause early onset disease (Br€uggemann
+et al., Klein, 1993). Patient recruitment, inclusion, and follow-up was carried out by a GCP certiﬁed investigator. The demographic
+information of the participants is provided in Tables 1 and S2. A CONSORT ﬂow diagram for the trial is provided in Figure S1.
+Approval, registration, and patient consent
+The research protocol was approved by the Regional Committee for Medical and Health Research Ethics, Western Norway (2018/
+597). Patients were identiﬁed and recruited at the Department of Neurology, Haukeland University Hospital, Norway. Written and
+informed consent was obtained from all participants from investigators in NADPARK. This study followed Good Clinical Practice
+guidelines. The trial is registered at Clinicaltrials.gov, identiﬁer: NCT03816020.
+Randomization and masking
+Thirty PD patients were randomly assigned (Block size 6, allocation 1:1) to 500 mg NR or placebo twice per day, 12 hours apart, using
+the electronic Case Report Form (https://www.viedoc.com/). The drug containers were sequentially marked by an independent third
+party, the Research and Development department, Haukeland University hospital. The NR (Niagen) and placebo were provided by
+ChromaDex, USA. Each NR capsule contained 250 mg of NR. Placebo capsules contained only microcrystalline cellulose. The vials
+and capsules containing NR and placebo were identical in shape, color, and smell. Study drug compliance was calculated from
+counting returned number of study capsules and self-reporting. The Center for Clinical Research, Haukeland University Hospital pro-
+vided allocation sequence, packing and labeling of drugs in participant-speciﬁc kits. Participants, examining physicians, medical-
+and research personnel were blinded for the duration of the trial. Sample size was determined by comparing previous literature
+with respect to the primary objective.
+METHOD DETAILS
+Outcomes
+The primary objective of the study was to assess penetration and metabolic responses of the brain, by determining whether oral NR
+treatment increases cerebral NAD and impacts the neurometabolic proﬁle of patients with PD, based on neuroimaging measures
+(FDG-PET, 31P-MRS). Secondary objectives were to determine if NR improves clinical symptoms measured using MDS-UPDRS
+and whether it augments the NAD metabolome in peripheral tissue of PD patients. Additional secondary measures included fre-
+quency of adverse events, changes in vital signs, and clinical laboratory values. Exploratory outcome measures assessed the effect
+of NR on gene-expression in PBMCs and muscle (RNA-seq), blood and CSF biomarkers of neuronal damage, mitochondrial function,
+and inﬂammation.
+Procedures
+At screening for trial entry, candidates underwent physical and neurological examination, brain MRI, and DaTscan. Eligible patients
+who entered the trial were assessed at baseline (visit 1, V1) and after four weeks of exposure to either NR or placebo (visit 2, V2). At
+both visits, patients underwent physical and neurological examination, including assessment by the Movement Disorder Society Uni-
+ﬁed Parkinson’s Disease Rating Scale section I-IV (MDS-UPDRS), and biological sampling. MR-PET was performed within one week
+prior to visit 1, and at visit 2. All participants remained naive for antiparkinson drugs for the duration of the trial. All clinical assessments
+were performed by a blinded movement disorders expert. Each patient was examined by the same neurologist at both visits. Meth-
+odological details on each procedure are provided below. Safety was monitored through routine clinical blood tests (Methods S1)
+and registration of adverse events. Adverse events (AE) were recorded and scored by the investigative physician. Severity was
+scored according to severity grading deﬁned by Common Terminology Criteria for Adverse Events v5.0 (CTCAE) as (1) mild, (2)
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+e2
+
+moderate, (3) severe, (4) life-threatening or (5) death. The AE relation to the study drug was scored as (1) unrelated, (2) unlikely, (3)
+possible, (4) probable or (5) deﬁnitely.
+Biological sampling
+Biological material was collected at both visits, following a minimum 6-hour fasting and within 6 hours after study drug intake for visit
+2. Sampling included whole blood, serum, peripheral blood mononuclear cells (PBMCs), cerebrospinal ﬂuid (CSF) and muscle bi-
+opsy. Lumbar puncture was performed according to standard clinical procedures to collect 10 ml CSF (Methods S1). Needle biopsy
+of the vastus lateralis muscle was performed using a Bard Magnum biopsy gun (BDª, United States) and 12Gx10cm biopsy needles.
+Muscle biopsies were immediately dissected to remove any non-muscle tissue (e.g., fat or fascia) and snap-frozen in liquid nitrogen.
+Detailed protocols on sample collection and storage are provided in the NADPARK laboratory protocol (Methods S1).
+Magnetic resonance imaging and spectroscopy (MRI/S)
+MRI/S was conducted on a 3T Biograph mMR MR-PET scanner (Siemens Healthcare, Germany). Phosphorous MRS (31P-MRS) was
+performed on a double-resonant transmit/receive 1H/31P volume head-coil (Rapid Biomedical, Germany).
+An anatomical T1-weighted image with the following sequence parameters was acquired to aid positioning of the 31P-imaging slab:
+MPRAGE 3D T1-weighted sagittal volume, TE/TR/TI = 2.26 ms /2.4 s /900 ms, acquisition matrix = 256 3 256 3 192, FOV = 256 3 256
+x 192 mm3, 200 Hz/px readout bandwidth, ﬂip angle = 8 degrees and total acquisition duration of 5.6 minutes.
+31P spectroscopy data were acquired using a 3D chemical shift imaging (CSI) FID sequence with WALTZ4 1H decoupling and
+continuous wave nuclear Overhauser effect (NOE) enhancement (Peeters et al., 2019). A CSI grid with an 8 x 8 matrix and nominal
+voxel size of 30 x 30 x 80 mm3, 1024 samples, readout length = 512 ms, 1000 Hz bandwidth, ﬁeld of view (FOV) = 240 x 240 x 80 mm3,
+TE/TR = 2.3 ms / 3.0 s, 10 averages, ﬂip angle = 90 degrees and total acquisition duration of 14.5 minutes, were used. Rectangular
+NOE pulses of 10 ms length, interpulse delay 1ms, train length 10 prior and WALTZ4 decoupling (2ms pulses, 180 deg. ﬂip angle) were
+applied prior to 31P-excitation and during the ﬁrst half of the acquisition window respectively. The FOV was centered on the brain
+midline and aligned parallel to the anterior and posterior commissure.
+The 31P-MRS data from three individuals (one in the placebo group and two in the NR group) were lost due to technical error. Thus,
+31P-MRS data from a total of 27 individuals (14 the placebo group and 13 in the NR group) were available for downstream analyses.
+Spectra from the occipital region were aligned using an adaption of the Spectral Registration implementation from Gannet 3.0 (Edden
+et al., 2014; Near et al., 2015), subject to thresholding on SNR (>=3) to eliminate the majority of out-of-brain voxels. Voxels were aver-
+aged before being processed in Matlab 9.5 (the MathWorks, Natick, MA) using the OXSA (Purvis et al., 2017) toolbox utilizing ﬁrst
+order phase correction and ﬁtting with AMARES. Custom prior information was created based on literature values for membrane
+phospholipids (MP), glycerophosphocholine (GPC), glycerophosphoethanolamine (GPE), inorganic phosphate (Pi), phosphocoline
+(PC), phosphoethanolamine (PE) as well as alpha-, beta- and gamma resonances of adenosine triphosphate (ATP-a, -b, and –g,
+respectively) in reference to the phosphocreatine (PCr) peak (Deelchand et al., 2015; Peeters et al., 2019; Ren et al., 2018). Additional
+information for the properties of nicotinamide adenine dinucleotide (NAD) was added based on the framework developed by Lu et al.
+(2014) by calculating ﬁeld-strength dependent chemical shift differences, relative amplitudes and frequency separations for oxidized
+and reduced NAD (NAD+ and NADH, respectively). Linewidths were ﬁxed to be equal for NAD+, NADH and ATP-a. At 3T, and to
+comply with normal-mode speciﬁc absorption rate (SAR) restrictions, peak separation for NAD+ and NADH was limited and therefore
+only combined values of total NAD (NAD+ and NADH together) are reported.
+Positron emission tomography (PET)
+PET-MRI imaging was performed with a 3T Siemens Biograph mMR scanner, software version VE11P-SP03. Subjects were admin-
+istered 200 MBq of 18Fluoro-deoxyglucose (FDG) before being positioned in the scanner. After 31P-MRS spectra had been acquired,
+an 8-channel Siemens mMR Head coil was used for further MR imaging, which was performed simultaneously with FDG-PET. In all
+subjects, PET acquisition began 25 to 30 minutes after the injection of FDG and lasted 30 minutes. The resulting emission data were
+reconstructed using Siemens HD-PET algorithm with Siemens HiRes Brain MRAC, with voxel size of 2.3 x 2.3 x 5.0 mm3. PET images
+were anonymized and archived as DICOM ﬁles with a matrix size of 344 3 344 3 127 and an isotropic voxel size of 2.09 3 2.09 3
+2.03 mm3.
+FDG-PET scans were transferred electronically to the Center for Neurosciences at The Feinstein Institutes for Medical Research
+(Manhasset, NY, USA) and analyzed using automated computing pipelines implemented in MATLAB 7.5 (MathWorks, Natick, MA)
+using in-house Scan Analysis and Visualization (ScAnVP) software (available at http://feinsteinneuroscience.org). Images were ﬁrst
+pre-processed using Statistical Parametric Mapping (SPM8) software (http://ﬁl.ion.ucl.ac.uk/spm; Wellcome Centre for Human Neu-
+roimaging, London, UK). Of the 30 participants, the baseline scan of one subject in the NR group was excluded on technical grounds.
+Thus, a total of 29 scans (14 in the NR group and 15 in the placebo group) were available for downstream analyses (Table S2). In these
+29 subjects, FDG-PET scans acquired at visit 1 and visit 2 were aligned to produce a mean image, which was spatially normalized in
+standard Montreal Neurological Institute (MNI) anatomic space along with the individual scans from each time point. The normalized
+images were then smoothed with a 10-mm Gaussian ﬁlter in three dimensions to enhance the signal to noise ratio.
+For the PET-analyses, the subjects in the NR group were classiﬁed based on their cerebral NAD-response, measured by 31P-MRS.
+Subjects showing increased cerebral NAD levels at visit 2 were termed ‘‘MRS-responders’’, whereas subjects showing no increase in
+cerebral NAD were termed ‘‘MRS non-responders’’.
+To identify an NR-related metabolic pattern (NRRP), we analyzed paired metabolic scan data from the 10 MRS responders in
+the NR group (Table S3) using ordinal trends/canonical variates analysis (OrT/CVA), a supervised form of principal component anal-
+ysis (PCA) (Habeck et al., 2005). This multivariate approach is designed to detect and quantify regional covariance patterns
+ll
+OPEN ACCESS
+Clinical and Translational Report
+e3
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+
+(i.e., metabolic networks) for which expression values (i.e., subject scores) increase or decrease with treatment in all or most of the
+subjects (Ko et al., 2014; Mure et al., 2011, 2012; Niethammer et al., 2018; Tang et al., 2013). The signiﬁcance of the resulting OrT/CVA
+topographies was assessed using nonparametric tests, i.e., permutation testing of the subject scores to show that the observed
+ordinal trend did not occur by chance. Likewise, the reliability of the voxel loadings (i.e., region weights) on the resulting network
+topography was assessed using bootstrap resampling procedures (Habeck and Stern, 2010; Mure et al., 2011).
+In this study, we restricted the analysis to the top six PC patterns, which together accounted for greater than 75% of the subject 3
+voxel variance in the longitudinal data. Expression values for these PCs were entered singly and in all possible linear combinations to
+identify signiﬁcant monotonic trends in the individual subject data, i.e., consistent increases (or decreases) in pattern expression
+across the subjects with few if any violations (p < 0.05; permutation test, 1000 iterations). The resulting coefﬁcients were applied
+to the corresponding PC patterns to construct the NR-related topography. For the NRRP to be signiﬁcant, we required that voxel
+weights have low dispersion (inverse coefﬁcient of variation (ICV) |z| >1.96, p<0.05; bootstrap resampling (1,000 iterations), indicating
+that regional loadings were not driven by outliers). The current analysis was performed within the population gray matter brain mask
+deﬁned by the FDG-PET scans. To standardize NRRP subject scores, we computed expression values for this pattern in an age-
+matched group of 22 healthy volunteers (11M/11F; age 62.9 ± 8.6 years) scanned at the Feinstein Institutes. Values in all trial partic-
+ipants (NR and placebo) were standardized (z-scored) with respect to these scans (Peng et al., 2014; Spetsieris et al., 2013).
+To further examine the effect of NR therapy on metabolic network organization, we compared the NRRP to a speciﬁc PD-related
+metabolic pattern (PDRP) that has been extensively validated in prior studies (Schindlbeck and Eidelberg, 2018). PDRP expression
+levels (subject scores) were computed in all trial participants. These values were correlated with corresponding NRRP subject scores
+and UPDRS motor ratings in each condition. Correlations were likewise computed between the changes in these measures in the two
+groups.
+RNA sequencing
+For all subjects at both visits, total RNA was extracted from muscle biopsy tissue and PBMC homogenate using RNeasy plus mini kit
+(Qiagen) with on-column DNase treatment according to manufacturer’s protocol. The ﬁnal elution was made in 45 ml of dH2O. The
+concentration and integrity of the total RNA were estimated by Ribogreen assay (Thermo Fisher Scientiﬁc), and Fragment Analyzer
+(Advanced Analytical), respectively, and 10 ng of total RNA was used for downstream RNA-seq applications using the SMARTer
+Stranded Total RNA-Seq Kit v2 - Pico Input Mammalian Kit (IlluminaTakara Bio USA, Mountian View, CA) as per manufacturer’s rec-
+ommended protocol. Library quantity was assessed by Picogreen Assay (Thermo Fisher Scientiﬁc), and the library quality was esti-
+mated by utilizing a DNA High Sense chip on a Caliper Gx (Perkin Elmer). Accurate quantiﬁcation of the ﬁnal libraries for sequencing
+applications was determined using the qPCR-based KAPA Biosystems Library Quantiﬁcation kit (Kapa Biosystems). Each library
+pooled equimolar prior to clustering. One hundred bp paired-end sequencing was performed on an Illumina NovaSeq S4 sequencer
+(Illumina). Two subjects were discarded from the PBMC samples and two from the muscle samples due to either insufﬁcient tissue
+quantity/lack of sample, or being outliers in expression (see Table S2). RNA quality, as measured by the RNA integrity number (RIN),
+was satisfactory (mean = 7.6±1.1, range = 3.1-9.1 for PBMC samples; mean = 9.1±1.3, range = 5-10 for muscle), and was not signif-
+icantly associated with visit or treatment (PBMC treatmentRIN, p = 0.47; PBMC visitRIN, p = 0.37; muscle treatmentRIN, p =
+0.21; muscle visitRIN, p = 0.99, F-test).
+FASTQ ﬁles were assessed using fastQC version 0.11.9 (Andrews, 2010). Quantiﬁcation at the transcript level was calculated using
+Salmon version 1.3.0 (Patro et al., 2017) with fragment-level GC bias correction against the GENCODE version 35, with the whole
+genome as decoy sequence. Transcript-level quantiﬁcation was collapsed onto gene-level using the tximport R package version
+1.8.0 (Soneson et al., 2015). Genes in non-canonical chromosomes and scaffolds and transcripts encoded by the mitochondrial
+genome were ﬁltered out, together with non-protein-coding genes. Low-expressed genes were likewise removed from downstream
+analyses (expression below 10 reads for 75% of the samples). PBMC and muscle datasets were analyzed independently. For PBMC
+samples, cell type composition was assessed employing ABIS (Monaco et al., 2019). Differential gene expression was performed
+using the DESeq2 R package version 1.22.2 (Love et al., 2014). The generalized linear model formula accounted for both interindi-
+vidual variability between subjects and the normal course of the experiment (baseline for each subject and baseline for the time-
+course). Multiple hypothesis testing was performed with the default automatic ﬁltering of DESeq2 followed by false discovery rate
+(FDR) calculation by the Benjamini-Hochberg procedure. Functional enrichment of both over- and under-expressed genes was car-
+ried out by ranking genes according to their p-value (accounting for the direction of change) and employing the gene score resam-
+pling method implemented in the ermineR package version 1.0.1, an R wrapper package for ermineJ (Gillis et al., 2010) with the com-
+plete Gene Ontology (GO) database annotation (Ashburner et al., 2000) to thus obtain lists of up- and down-regulated pathways for
+each dataset. Complete RNA-seq analyses are available at https://git.app.uib.no/neuromics/nadpark.
+Metabolomic analysis
+Muscle and PBMCs metabolomics
+Standard substances of all the targeted compounds were used to prepare stock standard solutions and these solutions were mixed
+and diluted to make serially diluted standard solutions in an internal standard solution containing 11 isotope-labeled compounds
+(NAD-13C5, NADH-d5, nicotinamide riboside-d4, nicotinic-d4 acid, nicotinic acid-d4 riboside, AMP-15N5, ATP-13C10, nicotin-
+amide-d4, 1-methylnicotinamide-d3, adenosine-13C5 and GTP-13C10) in a concentration range of 0.0002 to 20 nmol/ml. Muscle
+tissues were added with water at 2.5 ml/mg raw material and then homogenized on an MM 400 mixer mill for 1 min twice. Methanol
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+e4
+
+at 7.5 ml/mg raw material was then added and the samples were homogenized for 1 min three times. The samples were then placed at
+- 20 C for 2 h before centrifugation. 20 ml of the supernatant was mixed with 180 ml of the internal standard solution. The samples
+were then placed at 5 C for 1 h and then centrifuged for 5 min at 21,000 xg. The clear supernatants were used for LC-MS analyses.
+For metabolomic analyses in PBMCs, several aliquots of one sample were thawed on ice, centrifuged (10 min, 350 xg, 4 C), resus-
+pended in ice-cold PBS and counted on a countess II cell counter. The equivalent volume of 10 Mio live cells was transferred into a
+new tube, centrifuged (10 min, 350 xg, 4 C), the supernatant removed, and the pellet immediately frozen on dry ice. Each PBMC
+sample was made into 75% methanol at a concentration of 50 ml per 1 Mio cells. After cell lysis on a MM 400 mixer mill for 1 min twice,
+the sample was centrifuged. 20 ml of the clear supernatant was mixed with 180 ml of the internal standard solution and was then used
+for LC-MS analysis.
+For UPLC-MRM/MS, 10 ml aliquots of each standard solution and each sample solutions were injected to run LCMRM/MS either on
+a Waters Acquity UPLC coupled to a Sciex QTRAP 6500 Plus mass spectrometer with (-) ion detection or ESI or on an Agilent
+1290 UHPLC system coupled to an Agilent 6495B QQQ mass spectrometer with (+) ion detection. For UPLC-(-) MRM/MS, a
+reversed-phase C18 LC column (2.1*100 mm, 1.8 mm) was used for LC separation, with the use of a tributylamine-ammonium acetate
+buffer (solvent A) and acetonitrile (solvent B) as the mobile phase for gradient elution at 50 C and 0.25 ml/min. For UPLC-(+) MRM/
+MS, a reversed-phase C18 column (2.1*150 mm, 1.8 mm) was used for LC separation, with the use of hepatoﬂuorobutyrate buffer
+(solvent A) and methanol (solvent B) as the mobile phase for gradient elution at 50 C and 0.3 ml/min. Concentrations of individual
+metabolites detected in each sample were calculated by constructing linear-regression curves of individual metabolites with the an-
+alyte-to-internal standard peak area ratios (As/Ai) of standard solutions in each set of LC-MS runs and then by interpolating the cali-
+bration curves with the as/Ai values measured from injections of sample solutions in an appropriate concentration range for each
+compound. Sample preparation and metabolomic analyses were conducted at Creative Proteomics, NY, USA.
+CSF metabolomics
+The extraction of metabolites from CSF samples was carried out as follows: 400 ml of each sample were mixed with 1600 ml of ice-cold
+UHPLC grade methanol. The samples were vortexed for 10 sec before centrifugation at 16,000 xg for 20 min. 1800 ml of the clear
+supernatant were transferred to a fresh tube and freeze-dried at -105 C in a SpeedVac (Thermo Scientiﬁc) coupled with a refrigerated
+vapor trap. The residue was reconstituted in 40 ml of acetonitrile spiked with sulfadimethoxine at a concentration of 50 pg/ml. The
+samples were then centrifuged at 16,000 xg for 10 min, and the clear supernatants were used for LC-MS analyses. Recovery rate
+was tested for several relevant nucleotides and determined to be 93%-96%, depending on the nucleotide.
+Metabolite analysis was conducted using a Dionex UltiMate 3000 instrument coupled with an electrospray ionization (ESI) QEx-
+active mass spectrometer (Thermo Scientiﬁc). The separation of metabolites was achieved on a ZIC-cHILC column (50 x 2.1 mm,
+3mm, Merck), which was kept at 40 C during analysis. The injection volume was 5 ml and the ﬂow rate was kept at 0.3 ml/min.
+The mobile phase consisted of 10 mM ammonium carbonate pH 8.0, 3 % acetonitrile (solvent A) and 10 mM ammonium carbonate
+pH 8.0, 90 % acetonitrile (solvent B). The applied gradient was: 85 % B for 0.5 min, decreased to 70 % B during 0.1 min, constant at
+70 % B for 1 min, and decreased to 60 % B during 4.3 min. Then, B concentration was decreased to 40 % during 0.1 min, kept at 40 %
+B for 0.7 min as washout, returned to 85 % B during 0.1 min and was kept for 1.2 min at 85 % B for equilibration prior to the next run.
+Total run time was 8 min. Electron spray ionization was operated in positive ion polarity mode with a spray voltage of 3.5 kV. Sheath
+ﬂow gas ﬂow rate was 48 units with an auxiliary gas ﬂow rate of 11 units and a sweep gas ﬂow rate of 2 units. Mass spectra were
+recorded using targeted single ion monitoring with an isolation window of 10 m/z with automatic gain control set to a target of 5 x
+105 and a maximum accumulation time of 300 ms. Data analysis was conducted in the Thermo Xcalibur software (Thermo Scientiﬁc)
+using an automated processing method. Absolute concentrations were calculated by external calibration curves using pure
+standards.
+Nf-L, GDF15, FGF21, and Cytokine detection
+Neuroﬁlament light chain (Nf-L) measurement in CSF and serum samples was carried out in duplicates using the Simoa NF-light
+Advantage (SR-X) Kit (Quanterix) according to the manufacturer‘s recommendations and analyzed on an Simoa SR-X instrument
+(Quanterix). GDF15 and FGF21 detection was carried out using ELISA kits GDF-15/MIC-1 Human ELISA (RD191135200R) and Fibro-
+blast Growth Factor 21 Human ELISA (RD191108200R) from BioVendor according to manufacturer‘s recommendations. For CSF
+analyses of GDF15, CSF was diluted 1:2 in dilution buffer. All samples were analyzed twice in duplicates. Inﬂammatory Cytokine
+screening was carried out using the Human Cytokine Magnetic 35-plex panel (Invitrogen), detecting FGF-Basic, IL-1 beta,
+G-CSF, IL-10, IL-13, IL-6, IL-12, RANTES, Eotaxin, IL-17A, MIP-1 alpha, GM-CSF, MIP-1 beta, MCP-1, IL-15, EGF, IL-5, HGF,
+VEGF, IL-1 alpha, IFN-gamma, IL-17F, IFN-alpha, IL-9, IL-1RA, TNF-alpha, IL-3, IL-2, IL-7, IP-10, IL-2R, IL-22, MIG, IL-4, IL-8.
+CSF and serum samples were analyzed according to the manufacturer‘s recommendations and measured on a BioPlex 200 instru-
+ment (BioRad).
+QUANTIFICATION AND STATISTICAL ANALYSIS
+Sample size
+The sample size of 30 participants was chosen based on previous studies of brain metabolic networks using FDG-PET in PD (Lozza
+et al., 2004; Niethammer et al., 2018; Teune et al., 2013; Wu et al., 2013).
+ll
+OPEN ACCESS
+Clinical and Translational Report
+e5
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+
+Statistical analyses
+The between visit change ([visit 2] - [visit 1]) in MDS-UPDRS (total and subsections I-III) was compared between the NR and placebo
+groups using independent Student’s t test. In addition, the between visit change in MDS-UPDRS (total and subsections) within the
+NR, MRS-responder, and placebo groups was assessed by paired Student’s t test. For the 31P-MRS analyses, the change in
+measured metabolites between visit 1 and visit 2 was assessed in the placebo- and NR group using paired Student’s t test. In addi-
+tion, the between-visit change in NAD/ATP-a was compared between the NR and placebo group by independent Student’s t test. For
+PET analyses, changes in network scores with treatment were evaluated for each group separately using permutation tests. Relation-
+ships between network values, NAD levels and MDS-UPDRS motor ratings or between treatment-related changes in these variables
+were evaluated using Pearson’s product-moment correlations; Spearman rank-order correlation coefﬁcients were computed for
+non-normal distributions of the variables. These statistical tests were performed using SPSS (SPSS, Chicago, IL); results were
+considered signiﬁcant for p % 0.05 (two-tailed). Metabolite quantiﬁcation data, Nf-L, GDF15, FGF21 and cytokine data were analyzed
+by paired sample Wilcoxon test using GraphPad Prism v 6.07. Statistical parameters for conducted analyses can be found in the
+ﬁgures and ﬁgure legends. While both sexes were included in our study cohort, there were only ﬁve females, one of which was in
+the placebo group. Therefore, stratiﬁcation of our analyses by sex was not conducted, due to limited statistical power. The unbal-
+anced sex distribution is a consequence of randomized participant inclusion in the study.
+ADDITIONAL RESOURCES
+The NAD-PARK trial is registered at Clinicaltrials.gov under the identiﬁer NCT03816020: https://clinicaltrials.gov/ct2/home
+ll
+OPEN ACCESS
+Clinical and Translational Report
+Cell Metabolism 34, 396–407.e1–e6, March 1, 2022
+e6
+
