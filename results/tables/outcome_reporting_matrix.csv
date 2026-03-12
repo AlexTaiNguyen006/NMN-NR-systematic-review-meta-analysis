@@ -1,0 +1,9 @@
+study_id,precursor,IL-6,NAD+,ALT,AST,HDL,LDL,TC,TG,BMI,FBG,HOMA-IR,HbA1c,fasting_insulin,DBP,SBP,body_weight,fat_mass,skeletal_muscle,FFM_pct,body_fat_pct,sleeping_metabolic_rate
+Huang_2022,NMN,0,1,1,1,0,1,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0
+Katayoshi_2023,NMN,0,0,1,1,1,1,0,1,1,1,0,0,0,1,1,1,0,0,0,0,0
+Morifuji_2024,NMN,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,0,0
+Yoshino_2021,NMN,0,0,0,0,1,0,0,1,1,1,0,1,1,1,1,1,0,0,0,0,0
+Bandi_2025,NR,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conze_2019,NR,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dollerup_2018,NR,0,0,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+Remie_2020,NR,0,0,0,0,1,1,1,1,0,1,0,0,0,1,1,1,0,0,1,1,1
