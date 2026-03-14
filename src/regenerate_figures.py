@@ -15,9 +15,7 @@ import numpy as np
 from collections import defaultdict
 from scipy.stats import norm
 
-# -----------------------------------------------------------------------------
 # Global style configuration
-# -----------------------------------------------------------------------------
 
 # Paths
 BASE = "/Users/tainguyen/Documents/NMN_vs_NR_SR_NMA"
@@ -26,7 +24,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures"); os.makedirs(FIGS, exist_ok=True)
 RES  = os.path.join(BASE, "results", "tables"); os.makedirs(RES, exist_ok=True)
 
-# --- Typography ---
+# Typography -
 FONT_FAMILY     = "Arial"
 TITLE_SIZE      = 12
 AXIS_LABEL_SIZE = 10
@@ -35,7 +33,7 @@ ANNOT_SIZE      = 8.5   # annotations inside plots (CI text, weights, %)
 LEGEND_SIZE     = 9
 SMALL_SIZE      = 8     # minor annotations
 
-# --- Colours ---
+# Colours -
 COL_NMN        = "#2196F3"   # blue
 COL_NR         = "#4CAF50"   # green
 COL_PBO        = "#9E9E9E"   # grey
@@ -52,7 +50,7 @@ ROB_HIGH       = "#F44336"
 ROB_COLORS     = {"Low": ROB_LOW, "Some concerns": ROB_SOME, "High": ROB_HIGH}
 ROB_SYMBOLS    = {"Low": "+", "Some concerns": "\u2212", "High": "\u00D7"}
 
-# --- Figure widths ---
+# Figure widths -
 FIG_W_FOREST   = 11     # forest plot total width (inches)
 FIG_W_NMA      = 11     # NMA summary forest
 FIG_W_NETWORK  = 6.5
@@ -60,7 +58,7 @@ FIG_W_ROB_TL   = 10     # RoB traffic-light
 FIG_W_ROB_SUM  = 8.5    # RoB summary bar
 DPI            = 300
 
-# --- Apply global matplotlib rcParams ---
+# Apply global matplotlib rcParams -
 plt.rcParams.update({
     "font.family":       "sans-serif",
     "font.sans-serif":   [FONT_FAMILY, "Helvetica", "DejaVu Sans"],
@@ -80,9 +78,7 @@ plt.rcParams.update({
 })
 
 
-# -----------------------------------------------------------------------------
 # Data loading and meta-analysis functions (unchanged logic)
-# -----------------------------------------------------------------------------
 
 def read_data(path):
     rows = []
@@ -180,9 +176,7 @@ def indirect_comparison(ma_a, ma_b):
     return {"te": te, "se": se, "lo": lo, "up": up, "p": p}
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # PRETTY OUTCOME NAMES
-# ═══════════════════════════════════════════════════════════════════════
 
 OUTCOME_LABELS = {
     "FBG": "Fasting Blood Glucose",
@@ -225,9 +219,7 @@ def outcome_unit(oc):
     return OUTCOME_UNITS.get(oc, "")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # FOREST PLOT  — 3-column layout: labels | plot | stats
-# ═══════════════════════════════════════════════════════════════════════
 
 def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
     """Draw a horizontal separator across all panels at the same y."""
@@ -276,7 +268,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     HLINE_Y  = k + 0.35   # separator under header
     SUMLINE_Y = 0.55      # separator above summary
 
-    # ── CI range for x-axis scaling ─────────────────────────────
+    # CI range for x-axis scaling
     all_lo = [te - 1.96 * se for te, se in zip(tes, ses)]
     all_up = [te + 1.96 * se for te, se in zip(tes, ses)]
     all_lo.append(ma["lo_r"]); all_up.append(ma["up_r"])
@@ -284,7 +276,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     x_pad = (x_max - x_min) * 0.18
     x_left = x_min - x_pad; x_right = x_max + x_pad
 
-    # ── Shared decorations ──────────────────────────────────────
+    # Shared decorations
     all_axes = [ax_lab, ax_for, ax_stat]
     _draw_hline(all_axes, HLINE_Y)
     _draw_hline(all_axes, SUMLINE_Y)
@@ -295,7 +287,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
         for spine in ax.spines.values():
             spine.set_visible(False)
 
-    # ── LEFT: study labels (single line) ────────────────────────
+    # LEFT: study labels (single line)
     ax_lab.set_xlim(0, 1)
     ax_lab.text(0.02, HEADER_Y, "Study", fontsize=ANNOT_SIZE, fontweight="bold",
                 va="center", ha="left")
@@ -311,7 +303,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
                 fontsize=ANNOT_SIZE, va="center", ha="left", fontweight="bold",
                 color=COL_DIAMOND)
 
-    # ── CENTRE: forest plot ─────────────────────────────────────
+    # CENTRE: forest plot
     ax_for.set_xlim(x_left, x_right)
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
@@ -338,7 +330,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     ax_for.fill(diamond_x, diamond_y, color=COL_DIAMOND, alpha=0.70, zorder=5)
     ax_for.plot(diamond_x, diamond_y, color=COL_DIAMOND, linewidth=0.8, zorder=5)
 
-    # ── RIGHT: statistics column ────────────────────────────────
+    # RIGHT: statistics column
     ax_stat.set_xlim(0, 1)
 
     ax_stat.text(0.02, HEADER_Y, "MD [95% CI]", fontsize=ANNOT_SIZE,
@@ -375,9 +367,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     plt.close(fig)
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # NMA SUMMARY FOREST  (NMN vs NR indirect, all outcomes)
-# ═══════════════════════════════════════════════════════════════════════
 
 def nma_summary_forest(nma_results_dict, filename_base):
     ocs = sorted(nma_results_dict.keys())
@@ -422,7 +412,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
             spine.set_visible(False)
     _draw_hline(all_axes, HLINE_Y)
 
-    # ── LEFT: outcome labels ───────────────────────────────────
+    # LEFT: outcome labels
     ax_lab.set_xlim(0, 1)
     ax_lab.text(0.02, HEADER_Y, "Outcome", fontsize=ANNOT_SIZE, fontweight="bold",
                 va="center", ha="left")
@@ -430,7 +420,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
         ax_lab.text(0.02, y, pretty_outcome(oc), fontsize=ANNOT_SIZE,
                     va="center", ha="left")
 
-    # ── CENTRE: forest ─────────────────────────────────────────
+    # CENTRE: forest
     ax_for.set_xlim(x_left, x_right)
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
@@ -450,7 +440,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
                 transform=ax_for.transAxes, fontsize=SMALL_SIZE, ha="center",
                 style="italic", color="#888888")
 
-    # ── RIGHT: stats ───────────────────────────────────────────
+    # RIGHT: stats
     ax_stat.set_xlim(0, 1)
     ax_stat.text(0.04, HEADER_Y, "MD [95% CI]", fontsize=ANNOT_SIZE,
                  fontweight="bold", va="center", ha="left")
@@ -480,9 +470,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
     print("  NMA summary forest saved.")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # NETWORK GRAPH
-# ═══════════════════════════════════════════════════════════════════════
 
 def network_graph(n_nmn, n_nr, filename):
     fig, ax = plt.subplots(figsize=(FIG_W_NETWORK, 5.0))
@@ -492,7 +480,7 @@ def network_graph(n_nmn, n_nr, filename):
     colors = {"Placebo": COL_PBO, "NMN": COL_NMN, "NR": COL_NR}
     node_k = {"Placebo": n_nmn + n_nr, "NMN": n_nmn, "NR": n_nr}
 
-    # ── Edges ─────────────────────────────────────────────────
+    # Edges
     lw_nmn = max(2.0, n_nmn * 0.8)
     lw_nr  = max(2.0, n_nr * 0.8)
 
@@ -534,7 +522,7 @@ def network_graph(n_nmn, n_nr, filename):
     ax.text(0.0, 2.22, "indirect", fontsize=SMALL_SIZE, ha="center",
             color="#999999", style="italic")
 
-    # ── Nodes ─────────────────────────────────────────────────
+    # Nodes
     for node, (x, y) in pos.items():
         sz = 700 + node_k[node] * 80
         ax.scatter(x, y, s=sz, c=colors[node], zorder=5,
@@ -556,9 +544,7 @@ def network_graph(n_nmn, n_nr, filename):
     print("  Network graph saved.")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # ROB 2 FIGURES
-# ═══════════════════════════════════════════════════════════════════════
 
 ROB_DOMAIN_KEYS = [
     "D1_randomization", "D2_deviations", "D3_missing_data",
@@ -733,9 +719,7 @@ def rob2_summary_bar(filename_base):
     print("  RoB 2 summary bar saved.")
 
 
-# -----------------------------------------------------------------------------
 # Main execution
-# -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
     print("=" * 60)
@@ -747,7 +731,7 @@ if __name__ == "__main__":
     for r in data:
         by_outcome[r["outcome"]].append(r)
 
-    # ── Pairwise meta-analyses + forest plots ──────────────────
+    # Pairwise meta-analyses + forest plots
     print("\n[1/5] Pairwise forest plots ...")
     all_pairwise = {}
     count = 0
@@ -769,7 +753,7 @@ if __name__ == "__main__":
                 print(f"       {fname}")
     print(f"       -> {count} forest plots")
 
-    # ── NMA indirect comparisons ────────────────────────────────
+    # NMA indirect comparisons
     print("\n[2/5] NMA indirect comparisons ...")
     nma_results_dict = {}
     excluded_indirect = []
@@ -803,7 +787,7 @@ if __name__ == "__main__":
             w.writeheader(); w.writerows(excluded_indirect)
         print(f"       -> {len(excluded_indirect)} outcomes excluded from indirect comparison")
 
-    # ── Write result CSVs ───────────────────────────────────────
+    # Write result CSVs
     pw_rows = []
     for oc in sorted(all_pairwise.keys()):
         for prec in ["NMN", "NR"]:
@@ -888,11 +872,11 @@ if __name__ == "__main__":
     n_k1 = sum(1 for r in pw_rows if r["k"] == 1)
     print(f"\n  Result tables saved ({len(pw_rows)} pairwise, {len(nma_rows)} NMA, {n_k1} single-study warnings)")
 
-    # ── NMA summary forest ──────────────────────────────────────
+    # NMA summary forest
     print("\n[3/5] NMA summary forest plot ...")
     nma_summary_forest(nma_results_dict, "nma_forest_NMN_vs_NR_all")
 
-    # ── Network graph ───────────────────────────────────────────
+    # Network graph
     print("\n[4/5] Network graph ...")
     study_prec = set()
     for r in data:
@@ -901,12 +885,12 @@ if __name__ == "__main__":
     n_nr  = len(set(s for s, p in study_prec if p == "NR"))
     network_graph(n_nmn, n_nr, "network_graph.png")
 
-    # ── RoB 2 figures ───────────────────────────────────────────
+    # RoB 2 figures
     print("\n[5/5] RoB 2 figures ...")
     rob2_traffic_light("rob2_traffic_light")
     rob2_summary_bar("rob2_summary")
 
-    # ── Done ────────────────────────────────────────────────────
+    # Done
     print("\n" + "=" * 60)
     print("  All figures regenerated.")
     print(f"  Output: {FIGS}/")

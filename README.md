@@ -25,8 +25,6 @@ src/               Analysis scripts (Python + R)
 results/
   figures/         Forest plots, PRISMA flow, RoB figures, etc.
   tables/          Pairwise results, NMA results, supplementary tables
-manuscript/        Manuscript file
-submission Royal/  Journal submission package
 ```
 
 ## Analysis Scripts

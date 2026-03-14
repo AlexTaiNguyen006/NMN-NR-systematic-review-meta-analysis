@@ -30,7 +30,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures")
 RES  = os.path.join(BASE, "results", "tables")
 
-# ─── Style ──────────────────────────────────────────────────────────
+# Style
 FONT_FAMILY = "Arial"
 DPI = 300
 plt.rcParams.update({
@@ -56,9 +56,7 @@ def pretty(oc):
     return OUTCOME_LABELS.get(oc, oc)
 
 
-# -----------------------------------------------------------------------------
 # Data loading and meta-analysis (same as main script)
-# -----------------------------------------------------------------------------
 
 def read_data(path):
     rows = []
@@ -134,9 +132,7 @@ def indirect_comparison(ma_a, ma_b):
     return {"te": te, "se": se, "lo": lo, "up": up, "p": p}
 
 
-# -----------------------------------------------------------------------------
 # RoB data
-# -----------------------------------------------------------------------------
 
 def load_rob():
     rob = {}
@@ -146,9 +142,7 @@ def load_rob():
     return rob
 
 
-# -----------------------------------------------------------------------------
 # CINeMA domain assessments
-# -----------------------------------------------------------------------------
 
 def assess_within_study_bias(studies_nmn, studies_nr, rob_dict):
     """
@@ -306,9 +300,7 @@ def overall_certainty(ratings):
     return labels[level], downgrades
 
 
-# -----------------------------------------------------------------------------
 # Main assessment
-# -----------------------------------------------------------------------------
 
 def run_assessment():
     data = read_data(DATA)
@@ -376,9 +368,7 @@ def write_csv(results):
     print(f"  Saved: {path}")
 
 
-# -----------------------------------------------------------------------------
 # Heatmap figure
-# -----------------------------------------------------------------------------
 
 RATING_COLORS = {
     "No concerns":    "#4CAF50",   # green
@@ -512,9 +502,7 @@ def make_heatmap(results):
     print("  GRADE/CINeMA heatmap saved.")
 
 
-# -----------------------------------------------------------------------------
 # Summary table for manuscript
-# -----------------------------------------------------------------------------
 
 def print_summary(results):
     print("\n" + "=" * 80)

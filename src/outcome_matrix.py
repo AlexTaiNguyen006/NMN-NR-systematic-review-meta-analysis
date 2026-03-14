@@ -16,7 +16,7 @@ DATA = os.path.join(BASE, "data", "extraction", "nma_input_long.csv")
 FIGS = os.path.join(BASE, "results", "figures")
 os.makedirs(FIGS, exist_ok=True)
 
-# --- Style ---
+# Style -
 FONT_FAMILY = "Arial"
 DPI = 300
 plt.rcParams.update({
@@ -102,7 +102,7 @@ def main():
             if (s, o) in reported:
                 matrix[i, j] = 1 if study_precursors[s] == "NMN" else 2
     
-    # --- Plot ---
+    # Plot -
     fig_h = max(4, 0.4 * n_studies + 1.5)
     fig_w = max(8, 0.45 * n_outcomes + 2.5)
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
