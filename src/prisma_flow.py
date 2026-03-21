@@ -316,9 +316,9 @@ def main():
     cy_nma, _ = positions["nma"]
     b_nma = Box(ax, CX_MAIN, cy_nma, WM, 1.0, C_INCL, [
         ("Studies included in quantitative", {"fontweight": "bold", "fontsize": 9.5}),
-        ("synthesis \u2014 NMA (n = 8)", {"fontweight": "bold", "fontsize": 9.5}),
+        ("synthesis - NMA (n = 8)", {"fontweight": "bold", "fontsize": 9.5}),
         ("NMN = 4  |  NR = 4", {"fontsize": 9, "color": "#555"}),
-        ("15 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
+        ("14 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
     ])
     _arrow(ax, CX_MAIN, b_qual.bottom, CX_MAIN, b_nma.top)
 
@@ -331,7 +331,7 @@ def main():
     # Bottom notes -
     note_y = b_nma.bottom - 0.70
     ax.text(FIG_W / 2, note_y,
-            "Search: January 2018 \u2013 May 2025  |  "
+            "Search: January 2018 - May 2025  |  "
             "Databases: PubMed, Embase, Scopus, Web of Science, Cochrane CENTRAL",
             ha="center", va="center", fontsize=7.5, color="#888888",
             style="italic")

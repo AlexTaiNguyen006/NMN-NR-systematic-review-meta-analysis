@@ -329,7 +329,7 @@ def high_rob_exclusion(data, by_outcome):
                     if study_id == "Igarashi_2022" else
                     "Non-registered; no extractable metabolic data; 12-participant crossover"
                 ),
-                "effect_on_results": "None — not in quantitative synthesis",
+                "effect_on_results": "None - not in quantitative synthesis",
             })
         return report, csv_rows
     else:
@@ -562,7 +562,7 @@ def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
     from matplotlib.ticker import AutoLocator
     ax_for.xaxis.set_major_locator(AutoLocator())
     ax_for.axvline(0, color=COL_ZERO_LINE, linestyle="--", linewidth=0.7, zorder=1)
-    ax_for.set_xlabel("Mean Difference (MD) \u2014 NMN vs NR (indirect)",
+    ax_for.set_xlabel("Mean Difference (MD) - NMN vs NR (indirect)",
                        fontsize=AXIS_LABEL_SIZE, labelpad=4)
 
     for oc, y in zip(all_outcomes, y_positions):
@@ -610,7 +610,7 @@ def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
             loo_tes = [float(r["loo_MD"]) for r in loo]
             range_txt = f"{min(loo_tes):+.2f} to {max(loo_tes):+.2f}"
         else:
-            range_txt = "—"
+            range_txt = "-"
         ax_stat.text(0.78, y, range_txt, fontsize=SMALL_SIZE, va="center",
                      ha="left", color="#666666")
 
