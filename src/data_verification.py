@@ -238,15 +238,15 @@ def verify_all():
         # Print summary
         if sev == "CRITICAL":
             critical_count += 1
-            marker = "❌ CRITICAL"
+            marker = "CRITICAL"
         elif sev == "MAJOR":
             major_count += 1
-            marker = "⚠️  MAJOR"
+            marker = "MAJOR"
         elif "OK" in sev:
             ok_count += 1
-            marker = "✅ OK"
+            marker = "OK"
         else:
-            marker = "❓ " + sev
+            marker = "?" + sev
         
         print(f"  {marker}: {study} / {outcome}")
         if "paper_treat_mean" in verified:
