@@ -1,18 +1,15 @@
-================================================================================
 SEARCH QUERIES FOR ALL DATABASES
 NMN vs NR for Metabolic Outcomes — Systematic Review & Network Meta-Analysis
 PROSPERO Registration: CRD420261330487
-Search Date: March 3, 2026
-================================================================================
+Search Date: March 6, 2026
 
 The search strategy uses three concept blocks combined with AND:
   Block 1: NAD+ precursors (NMN, NR, NIAGEN)
   Block 2: RCT design filter
   Block 3: Metabolic outcomes
 
-================================================================================
+
 1. PubMed (SEARCHED — COMPLETED)
-================================================================================
 Status: DONE
 Results: ~20 NMN hits + ~28 NR hits (with some overlap)
 
@@ -26,13 +23,10 @@ Combined Query (recommended for export):
 ("nicotinamide mononucleotide" OR "NMN" OR "nicotinamide riboside" OR "NR"[tiab] OR "NIAGEN" OR "NAD+ precursor" OR "NAD precursor") AND ("randomized controlled trial"[pt] OR "randomized"[tiab] OR "placebo"[tiab] OR "RCT"[tiab]) AND ("insulin"[tiab] OR "glucose"[tiab] OR "HOMA"[tiab] OR "HbA1c"[tiab] OR "glycated hemoglobin"[tiab] OR "lipid"[tiab] OR "cholesterol"[tiab] OR "triglyceride"[tiab] OR "body weight"[tiab] OR "body composition"[tiab] OR "BMI"[tiab] OR "blood pressure"[tiab] OR "energy expenditure"[tiab] OR "NAD+"[tiab] OR "metabolic"[tiab] OR "fasting"[tiab] OR "C-reactive protein"[tiab] OR "interleukin"[tiab] OR "liver enzyme"[tiab] OR "ALT"[tiab] OR "AST"[tiab])
 
 Filter: Humans, Clinical Trial or RCT publication type
-Export format: RIS or NBIB
+Export format: RIS
 
-================================================================================
+
 2. COCHRANE CENTRAL (REQUIRES INSTITUTIONAL LOGIN)
-================================================================================
-Status: NEEDS YOUR SEARCH — blocked (403 error)
-Access via: https://www.cochranelibrary.com/ (JHU library proxy)
 
 Query (Cochrane search syntax):
 #1  "nicotinamide mononucleotide" OR "NMN" OR "beta-nicotinamide mononucleotide" OR "MIB-626"
@@ -45,11 +39,8 @@ Query (Cochrane search syntax):
 
 Export format: RIS
 
-================================================================================
+
 3. EMBASE via Ovid (REQUIRES INSTITUTIONAL LOGIN)
-================================================================================
-Status: NEEDS YOUR SEARCH
-Access via: https://ovidsp.ovid.com/ (JHU library proxy → Embase)
 
 Query (Ovid MEDLINE/Embase syntax):
 1  nicotinamide mononucleotide.mp. OR NMN.ti,ab. OR beta-nicotinamide mononucleotide.mp. OR MIB-626.mp.
@@ -64,11 +55,8 @@ Query (Ovid MEDLINE/Embase syntax):
 
 Export format: RIS
 
-================================================================================
+
 4. SCOPUS (REQUIRES INSTITUTIONAL LOGIN)
-================================================================================
-Status: NEEDS YOUR SEARCH
-Access via: https://www.scopus.com/ (JHU library proxy)
 
 Query (Scopus syntax):
 TITLE-ABS-KEY(("nicotinamide mononucleotide" OR "NMN" OR "beta-nicotinamide mononucleotide" OR "MIB-626" OR "nicotinamide riboside" OR "NIAGEN" OR "NAD+ precursor" OR "NAD precursor") AND ("randomized" OR "randomised" OR "placebo" OR "RCT" OR "clinical trial") AND ("insulin" OR "glucose" OR "HOMA" OR "HbA1c" OR "lipid" OR "cholesterol" OR "triglyceride" OR "body weight" OR "body composition" OR "BMI" OR "blood pressure" OR "energy expenditure" OR "NAD+" OR "C-reactive protein" OR "metabolic" OR "ALT" OR "AST"))
@@ -76,22 +64,17 @@ TITLE-ABS-KEY(("nicotinamide mononucleotide" OR "NMN" OR "beta-nicotinamide mono
 Limit to: Document type = Article OR Review; Source type = Journal
 Export format: RIS or CSV
 
-================================================================================
+
 5. WEB OF SCIENCE / SCI (REQUIRES INSTITUTIONAL LOGIN)
-================================================================================
-Status: NEEDS YOUR SEARCH
-Access via: https://www.webofscience.com/ (JHU library proxy)
 
 Query (Web of Science syntax):
 TS=(("nicotinamide mononucleotide" OR "NMN" OR "beta-nicotinamide mononucleotide" OR "MIB-626" OR "nicotinamide riboside" OR "NIAGEN" OR "NAD+ precursor" OR "NAD precursor") AND ("randomized" OR "randomised" OR "placebo" OR "RCT" OR "clinical trial") AND ("insulin" OR "glucose" OR "HOMA" OR "HbA1c" OR "lipid" OR "cholesterol" OR "triglyceride" OR "body weight" OR "body composition" OR "BMI" OR "blood pressure" OR "energy expenditure" OR "NAD+" OR "C-reactive protein" OR "metabolic" OR "ALT" OR "AST"))
 
 Refined by: Document Types = Article
-Export format: RIS (Other file formats → RIS)
+Export format: RIS (Other file formats -> RIS)
 
-================================================================================
-6. ClinicalTrials.gov (SEARCHED — COMPLETED)
-================================================================================
-Status: DONE
+
+6. ClinicalTrials.gov
 Results: 148 registered interventional trials
 
 URL searched:
@@ -100,10 +83,8 @@ https://clinicaltrials.gov/search?term="nicotinamide mononucleotide" OR "nicotin
 Note: Used to cross-check for unpublished completed trials and detect selective
 outcome reporting (compare registered outcomes vs. published outcomes).
 
-================================================================================
-7. medRxiv (SEARCHED — COMPLETED)
-================================================================================
-Status: DONE
+
+7. medRxiv 
 Results: 24 hits for NMN + 44 hits for NR (with overlap)
 
 Query A: nicotinamide mononucleotide randomized
@@ -113,10 +94,8 @@ URL:
 https://www.medrxiv.org/search/nicotinamide%20mononucleotide%20randomized
 https://www.medrxiv.org/search/nicotinamide%20riboside%20randomized
 
-================================================================================
-8. bioRxiv (BLOCKED — 403)
-================================================================================
-Status: NEEDS MANUAL SEARCH
+
+8. bioRxiv 
 Access via: https://www.biorxiv.org/search
 
 Query: nicotinamide mononucleotide OR nicotinamide riboside
@@ -124,11 +103,8 @@ Query: nicotinamide mononucleotide OR nicotinamide riboside
 Note: bioRxiv is primarily basic science; clinical trial preprints are rare here.
 Most relevant preprints will be on medRxiv. Search manually for completeness.
 
-================================================================================
-9. Google Scholar (BLOCKED — CAPTCHA)
-================================================================================
-Status: NEEDS MANUAL SEARCH (first 200 results per protocol)
-Access via: https://scholar.google.com/
+
+9. Google Scholar 
 
 Query:
 "nicotinamide mononucleotide" OR "nicotinamide riboside" "randomized controlled trial" metabolic
@@ -136,19 +112,11 @@ Query:
 Settings: 2018–2026, sorted by relevance
 Per PROSPERO protocol: screen first 200 results
 
-================================================================================
+
 EXPORT INSTRUCTIONS
-================================================================================
 
 1. Export each database result as RIS format (.ris files)
 2. Name files: pubmed.ris, central.ris, embase.ris, scopus.ris, wos.ris, medrxiv.ris, etc.
 3. Save all files to: /Users/tainguyen/Documents/Screening/
-4. We will deduplicate using DOI, PMID, and title fuzzy matching
+4. Deduplicate using DOI, PMID, and title fuzzy matching
 
-Databases you need to search manually (require JHU login):
-  - Cochrane CENTRAL
-  - Embase via Ovid
-  - Scopus
-  - Web of Science / SCI
-  - bioRxiv (manual browser search)
-  - Google Scholar (first 200 results)
