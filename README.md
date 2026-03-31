@@ -51,3 +51,9 @@ See `environment.yml` for the conda environment specification.
 ## Reproducibility
 
 All results (figures and tables) can be regenerated from the corrected source data in `data/extraction/nma_input_long.csv` using the scripts in `src/`.
+
+## Citation
+
+Citation metadata is provided in `CITATION.cff`.
+
+For archival citation, use the Zenodo DOI associated with release tag `v1.3.0` once Zenodo records the release.
