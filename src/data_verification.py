@@ -14,9 +14,7 @@ RES = os.path.join(BASE, "results", "tables")
 os.makedirs(RES, exist_ok=True)
 
 
-# -----------------------------------------------------------------------------
 # Verified values from published papers (manually checked against full texts)
-# -----------------------------------------------------------------------------
 # Format: (study_id, outcome) -> {
 #   "paper_treat_mean", "paper_treat_sd_or_sem", "paper_ctrl_mean",
 #   "paper_ctrl_sd_or_sem", "paper_unit", "paper_dispersion_type",
@@ -24,7 +22,7 @@ os.makedirs(RES, exist_ok=True)
 # }
 
 VERIFIED = {
-    # ─── Huang 2022 (Frontiers in Aging, Table 2–8, 10–13) ───────────
+    # Huang 2022 (Frontiers in Aging, Table 2–8, 10–13) ───────────
     # Paper reports Day 60 end-of-study values; dispersion is SD unless noted
     ("Huang_2022", "NAD+"): {
         "paper_treat_mean": 9.07, "paper_treat_disp": 5.65,
@@ -134,7 +132,7 @@ VERIFIED = {
         "severity": "MAJOR",
     },
 
-    # ─── Bandi 2025 (Table 2) ────────────────────────────────────────
+    # Bandi 2025 (Table 2) ────────────────────────────────────────
     ("Bandi_2025", "NAD+"): {
         "paper_treat_mean": 31.9, "paper_treat_disp": 6.5,
         "paper_ctrl_mean": 25.8, "paper_ctrl_disp": 7.1,
@@ -146,7 +144,7 @@ VERIFIED = {
         "severity": "OK_BUT_UNIT_INCOMPATIBLE",
     },
 
-    # ─── Yoshino 2021 (Science, Table 1) ─────────────────────────────
+    # Yoshino 2021 (Science, Table 1) ─────────────────────────────
     # Paper reports values as SEM; glucose in mmol/L, TG/HDL in mmol/L
     ("Yoshino_2021", "FBG"): {
         "paper_treat_mean_mmol": 5.6, "paper_treat_sem": 0.2,

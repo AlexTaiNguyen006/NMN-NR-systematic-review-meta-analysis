@@ -15,9 +15,7 @@ import numpy as np
 from collections import defaultdict
 from scipy.stats import norm
 
-# -----------------------------------------------------------------------------
 # Global style configuration
-# -----------------------------------------------------------------------------
 
 # Paths
 BASE = "/Users/tainguyen/Documents/NMN_vs_NR_SR_NMA"
@@ -26,7 +24,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures"); os.makedirs(FIGS, exist_ok=True)
 RES  = os.path.join(BASE, "results", "tables"); os.makedirs(RES, exist_ok=True)
 
-# --- Typography ---
+# Typography -
 FONT_FAMILY     = "Arial"
 TITLE_SIZE      = 12
 AXIS_LABEL_SIZE = 10
@@ -35,7 +33,7 @@ ANNOT_SIZE      = 8.5   # annotations inside plots (CI text, weights, %)
 LEGEND_SIZE     = 9
 SMALL_SIZE      = 8     # minor annotations
 
-# --- Colours ---
+# Colours -
 COL_NMN        = "#2196F3"   # blue
 COL_NR         = "#4CAF50"   # green
 COL_PBO        = "#9E9E9E"   # grey
@@ -52,7 +50,7 @@ ROB_HIGH       = "#F44336"
 ROB_COLORS     = {"Low": ROB_LOW, "Some concerns": ROB_SOME, "High": ROB_HIGH}
 ROB_SYMBOLS    = {"Low": "+", "Some concerns": "\u2212", "High": "\u00D7"}
 
-# --- Figure widths ---
+# Figure widths -
 FIG_W_FOREST   = 11     # forest plot total width (inches)
 FIG_W_NMA      = 11     # NMA summary forest
 FIG_W_NETWORK  = 6.5
@@ -60,7 +58,7 @@ FIG_W_ROB_TL   = 10     # RoB traffic-light
 FIG_W_ROB_SUM  = 8.5    # RoB summary bar
 DPI            = 300
 
-# --- Apply global matplotlib rcParams ---
+# Apply global matplotlib rcParams -
 plt.rcParams.update({
     "font.family":       "sans-serif",
     "font.sans-serif":   [FONT_FAMILY, "Helvetica", "DejaVu Sans"],
@@ -80,9 +78,7 @@ plt.rcParams.update({
 })
 
 
-# -----------------------------------------------------------------------------
 # Data loading and meta-analysis functions (unchanged logic)
-# -----------------------------------------------------------------------------
 
 def read_data(path):
     rows = []
@@ -180,9 +176,7 @@ def indirect_comparison(ma_a, ma_b):
     return {"te": te, "se": se, "lo": lo, "up": up, "p": p}
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # PRETTY OUTCOME NAMES
-# ═══════════════════════════════════════════════════════════════════════
 
 OUTCOME_LABELS = {
     "FBG": "Fasting Blood Glucose",
@@ -225,9 +219,7 @@ def outcome_unit(oc):
     return OUTCOME_UNITS.get(oc, "")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # FOREST PLOT  — 3-column layout: labels | plot | stats
-# ═══════════════════════════════════════════════════════════════════════
 
 def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
     """Draw a horizontal separator across all panels at the same y."""
@@ -375,9 +367,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     plt.close(fig)
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # NMA SUMMARY FOREST  (NMN vs NR indirect, all outcomes)
-# ═══════════════════════════════════════════════════════════════════════
 
 def nma_summary_forest(nma_results_dict, filename_base):
     ocs = sorted(nma_results_dict.keys())
@@ -480,9 +470,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
     print("  NMA summary forest saved.")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # NETWORK GRAPH
-# ═══════════════════════════════════════════════════════════════════════
 
 def network_graph(n_nmn, n_nr, filename):
     fig, ax = plt.subplots(figsize=(FIG_W_NETWORK, 5.0))
@@ -556,9 +544,7 @@ def network_graph(n_nmn, n_nr, filename):
     print("  Network graph saved.")
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # ROB 2 FIGURES
-# ═══════════════════════════════════════════════════════════════════════
 
 ROB_DOMAIN_KEYS = [
     "D1_randomization", "D2_deviations", "D3_missing_data",
@@ -733,9 +719,7 @@ def rob2_summary_bar(filename_base):
     print("  RoB 2 summary bar saved.")
 
 
-# -----------------------------------------------------------------------------
 # Main execution
-# -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
     print("=" * 60)

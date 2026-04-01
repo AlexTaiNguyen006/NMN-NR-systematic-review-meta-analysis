@@ -21,9 +21,7 @@ import numpy as np
 from collections import defaultdict
 from scipy.stats import norm
 
-# -----------------------------------------------------------------------------
 # Paths and style (match regenerate_figures.py)
-# -----------------------------------------------------------------------------
 BASE = "/Users/tainguyen/Documents/NMN_vs_NR_SR_NMA"
 DATA = os.path.join(BASE, "data", "extraction", "nma_input_long.csv")
 ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
@@ -86,9 +84,7 @@ def unit(oc):
     return OUTCOME_UNITS.get(oc, "")
 
 
-# -----------------------------------------------------------------------------
 # Data loading and meta-analysis (same as regenerate_figures.py)
-# -----------------------------------------------------------------------------
 
 def read_data(path):
     rows = []
@@ -174,9 +170,7 @@ def indirect_comparison(ma_a, ma_b):
     return {"te": te, "se": se, "lo": lo, "up": up, "p": p}
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # 1. LEAVE-ONE-OUT PAIRWISE
-# ═══════════════════════════════════════════════════════════════════════
 
 def leave_one_out_pairwise(by_outcome):
     """For every pairwise comparison with k >= 2, drop each study in turn."""
@@ -221,9 +215,7 @@ def leave_one_out_pairwise(by_outcome):
     return results
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # 2. LEAVE-ONE-OUT INDIRECT (NMN vs NR)
-# ═══════════════════════════════════════════════════════════════════════
 
 def leave_one_out_indirect(by_outcome):
     """Drop each study from each arm; recompute indirect NMN vs NR."""
@@ -291,9 +283,7 @@ def leave_one_out_indirect(by_outcome):
     return results
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # 3. HIGH ROB EXCLUSION
-# ═══════════════════════════════════════════════════════════════════════
 
 HIGH_ROB_STUDIES = {"Igarashi_2022", "Elhassan_2019"}
 
@@ -354,9 +344,7 @@ def high_rob_exclusion(data, by_outcome):
         return report, []
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # LOO FOREST PLOTS (one per significant indirect comparison)
-# ═══════════════════════════════════════════════════════════════════════
 
 def loo_forest_plot(loo_rows, outcome, filename):
     """Forest plot showing LOO impact on NMN vs NR indirect comparison."""
@@ -487,9 +475,7 @@ def loo_forest_plot(loo_rows, outcome, filename):
     plt.close(fig)
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # LOO SUMMARY FOREST (all outcomes)
-# ═══════════════════════════════════════════════════════════════════════
 
 def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
     """
@@ -637,9 +623,7 @@ def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
     plt.close(fig)
 
 
-# ═══════════════════════════════════════════════════════════════════════
 # LOO PAIRWISE FOREST PLOT (per-comparison)
-# ═══════════════════════════════════════════════════════════════════════
 
 def _loo_pairwise_forest(loo_rows, outcome, comparison, filename):
     """Simple LOO forest for a pairwise comparison."""
@@ -760,9 +744,7 @@ def _loo_pairwise_forest(loo_rows, outcome, comparison, filename):
     print(f"  Saved: {filename}")
 
 
-# -----------------------------------------------------------------------------
 # Main execution
-# -----------------------------------------------------------------------------
 
 def write_csv(path, rows, fieldnames):
     with open(path, "w", newline="") as f:
@@ -782,7 +764,7 @@ if __name__ == "__main__":
     for r in data:
         by_outcome[r["outcome"]].append(r)
 
-    # ─── 1. Leave-one-out: pairwise ────────────────────────────
+    # 1. Leave-one-out: pairwise ────────────────────────────
     print("\n[1/4] Leave-one-out pairwise analyses...")
     loo_pw = leave_one_out_pairwise(by_outcome)
     write_csv(
@@ -809,7 +791,7 @@ if __name__ == "__main__":
             print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
                   f"p {r['full_p']} → {r['loo_p']}")
 
-    # ─── 2. Leave-one-out: indirect ────────────────────────────
+    # 2. Leave-one-out: indirect ────────────────────────────
     print("\n[2/4] Leave-one-out indirect comparisons (NMN vs NR)...")
     loo_ind = leave_one_out_indirect(by_outcome)
     write_csv(
@@ -828,7 +810,7 @@ if __name__ == "__main__":
             print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) — "
                   f"p {r['full_p']} → {r['loo_p']}")
 
-    # ─── 3. High-RoB exclusion ─────────────────────────────────
+    # 3. High-RoB exclusion ─────────────────────────────────
     print("\n[3/4] High-RoB exclusion analysis...")
     rob_report, rob_csv = high_rob_exclusion(data, by_outcome)
     for line in rob_report:
@@ -840,7 +822,7 @@ if __name__ == "__main__":
          "reason_excluded_from_nma", "effect_on_results"],
     )
 
-    # ─── 4. LOO figures ────────────────────────────────────────
+    # 4. LOO figures ────────────────────────────────────────
     print("\n[4/4] LOO sensitivity figures...")
 
     # Per-outcome LOO forest for NAD+ (the only significant indirect comparison)

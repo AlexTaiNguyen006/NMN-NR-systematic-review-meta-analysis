@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# -----------------------------------------------------------------------------
 # R/metafor validation analysis for NMN vs NR systematic review
 #
 # Uses the validated field-standard metafor package with REML estimator.
@@ -10,7 +9,6 @@
 #   - Crossover trial sensitivity analysis
 #   - Forest plots
 #   - CSV outputs for comparison with Python results
-# -----------------------------------------------------------------------------
 
 # Load packages (install if needed)
 required_pkgs <- c("metafor", "readr", "dplyr")
@@ -60,9 +58,7 @@ if (nrow(crossover) > 0) {
   cat("which overestimates variance. Sensitivity analysis will exclude these.\n\n")
 }
 
-# -----------------------------------------------------------------------------
 # Pairwise meta-analysis (REML estimator)
-# -----------------------------------------------------------------------------
 cat("══════════════════════════════════════════════════\n")
 cat("PAIRWISE META-ANALYSES (metafor, REML)\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -147,9 +143,7 @@ write_csv(pw_df, file.path(out_dir, "pairwise_metafor_REML.csv"))
 cat(sprintf("\nSaved: pairwise_metafor_REML.csv (%d comparisons)\n\n", nrow(pw_df)))
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # INDIRECT COMPARISONS (Bucher method)
-# ══════════════════════════════════════════════════════════════════════════
 cat("══════════════════════════════════════════════════\n")
 cat("INDIRECT COMPARISONS (NMN vs NR via Bucher)\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -224,9 +218,7 @@ for (oc in outcomes) {
 
 ind_df <- bind_rows(indirect_results)
 
-# ══════════════════════════════════════════════════════════════════════════
 # MULTIPLE TESTING CORRECTION
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("MULTIPLE TESTING CORRECTION\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -273,9 +265,7 @@ write_csv(ind_df, file.path(out_dir, "indirect_comparisons_metafor_REML.csv"))
 cat(sprintf("\nSaved: indirect_comparisons_metafor_REML.csv\n\n"))
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # SENSITIVITY ANALYSIS: EXCLUDE CROSSOVER STUDIES
-# ══════════════════════════════════════════════════════════════════════════
 cat("══════════════════════════════════════════════════\n")
 cat("SENSITIVITY: EXCLUDING CROSSOVER STUDIES\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -349,9 +339,7 @@ for (oc in outcomes) {
 }
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # COMPARISON: REML vs DL (DerSimonian-Laird)
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("COMPARISON: REML vs DL ESTIMATOR\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -383,9 +371,7 @@ for (oc in outcomes) {
 }
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # TRANSITIVITY ASSESSMENT TABLE
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("TRANSITIVITY ASSESSMENT\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -480,9 +466,7 @@ write_csv(trans_domains, file.path(out_dir, "transitivity_assessment.csv"))
 cat("\nSaved: transitivity_assessment.csv\n")
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # OUTCOME REPORTING MATRIX (study × outcome)
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("OUTCOME REPORTING MATRIX\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -507,9 +491,7 @@ cat("Saved: outcome_reporting_matrix.csv\n")
 print(as.data.frame(wide_data))
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # k=1 META-ANALYSIS WARNING TABLE
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("SINGLE-STUDY (k=1) WARNINGS\n")
 cat("══════════════════════════════════════════════════\n\n")
@@ -528,9 +510,7 @@ cat(sprintf("\n%d indirect comparisons where both arms are k=1 (pure subtraction
 if (nrow(both_k1) > 0) print(as.data.frame(both_k1 %>% select(outcome, k_NMN, k_NR, MD_indirect, p_value)))
 
 
-# ══════════════════════════════════════════════════════════════════════════
 # FINAL SUMMARY
-# ══════════════════════════════════════════════════════════════════════════
 cat("\n══════════════════════════════════════════════════\n")
 cat("ANALYSIS COMPLETE — SUMMARY\n")
 cat("══════════════════════════════════════════════════\n\n")

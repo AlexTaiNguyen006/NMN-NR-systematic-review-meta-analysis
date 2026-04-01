@@ -191,7 +191,7 @@ def main():
     ax.set_ylim(0, FIG_H)
     ax.axis("off")
 
-    # --- IDENTIFICATION ---
+    # IDENTIFICATION -
     cy_db, _ = positions["db"]
     b_db = Box(ax, CX_MAIN, cy_db, WM, 1.20, C_ID, [
         ("Records identified from databases", {"fontweight": "bold", "fontsize": 9}),
@@ -217,7 +217,7 @@ def main():
     sec1 = b_dedup.bottom - DEFAULT_GAP * 0.4
     _section_line(ax, sec1)
 
-    # --- SCREENING ---
+    # SCREENING -
     cy_scr, cy_excl_ta = positions["scr"]
     b_scr = Box(ax, CX_MAIN, cy_scr, WM, 0.55, C_SCR, [
         ("Records screened (title / abstract)", {"fontweight": "bold", "fontsize": 8.5}),
@@ -249,7 +249,7 @@ def main():
     sec2 = b_ret.bottom - DEFAULT_GAP * 0.4
     _section_line(ax, sec2)
 
-    # --- ELIGIBILITY ---
+    # ELIGIBILITY -
     cy_ft, cy_excl_ft = positions["ft"]
     b_ft = Box(ax, CX_MAIN, cy_ft, WM, 0.70, C_SCR, [
         ("Reports assessed for eligibility", {"fontweight": "bold", "fontsize": 8.5}),
@@ -296,7 +296,7 @@ def main():
     sec3 = b_met.bottom - DEFAULT_GAP * 0.4
     _section_line(ax, sec3)
 
-    # --- INCLUDED ---
+    # INCLUDED -
     cy_qual, cy_excl_nma = positions["qual"]
     b_qual = Box(ax, CX_MAIN, cy_qual, WM, 0.70, C_INCL, [
         ("Studies included in", {"fontweight": "bold", "fontsize": 9}),
@@ -322,13 +322,13 @@ def main():
     ])
     _arrow(ax, CX_MAIN, b_qual.bottom, CX_MAIN, b_nma.top)
 
-    # --- Section labels (centred vertically in each section) ---
+    # Section labels (centred vertically in each section) -
     _section_label(ax, (b_db.top + sec1) / 2, "Identification")
     _section_label(ax, (sec1 + sec2) / 2, "Screening")
     _section_label(ax, (sec2 + sec3) / 2, "Eligibility")
     _section_label(ax, (sec3 + b_nma.bottom) / 2, "Included")
 
-    # --- Bottom notes ---
+    # Bottom notes -
     note_y = b_nma.bottom - 0.70
     ax.text(FIG_W / 2, note_y,
             "Search: January 2018 \u2013 May 2025  |  "
