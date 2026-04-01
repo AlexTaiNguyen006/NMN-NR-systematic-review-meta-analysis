@@ -1,0 +1,10 @@
+Domain,NMN_arm,NR_arm,Assessment
+Dose (mass),"250, 300 mg/day","1000, 2000, 500 mg/day",Major concern: 2–8× range in NR vs narrow band in NMN
+Dose (molar),0.75 mmol/day (all studies),1.72–6.88 mmol/day,Major concern: up to 9.2× molar dose difference
+Duration,8.6–12 weeks,6–12 weeks,Moderate concern: overlapping but wider NR range
+Population ethnicity,"USA, India, Japan","Denmark, Canada, Netherlands, India",Major concern: Japan/India (NMN) vs Denmark/Canada/India (NR)
+Population health status,Prediabetic/insulin resistant; Healthy overweight; Healthy; Healthy older adults,Obese insulin-resistant; Healthy overweight; Healthy overweight/obese; Healthy aging,Minor concern: all metabolically healthy populations in NMA
+Population age,49–69 years,51–59 years,Minor concern: overlapping age ranges
+Study design,All parallel RCT,Parallel + Crossover,Moderate concern: Remie 2020 is crossover
+Outcome primacy,Mixed: metabolic secondary in most,Safety primary in Conze; metabolic secondary in others,Moderate concern: most studies not powered for metabolic outcomes
+Biomatrix for NAD+,Blood cellular NAD+/NADH (pmol/mL) — Huang 2022 only,Blood NAD+ (µM) — Bandi 2025 only,Major concern: incompatible units and biological matrices

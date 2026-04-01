@@ -1,0 +1,28 @@
+Pending items before submission
+
+Manuscript metadata and declarations
+- Author names, affiliations, and corresponding author email
+- Registry ID (if applicable)
+- Funding statement
+- Competing interests statement
+- Author contributions statement
+- Repository URL/DOI in the data accessibility statement
+
+Online submission fields
+- Confirm article type
+- Add at least 4 suggested referees
+- Add opposed referees with reasons if needed
+- Confirm peer review preference
+- Confirm open access license agreement
+
+Data and code availability
+- Deposit data, code, and materials in a public repository
+- Add DOI-backed repository record when available
+- Add data/code references if required
+- Update data accessibility statement with final accession details
+
+Files to keep ready for revision/production
+- Editable manuscript file
+- Individual figure files
+- Individual table files
+- Tracked-changes manuscript and response document

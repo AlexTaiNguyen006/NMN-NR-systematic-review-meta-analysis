@@ -1,0 +1,33 @@
+Online submission fields checklist
+
+Manuscript details
+- Title
+- Running title (if requested)
+- Abstract
+- Keywords
+- Article type
+- Subject area/section
+
+Author details
+- Full author names
+- Affiliations
+- Corresponding author details
+- ORCID IDs (if available)
+
+Declarations
+- Funding
+- Competing interests
+- Author contributions
+- Ethics
+- Data accessibility
+
+Review process fields
+- Suggested referees
+- Opposed referees (if any) with reasons
+- Cover letter text (optional)
+
+Files to upload
+- Manuscript file
+- Supplementary files
+- Figure files (if requested)
+- Data/code repository details

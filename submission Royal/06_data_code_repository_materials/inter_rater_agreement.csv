@@ -1,0 +1,5 @@
+phase,n_items,agreements,pct_agreement,kappa,resolution
+title/abstract screening,1003,971,96.8,0.92,discussion or FAD tiebreak
+fulltext screening,186,169,90.9,0.84,discussion or FAD tiebreak
+RoB2 (domain-level),75,65,86.7,0.75,discussion
+data extraction,15,14,93.3,n/a,checked against source

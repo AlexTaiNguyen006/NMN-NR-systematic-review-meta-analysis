@@ -1,0 +1,42 @@
+Submission package overview
+
+Purpose
+This folder contains files prepared for Royal Society Open Science submission.
+
+Folder contents
+
+00_admin_checklists
+- RSOS_submission_requirements.txt
+- RSOS_pending_items_for_this_project.txt
+- RSOS_referee_suggestions_template.csv
+- RSOS_online_submission_fields_template.txt
+
+01_manuscript
+- Manuscript file for initial submission
+
+02_main_figures
+- Main figures
+
+03_main_tables
+- Main table source files
+
+04_supplementary_tables
+- Supplementary tables (S1-S9)
+
+05_supplementary_figures
+- Supplementary figure files
+
+06_data_code_repository_materials
+- Data extraction files
+- Analysis scripts
+- environment.yml
+
+Items to complete before submission
+- Finalize manuscript placeholders (authors, affiliations, corresponding author, registry ID, funding, conflicts, author contributions, repository link)
+- Deposit data/code/materials in a public repository and update the data accessibility statement
+- Prepare suggested referees
+- Complete online submission form fields
+
+Notes
+- Initial review can use a Word or PDF manuscript with embedded figures.
+- Production may require separate figure and table files.
