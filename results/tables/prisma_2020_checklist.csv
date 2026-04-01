@@ -1,0 +1,50 @@
+Section and Topic,Item #,Checklist Item,Location Where Item Is Reported
+TITLE,,
+Title,1,Identify the report as a systematic review.,Title
+ABSTRACT,,
+Abstract,2,"Provide a structured summary including, as applicable: background; objectives; data sources; study eligibility criteria, participants, and interventions; study appraisal and synthesis methods; results; limitations; conclusions and implications of key findings; systematic review registration number.",Abstract
+INTRODUCTION,,
+Rationale,3,Describe the rationale for the review in the context of existing knowledge.,Section 1 (Introduction) paragraphs 1-4
+Objectives,4,Provide an explicit statement of the objective(s) or question(s) the review addresses.,Section 1 (Introduction) final paragraph
+METHODS,,
+Eligibility criteria,5,"Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.",Section 2.1
+Information sources,6,"Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted.",Section 2.2; Supplementary Table S1
+Search strategy,7,"Present the full search strategies for all databases, registers and websites, including any filters and limits used.",Section 2.2; Supplementary Table S1
+Selection process,8,"Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they operated independently, and if applicable, details of automation tools used in the process.",Section 2.3
+Data collection process,9,"Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they operated independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process.",Section 2.4
+Data items,10a,"List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought, and if not, the methods used to decide which results to collect.",Section 2.1 (PICO criteria); Section 2.4
+Data items,10b,"List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.",Section 2.4
+Study risk of bias assessment,11,"Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they operated independently, and if applicable, details of automation tools used in the process.",Section 2.5
+Effect measures,12,"Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.",Section 2.6 (Pairwise meta-analyses paragraph)
+Synthesis methods,13a,"Describe the processes used to decide which studies were eligible for each synthesis.",Section 2.1; Section 2.6
+Synthesis methods,13b,"Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.",Section 2.6 (Pairwise meta-analyses paragraph)
+Synthesis methods,13c,"Describe any methods used to tabulate or visually display results of individual studies and syntheses.",Section 2.6 (Software paragraph); Supplementary Figures S1-S6
+Synthesis methods,13d,"Describe any methods used to synthesize results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.",Section 2.6 (Pairwise meta-analyses and Network meta-analysis paragraphs)
+Synthesis methods,13e,"Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression).",Section 2.6 (Sensitivity analyses paragraph); Section 3.9
+Synthesis methods,13f,"Describe any sensitivity analyses conducted to assess robustness of the synthesized results.",Section 2.6 (Sensitivity analyses paragraph)
+Reporting bias assessment,14,"Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).",Section 2.6 (Publication bias paragraph); Supplementary Funnel Plots
+Certainty assessment,15,"Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.",Section 2.6 (Certainty of evidence paragraph)
+RESULTS,,
+Study selection,16a,"Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram.",Section 3.1; Figure 1 (PRISMA flow diagram)
+Study selection,16b,"Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded.",Section 3.1 (exclusion reasons); Figure 1
+Study characteristics,17,Cite each included study and present its characteristics.,Section 3.2; Supplementary Table S2; Table 1
+Risk of bias in studies,18,Present assessments of risk of bias for each included study.,Section 3.4; Figure 2A; Figure 2B; Supplementary Table S4
+Results of individual studies,19,"For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision, ideally using structured tables or forest plots.",Section 3.5; Supplementary Table S3; Supplementary Figures S1-S5
+Results of syntheses,20a,"For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.",Section 3.5.1-3.5.6 (narrative context per outcome); Section 3.4
+Results of syntheses,20b,"Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect.",Section 3.5 (all subsections); Section 3.6; Table 2; Table 3; Supplementary Tables S5-S6
+Results of syntheses,20c,"Present results of all investigations of possible causes of heterogeneity among study results.",Section 3.9 (Exploratory Subgroup Observations)
+Results of syntheses,20d,"Present results of all sensitivity analyses conducted to assess the robustness of the synthesized results.",Section 3.8; Supplementary Table S7; Supplementary Figure S6
+Reporting biases,21,"Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed.","Section 2.6 (Publication bias paragraph — justified exclusion due to k ≤ 4); Supplementary Funnel Plots provided for transparency"
+Certainty of evidence,22,"Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed.",Section 3.7; Figure 5; Supplementary Table S8
+DISCUSSION,,
+Discussion,23a,Provide a general interpretation of the results in the context of other evidence.,Section 4.1; Section 4.3
+Discussion,23b,Discuss any limitations of the evidence included in the review.,Section 4.6 (Limitations)
+Discussion,23c,Discuss any limitations of the review processes used.,Section 4.6 (Limitations)
+Discussion,23d,"Discuss implications of the results for practice, policy, and future research.",Section 4.7
+OTHER INFORMATION,,
+Registration and protocol,24a,"Provide registration information for the review, including register name and registration number, or state that the review was not registered.",Section 2 (Methods opening paragraph — PROSPERO CRD420261330487)
+Registration and protocol,24b,"Indicate where the review protocol can be accessed, or state that a protocol was not prepared.",Section 2 (Methods opening paragraph — PROSPERO)
+Registration and protocol,24c,"Describe and explain any amendments to information provided at registration or in the protocol.",Not applicable — no amendments
+Support,25,Describe sources of financial or non-financial support for the review.,Declarations (Funding)
+Competing interests,26,Declare any competing interests of review authors.,Declarations (Conflicts of Interest)
+Availability of data and materials,27,"Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review.","Declarations (Data Availability); GitHub repository"

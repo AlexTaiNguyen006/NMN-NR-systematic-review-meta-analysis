@@ -540,6 +540,7 @@ def network_graph(n_nmn, n_nr, filename):
 
     fig.tight_layout()
     fig.savefig(os.path.join(FIGS, filename), dpi=DPI, bbox_inches="tight")
+    fig.savefig(os.path.join(FIGS, filename.replace(".png", ".pdf")), bbox_inches="tight")
     plt.close(fig)
     print("  Network graph saved.")
 

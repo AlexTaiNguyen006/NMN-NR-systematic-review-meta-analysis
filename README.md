@@ -40,6 +40,7 @@ results/
 | `data_verification.py` | Cross-checks extracted data against source papers |
 | `fix_all_extractions.py` | Documents and applies data extraction corrections |
 | `outcome_matrix.py` | Outcome reporting matrix heatmap |
+| `publication_bias.py` | Funnel plots and Egger's regression test for publication bias |
 
 ## Requirements
 
