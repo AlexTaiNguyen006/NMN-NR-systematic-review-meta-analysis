@@ -2,7 +2,7 @@
 
 Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human RCTs.
 
-**PROSPERO Registration:** CRD42025636869
+**PROSPERO Registration:** CRD420261330487
 
 ## Overview
 
