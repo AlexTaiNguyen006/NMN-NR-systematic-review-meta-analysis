@@ -1,0 +1,77 @@
+study_id,precursor,first_author,year,design,population,n_intervention,n_control,dose_mg_day,duration_wk,outcome,timepoint,intervention_baseline_mean,intervention_baseline_dispersion,intervention_endpoint_mean,intervention_endpoint_dispersion,control_baseline_mean,control_baseline_dispersion,control_endpoint_mean,control_endpoint_dispersion,dispersion_type,unit,p_between,notes
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,FBG,10wk,100,3,101,3,97,2,99,3,SEM,mg/dL,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,HbA1c,10wk,5.7,0.1,5.7,0.1,5.6,0.1,5.7,0.1,SEM,%,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,fasting_insulin,10wk,15.9,2.6,14.5,2.7,10.5,1.3,10.8,1.5,SEM,uU/mL,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,HDL,10wk,57,4,54,3,52,5,51,5,SEM,mg/dL,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,TG,10wk,130,21,117,15,120,17,120,21,SEM,mg/dL,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,body_weight,10wk,90.8,3.3,90.4,3.3,84.9,7.2,85.5,7.4,SEM,kg,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,BMI,10wk,34.5,1.4,34.4,1.4,32.7,1.8,32.9,1.9,SEM,kg/m2,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,SBP,10wk,125,4,125,4,122,3,123,6,SEM,mmHg,,
+Yoshino_2021,NMN,Yoshino,2021,Parallel RCT,Prediabetic obese women,13,12,250,10,DBP,10wk,72,2,74,3,73,2,72,3,SEM,mmHg,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,HOMA-IR,60d,4.3,0.9,3.6,0.8,4.4,1.0,4.6,1.2,SD,,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,FBG,60d,104.5,13.3,96.5,10.2,101.1,12.2,105.4,15.5,SD,mg/dL,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,fasting_insulin,60d,16.3,4.0,14.6,3.3,16.7,4.2,17.0,4.1,SD,uU/mL,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,TC,60d,217.3,37.6,204.1,28.1,209.9,46.2,214.1,38.2,SD,mg/dL,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,TG,60d,177.1,41.2,165.4,42.2,175.1,36.9,183.1,46.1,SD,mg/dL,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,LDL,60d,109.2,20.1,100.9,18.5,107.3,18.9,110.2,23.2,SD,mg/dL,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,SBP,60d,134.5,10.2,128.3,9.8,131.5,11.4,133.2,11.0,SD,mmHg,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,DBP,60d,83.5,7.2,78.1,8.9,82.7,7.9,82.5,7.6,SD,mmHg,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,ALT,60d,21.9,5.1,19.2,3.3,21.1,4.5,22.3,6.1,SD,U/L,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,AST,60d,24.1,5.4,22.6,4.2,23.9,5.1,24.8,4.8,SD,U/L,,
+Huang_2022,NMN,Huang,2022,Parallel RCT,Healthy adults 40-65y India,31,31,300,8.6,NAD+,60d,24.8,2.7,37.2,5.1,25.1,3.5,26.2,3.8,SD,ng/mL,,WBC NAD+ levels
+Igarashi_2022,NMN,Igarashi,2022,Parallel RCT,Healthy older men 65+ Japan,10,10,250,12,HOMA-IR,12wk,1.52,0.93,,,1.91,1.19,,,SD,,,"Baseline only in main text; endpoint in supplementary. N=10/group at 12wk due to supplement error."
+Igarashi_2022,NMN,Igarashi,2022,Parallel RCT,Healthy older men 65+ Japan,10,10,250,12,FBG,12wk,97.1,9.1,,,94.5,5.3,,,SD,mg/dL,,"Baseline only; endpoint in supplementary tables."
+Igarashi_2022,NMN,Igarashi,2022,Parallel RCT,Healthy older men 65+ Japan,10,10,250,12,HbA1c,12wk,5.7,0.2,,,5.6,0.3,,,SD,%,,"Baseline only; endpoint in supplementary tables."
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,FBG,12wk,95.5,6.8,93.2,5.3,94.2,5.6,92.3,5.7,SD,mg/dL,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,HDL,12wk,68,12,68,13,72,13,73,14,SD,mg/dL,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,LDL,12wk,133,28,128,25,128,31,129,28,SD,mg/dL,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,TG,12wk,102,66,85,30,106,71,90,52,SD,mg/dL,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,body_weight,12wk,62.6,9.7,62.8,9.8,62.1,8.3,62.3,8.6,SD,kg,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,BMI,12wk,22.6,2.3,22.7,2.3,22.5,2.2,22.5,2.3,SD,kg/m2,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,SBP,12wk,117,15,115,13,122,17,120,13,SD,mmHg,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,DBP,12wk,74,10,73,10,76,11,75,10,SD,mmHg,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,ALT,12wk,22,7,21,7,23,10,24,12,SD,U/L,,
+Katayoshi_2023,NMN,Katayoshi,2023,Parallel RCT,Healthy adults 40-59y Japan,17,17,250,12,AST,12wk,24,6,24,6,25,7,25,8,SD,U/L,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,FBG,12wk,5.67,0.45,5.55,0.53,5.58,0.50,5.58,0.51,SD,mmol/L,,Need ×18.018 for mg/dL
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,HbA1c,12wk,5.78,0.35,5.77,0.32,5.79,0.25,5.76,0.24,SD,%,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,TC,12wk,5.77,0.83,5.72,0.91,5.40,0.81,5.49,0.87,SD,mmol/L,,Need ×38.67 for mg/dL
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,HDL,12wk,1.76,0.38,1.76,0.44,1.66,0.48,1.68,0.49,SD,mmol/L,,Need ×38.67 for mg/dL
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,LDL,12wk,3.28,0.74,3.25,0.82,3.06,0.64,3.08,0.75,SD,mmol/L,,Need ×38.67 for mg/dL
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,TG,12wk,1.36,0.52,1.32,0.53,1.21,0.43,1.32,0.64,SD,mmol/L,,Need ×88.57 for mg/dL
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,body_weight,12wk,59.1,8.2,59.0,8.1,59.0,9.7,59.2,9.6,SD,kg,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,BMI,12wk,23.2,2.5,23.2,2.5,23.0,2.7,23.1,2.7,SD,kg/m2,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,fat_mass,12wk,16.2,4.5,16.2,4.5,16.1,5.1,16.3,5.2,SD,kg,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,skeletal_muscle,12wk,20.3,4.2,20.3,4.1,20.3,4.7,20.3,4.7,SD,kg,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,SBP,12wk,130.0,14.1,128.1,12.3,127.1,15.8,128.1,12.9,SD,mmHg,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,DBP,12wk,75.3,9.3,73.6,8.9,75.2,10.1,74.1,8.7,SD,mmHg,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,ALT,12wk,18.7,7.1,18.9,6.1,18.4,5.8,18.9,5.9,SD,U/L,,
+Morifuji_2024,NMN,Morifuji,2024,Parallel RCT,Healthy older adults 65-75y Japan,29,30,250,12,AST,12wk,24.9,5.5,25.1,5.3,24.3,4.9,24.0,4.2,SD,U/L,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,FBG,12wk,5.5,0.1,5.6,0.1,5.5,0.1,5.5,0.1,SEM,mmol/L,,Need ×18.018 for mg/dL
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,HbA1c,12wk,34.3,0.6,34.6,0.7,34.6,0.5,34.1,0.5,SEM,mmol/mol,,IFCC units
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,fasting_insulin,12wk,62.4,7.3,57.2,7.6,58.7,6.1,62.9,5.9,SEM,pmol/L,,Need /6.945 for uU/mL
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,HOMA-IR,12wk,2.5,0.3,2.3,0.3,2.3,0.2,2.5,0.3,SEM,,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,TC,12wk,5.5,0.3,5.3,0.2,5.3,0.2,5.2,0.2,SEM,mmol/L,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,LDL,12wk,3.5,0.2,3.5,0.2,3.5,0.2,3.4,0.2,SEM,mmol/L,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,HDL,12wk,1.2,0.1,1.2,0.1,1.1,0.1,1.1,0.1,SEM,mmol/L,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,TG,12wk,1.5,0.2,1.3,0.1,1.4,0.2,1.6,0.2,SEM,mmol/L,0.03,TG sig increased in NR group
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,ALT,12wk,43,5,40,4,40,5,40,4,SEM,U/L,,
+Dollerup_2018,NR,Dollerup,2018,Parallel RCT,Obese men 40-70y Denmark,20,20,2000,12,BMI,12wk,33.4,0.8,33.3,0.9,33.2,0.9,33.1,0.9,SEM,kg/m2,,
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,TC,8wk,5.17,0.98,5.19,0.92,5.46,0.86,5.55,0.77,SD,mmol/L,,NR 1000mg vs placebo
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,LDL,8wk,3.18,0.82,3.15,0.81,3.33,0.65,3.37,0.59,SD,mmol/L,,
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,HDL,8wk,1.38,0.42,1.42,0.45,1.46,0.37,1.48,0.35,SD,mmol/L,,
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,TG,8wk,1.33,0.65,1.38,0.69,1.45,0.80,1.56,0.95,SD,mmol/L,,
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,ALT,8wk,23.0,10.4,21.2,8.9,23.6,10.3,24.7,11.9,SD,U/L,,
+Conze_2019,NR,Conze,2019,Parallel RCT (4-arm),Healthy overweight 40-60y Canada,32,34,1000,8,AST,8wk,21.5,4.8,20.8,5.5,23.6,6.3,22.2,6.6,SD,U/L,,
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,FBG,6wk,,,5.44,0.13,,,5.48,0.14,SEM,mmol/L,0.70,Crossover end-of-period values
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,TC,6wk,,,5.55,0.35,,,5.54,0.30,SEM,mmol/L,0.99,
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,12,13,1000,6,LDL,6wk,,,3.37,0.17,,,3.42,0.18,SEM,mmol/L,0.52,n=12 for LDL
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,HDL,6wk,,,1.32,0.09,,,1.32,0.12,SEM,mmol/L,0.99,
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,TG,6wk,,,1.63,0.38,,,1.57,0.35,SEM,mmol/L,0.24,
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,body_weight,6wk,,,85.2,3.8,,,85.5,3.8,SD,kg,0.55,Body weight reported as SD
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,body_fat_pct,6wk,,,37.35,2.49,,,38.68,2.58,SEM,%,0.02,Significant decrease
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,FFM_pct,6wk,,,62.65,2.49,,,61.32,2.58,SEM,%,0.02,Significant increase
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,sleeping_metabolic_rate,6wk,,,6.68,0.30,,,6.49,0.31,SEM,MJ/day,0.05,
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,SBP,6wk,,,126.6,3.2,,,124.6,2.4,SEM,mmHg,0.56,36h ambulatory
+Remie_2020,NR,Remie,2020,Crossover RCT,Healthy overweight/obese 45-65y Netherlands,13,13,1000,6,DBP,6wk,,,77.9,2.0,,,77.1,1.8,SEM,mmHg,0.39,36h ambulatory
+Bandi_2025,NR,Bandi,2025,Parallel RCT (4-arm),Healthy aging 55-70y India,34,34,500,8.6,NAD+,60d,26.0,4.5,31.9,6.5,24.7,4.9,25.8,7.1,SD,uM,0.0009,
+Bandi_2025,NR,Bandi,2025,Parallel RCT (4-arm),Healthy aging 55-70y India,34,34,500,8.6,IL-6,60d,5.3,2.9,4.3,2.3,5.2,2.0,5.1,2.4,SD,pg/mL,0.087,NS vs placebo; sig within NR group

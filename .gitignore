@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.venv/
+
+# Full-text PDFs (copyrighted material)
+data/pdfs/
+
+# Large binary files
+PROSPERO.pdf
