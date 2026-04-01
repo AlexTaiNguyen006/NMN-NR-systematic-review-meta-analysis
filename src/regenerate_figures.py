@@ -268,7 +268,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     HLINE_Y  = k + 0.35   # separator under header
     SUMLINE_Y = 0.55      # separator above summary
 
-    # ── CI range for x-axis scaling ─────────────────────────────
+    # CI range for x-axis scaling
     all_lo = [te - 1.96 * se for te, se in zip(tes, ses)]
     all_up = [te + 1.96 * se for te, se in zip(tes, ses)]
     all_lo.append(ma["lo_r"]); all_up.append(ma["up_r"])
@@ -276,7 +276,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     x_pad = (x_max - x_min) * 0.18
     x_left = x_min - x_pad; x_right = x_max + x_pad
 
-    # ── Shared decorations ──────────────────────────────────────
+    # Shared decorations
     all_axes = [ax_lab, ax_for, ax_stat]
     _draw_hline(all_axes, HLINE_Y)
     _draw_hline(all_axes, SUMLINE_Y)
@@ -287,7 +287,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
         for spine in ax.spines.values():
             spine.set_visible(False)
 
-    # ── LEFT: study labels (single line) ────────────────────────
+    # LEFT: study labels (single line)
     ax_lab.set_xlim(0, 1)
     ax_lab.text(0.02, HEADER_Y, "Study", fontsize=ANNOT_SIZE, fontweight="bold",
                 va="center", ha="left")
@@ -303,7 +303,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
                 fontsize=ANNOT_SIZE, va="center", ha="left", fontweight="bold",
                 color=COL_DIAMOND)
 
-    # ── CENTRE: forest plot ─────────────────────────────────────
+    # CENTRE: forest plot
     ax_for.set_xlim(x_left, x_right)
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
@@ -330,7 +330,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
     ax_for.fill(diamond_x, diamond_y, color=COL_DIAMOND, alpha=0.70, zorder=5)
     ax_for.plot(diamond_x, diamond_y, color=COL_DIAMOND, linewidth=0.8, zorder=5)
 
-    # ── RIGHT: statistics column ────────────────────────────────
+    # RIGHT: statistics column
     ax_stat.set_xlim(0, 1)
 
     ax_stat.text(0.02, HEADER_Y, "MD [95% CI]", fontsize=ANNOT_SIZE,
@@ -412,7 +412,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
             spine.set_visible(False)
     _draw_hline(all_axes, HLINE_Y)
 
-    # ── LEFT: outcome labels ───────────────────────────────────
+    # LEFT: outcome labels
     ax_lab.set_xlim(0, 1)
     ax_lab.text(0.02, HEADER_Y, "Outcome", fontsize=ANNOT_SIZE, fontweight="bold",
                 va="center", ha="left")
@@ -420,7 +420,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
         ax_lab.text(0.02, y, pretty_outcome(oc), fontsize=ANNOT_SIZE,
                     va="center", ha="left")
 
-    # ── CENTRE: forest ─────────────────────────────────────────
+    # CENTRE: forest
     ax_for.set_xlim(x_left, x_right)
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
@@ -440,7 +440,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
                 transform=ax_for.transAxes, fontsize=SMALL_SIZE, ha="center",
                 style="italic", color="#888888")
 
-    # ── RIGHT: stats ───────────────────────────────────────────
+    # RIGHT: stats
     ax_stat.set_xlim(0, 1)
     ax_stat.text(0.04, HEADER_Y, "MD [95% CI]", fontsize=ANNOT_SIZE,
                  fontweight="bold", va="center", ha="left")
@@ -480,7 +480,7 @@ def network_graph(n_nmn, n_nr, filename):
     colors = {"Placebo": COL_PBO, "NMN": COL_NMN, "NR": COL_NR}
     node_k = {"Placebo": n_nmn + n_nr, "NMN": n_nmn, "NR": n_nr}
 
-    # ── Edges ─────────────────────────────────────────────────
+    # Edges
     lw_nmn = max(2.0, n_nmn * 0.8)
     lw_nr  = max(2.0, n_nr * 0.8)
 
@@ -522,7 +522,7 @@ def network_graph(n_nmn, n_nr, filename):
     ax.text(0.0, 2.22, "indirect", fontsize=SMALL_SIZE, ha="center",
             color="#999999", style="italic")
 
-    # ── Nodes ─────────────────────────────────────────────────
+    # Nodes
     for node, (x, y) in pos.items():
         sz = 700 + node_k[node] * 80
         ax.scatter(x, y, s=sz, c=colors[node], zorder=5,
@@ -731,7 +731,7 @@ if __name__ == "__main__":
     for r in data:
         by_outcome[r["outcome"]].append(r)
 
-    # ── Pairwise meta-analyses + forest plots ──────────────────
+    # Pairwise meta-analyses + forest plots
     print("\n[1/5] Pairwise forest plots ...")
     all_pairwise = {}
     count = 0
@@ -753,7 +753,7 @@ if __name__ == "__main__":
                 print(f"       {fname}")
     print(f"       -> {count} forest plots")
 
-    # ── NMA indirect comparisons ────────────────────────────────
+    # NMA indirect comparisons
     print("\n[2/5] NMA indirect comparisons ...")
     nma_results_dict = {}
     excluded_indirect = []
@@ -787,7 +787,7 @@ if __name__ == "__main__":
             w.writeheader(); w.writerows(excluded_indirect)
         print(f"       -> {len(excluded_indirect)} outcomes excluded from indirect comparison")
 
-    # ── Write result CSVs ───────────────────────────────────────
+    # Write result CSVs
     pw_rows = []
     for oc in sorted(all_pairwise.keys()):
         for prec in ["NMN", "NR"]:
@@ -872,11 +872,11 @@ if __name__ == "__main__":
     n_k1 = sum(1 for r in pw_rows if r["k"] == 1)
     print(f"\n  Result tables saved ({len(pw_rows)} pairwise, {len(nma_rows)} NMA, {n_k1} single-study warnings)")
 
-    # ── NMA summary forest ──────────────────────────────────────
+    # NMA summary forest
     print("\n[3/5] NMA summary forest plot ...")
     nma_summary_forest(nma_results_dict, "nma_forest_NMN_vs_NR_all")
 
-    # ── Network graph ───────────────────────────────────────────
+    # Network graph
     print("\n[4/5] Network graph ...")
     study_prec = set()
     for r in data:
@@ -885,12 +885,12 @@ if __name__ == "__main__":
     n_nr  = len(set(s for s, p in study_prec if p == "NR"))
     network_graph(n_nmn, n_nr, "network_graph.png")
 
-    # ── RoB 2 figures ───────────────────────────────────────────
+    # RoB 2 figures
     print("\n[5/5] RoB 2 figures ...")
     rob2_traffic_light("rob2_traffic_light")
     rob2_summary_bar("rob2_summary")
 
-    # ── Done ────────────────────────────────────────────────────
+    # Done
     print("\n" + "=" * 60)
     print("  All figures regenerated.")
     print(f"  Output: {FIGS}/")

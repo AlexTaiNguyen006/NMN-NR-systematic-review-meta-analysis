@@ -764,7 +764,7 @@ if __name__ == "__main__":
     for r in data:
         by_outcome[r["outcome"]].append(r)
 
-    # 1. Leave-one-out: pairwise ────────────────────────────
+    # 1. Leave-one-out: pairwise
     print("\n[1/4] Leave-one-out pairwise analyses...")
     loo_pw = leave_one_out_pairwise(by_outcome)
     write_csv(
@@ -791,7 +791,7 @@ if __name__ == "__main__":
             print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
                   f"p {r['full_p']} → {r['loo_p']}")
 
-    # 2. Leave-one-out: indirect ────────────────────────────
+    # 2. Leave-one-out: indirect
     print("\n[2/4] Leave-one-out indirect comparisons (NMN vs NR)...")
     loo_ind = leave_one_out_indirect(by_outcome)
     write_csv(
@@ -810,7 +810,7 @@ if __name__ == "__main__":
             print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) — "
                   f"p {r['full_p']} → {r['loo_p']}")
 
-    # 3. High-RoB exclusion ─────────────────────────────────
+    # 3. High-RoB exclusion
     print("\n[3/4] High-RoB exclusion analysis...")
     rob_report, rob_csv = high_rob_exclusion(data, by_outcome)
     for line in rob_report:
@@ -822,7 +822,7 @@ if __name__ == "__main__":
          "reason_excluded_from_nma", "effect_on_results"],
     )
 
-    # 4. LOO figures ────────────────────────────────────────
+    # 4. LOO figures
     print("\n[4/4] LOO sensitivity figures...")
 
     # Per-outcome LOO forest for NAD+ (the only significant indirect comparison)

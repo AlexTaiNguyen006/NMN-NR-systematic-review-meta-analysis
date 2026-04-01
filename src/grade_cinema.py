@@ -30,7 +30,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures")
 RES  = os.path.join(BASE, "results", "tables")
 
-# Style ──────────────────────────────────────────────────────────
+# Style
 FONT_FAMILY = "Arial"
 DPI = 300
 plt.rcParams.update({

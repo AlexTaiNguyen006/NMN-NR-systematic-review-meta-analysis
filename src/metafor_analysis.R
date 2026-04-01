@@ -34,9 +34,8 @@ dir.create(fig_dir, showWarnings = FALSE, recursive = TRUE)
 dat <- read_csv(data_file, show_col_types = FALSE)
 
 # Flag NAD+ unit incompatibility — exclude from indirect comparison
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("NAD+ UNIT CHECK\n")
-cat("══════════════════════════════════════════════════\n")
 nad_rows <- dat %>% filter(outcome == "NAD+")
 cat("NAD+ entries:\n")
 print(nad_rows %>% select(study_id, precursor, unit, md, se_md, notes))
@@ -45,9 +44,7 @@ cat("These units differ by ~1000x. Indirect comparison is INVALID.\n")
 cat("NAD+ will be excluded from indirect comparisons.\n\n")
 
 # Flag crossover studies
-cat("══════════════════════════════════════════════════\n")
 cat("CROSSOVER STUDY CHECK\n")
-cat("══════════════════════════════════════════════════\n")
 crossover <- dat %>% filter(grepl("Crossover", design, ignore.case = TRUE))
 cat(sprintf("Crossover studies in data: %d rows\n", nrow(crossover)))
 if (nrow(crossover) > 0) {
@@ -59,9 +56,8 @@ if (nrow(crossover) > 0) {
 }
 
 # Pairwise meta-analysis (REML estimator)
-cat("══════════════════════════════════════════════════\n")
 cat("PAIRWISE META-ANALYSES (metafor, REML)\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 outcomes <- sort(unique(dat$outcome))
 precursors <- c("NMN", "NR")
@@ -144,9 +140,8 @@ cat(sprintf("\nSaved: pairwise_metafor_REML.csv (%d comparisons)\n\n", nrow(pw_d
 
 
 # INDIRECT COMPARISONS (Bucher method)
-cat("══════════════════════════════════════════════════\n")
 cat("INDIRECT COMPARISONS (NMN vs NR via Bucher)\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 indirect_results <- list()
 
@@ -219,9 +214,9 @@ for (oc in outcomes) {
 ind_df <- bind_rows(indirect_results)
 
 # MULTIPLE TESTING CORRECTION
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("MULTIPLE TESTING CORRECTION\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 # Only correct tests that have valid p-values (exclude NAD+ which was skipped)
 valid_tests <- ind_df %>% filter(!is.na(p_value))
@@ -266,9 +261,8 @@ cat(sprintf("\nSaved: indirect_comparisons_metafor_REML.csv\n\n"))
 
 
 # SENSITIVITY ANALYSIS: EXCLUDE CROSSOVER STUDIES
-cat("══════════════════════════════════════════════════\n")
 cat("SENSITIVITY: EXCLUDING CROSSOVER STUDIES\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 dat_parallel <- dat %>% filter(!grepl("Crossover", design, ignore.case = TRUE))
 crossover_studies <- dat %>%
@@ -340,9 +334,9 @@ for (oc in outcomes) {
 
 
 # COMPARISON: REML vs DL (DerSimonian-Laird)
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("COMPARISON: REML vs DL ESTIMATOR\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 for (oc in outcomes) {
   for (prec in precursors) {
@@ -372,9 +366,9 @@ for (oc in outcomes) {
 
 
 # TRANSITIVITY ASSESSMENT TABLE
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("TRANSITIVITY ASSESSMENT\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 # Read study characteristics
 char_file <- file.path(base_dir, "data", "extraction", "study_characteristics_curated.csv")
@@ -467,9 +461,9 @@ cat("\nSaved: transitivity_assessment.csv\n")
 
 
 # OUTCOME REPORTING MATRIX (study × outcome)
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("OUTCOME REPORTING MATRIX\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 outcome_matrix <- dat %>%
   mutate(reported = 1) %>%
@@ -492,9 +486,9 @@ print(as.data.frame(wide_data))
 
 
 # k=1 META-ANALYSIS WARNING TABLE
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("SINGLE-STUDY (k=1) WARNINGS\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 k1_warnings <- pw_df %>%
   filter(k == 1) %>%
@@ -511,9 +505,9 @@ if (nrow(both_k1) > 0) print(as.data.frame(both_k1 %>% select(outcome, k_NMN, k_
 
 
 # FINAL SUMMARY
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
 cat("ANALYSIS COMPLETE — SUMMARY\n")
-cat("══════════════════════════════════════════════════\n\n")
+cat("\n")
 
 cat("Output files:\n")
 cat("  1. pairwise_metafor_REML.csv        — Primary pairwise meta-analyses\n")
@@ -540,4 +534,4 @@ if (nrow(sig_indirect) == 0) {
 cat("\n  → NAD+ indirect comparison: EXCLUDED (unit incompatibility)\n")
 cat("  → Previous headline result (MD=4.90, p=0.015) was based on\n")
 cat("    incorrect data extraction and incompatible biological measurements.\n")
-cat("\n══════════════════════════════════════════════════\n")
+cat("\n")
