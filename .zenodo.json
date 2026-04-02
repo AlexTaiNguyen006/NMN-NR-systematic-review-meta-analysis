@@ -3,8 +3,11 @@
   "description": "Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human randomized controlled trials.",
   "creators": [
     {
-      "name": "Nguyen, Tai",
+      "name": "Nguyen, Alexander",
       "orcid": "0009-0008-1238-4067"
+    },
+    {
+      "name": "Nguyen, Bryan"
     }
   ],
   "license": "MIT",

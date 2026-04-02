@@ -4,8 +4,10 @@ message: If you use this repository, please cite this work.
 type: dataset
 authors:
   - family-names: Nguyen
-    given-names: Tai
+    given-names: Alexander
     orcid: https://orcid.org/0009-0008-1238-4067
+  - family-names: Nguyen
+    given-names: Bryan
 repository-code: https://github.com/AlexTaiNguyen006/NMN-NR-systematic-review-meta-analysis
 license: MIT
 abstract: Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human randomized controlled trials.
