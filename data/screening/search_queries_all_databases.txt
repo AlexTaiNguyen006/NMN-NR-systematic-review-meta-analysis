@@ -2,6 +2,7 @@ SEARCH QUERIES FOR ALL DATABASES
 NMN vs NR for Metabolic Outcomes — Systematic Review & Network Meta-Analysis
 PROSPERO Registration: CRD420261330487
 Search Date: March 6, 2026
+================================================================================
 
 The search strategy uses three concept blocks combined with AND:
   Block 1: NAD+ precursors (NMN, NR, NIAGEN)
