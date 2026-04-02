@@ -208,7 +208,7 @@ def assess_indirectness(outcome, studies_nmn, studies_nr):
     #       Katayoshi (Japan, healthy), Morifuji (Japan, healthy elderly)
     # NR:  Dollerup (Denmark, obese men), Conze (Canada, healthy overweight),
     #       Remie (Netherlands, obese), Bandi (India, healthy aging)
-    # → Different populations, doses, durations — systematic concern for transitivity
+    # Different populations, doses, durations - systematic concern for transitivity
 
     note = ("Populations differ: NMN trials mostly Asian (3/4), "
             "NR trials mostly Western (3/4); BMI ranges differ; "
