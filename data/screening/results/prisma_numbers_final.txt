@@ -1,5 +1,4 @@
 PRISMA 2020 Flow Diagram Numbers
-================================
 
 Identification:
   Records from databases: 1,687
