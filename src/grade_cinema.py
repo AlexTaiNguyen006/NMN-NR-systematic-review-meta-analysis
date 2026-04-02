@@ -258,7 +258,7 @@ def assess_heterogeneity(ma_nmn, ma_nr):
                f"NR arm: I²={ma_nr['I2']*100:.0f}% (k={k_nr})")
 
     if i2_max == 0 and k_nmn == 1 and k_nr == 1:
-        return "Some concerns", details + "; single study per arm — heterogeneity not estimable"
+        return "Some concerns", details + "; single study per arm - heterogeneity not estimable"
     elif i2_max < 0.25:
         return "No concerns", details
     elif i2_max < 0.50:

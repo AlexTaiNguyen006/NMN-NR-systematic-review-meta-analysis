@@ -6,7 +6,7 @@ Systematic review and network meta-analysis comparing nicotinamide mononucleotid
 
 ## Overview
 
-This project includes 15 RCTs (8 NMN, 7 NR) with a total of 73 extracted effect sizes across 17 cardiometabolic outcomes. Key analyses:
+This project includes 15 RCTs (5 NMN, 10 NR) in qualitative synthesis, of which 8 (4 NMN, 4 NR) contributed extractable data for quantitative network meta-analysis, yielding 73 effect sizes across 21 outcomes. Key analyses:
 
 - Pairwise random-effects meta-analyses (NMN vs placebo, NR vs placebo)
 - Indirect network meta-analysis comparisons (NMN vs NR via Bucher method)
@@ -20,7 +20,6 @@ This project includes 15 RCTs (8 NMN, 7 NR) with a total of 73 extracted effect 
 data/
   extraction/      Curated data extraction files and RoB 2 assessments
   screening/       Search records from PubMed, Embase, Scopus, WoS, CENTRAL
-  fulltext/        Text extracts used during data extraction
 src/               Analysis scripts (Python + R)
 results/
   figures/         Forest plots, PRISMA flow, RoB figures, etc.

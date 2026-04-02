@@ -425,7 +425,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
     ax_for.axvline(0, color=COL_ZERO_LINE, linestyle="--", linewidth=0.7, zorder=1)
-    ax_for.set_xlabel("Mean Difference (MD) \u2014 NMN vs NR (indirect)",
+    ax_for.set_xlabel("Mean Difference (MD) - NMN vs NR (indirect)",
                        fontsize=AXIS_LABEL_SIZE, labelpad=8)
 
     for oc, y in zip(ocs, y_positions):
@@ -660,7 +660,7 @@ def rob2_traffic_light(filename_base):
               frameon=False, handletextpad=0.4, columnspacing=1.5)
 
     # Title via suptitle so it sits above domain labels
-    fig.suptitle("Risk of Bias 2 \u2014 Traffic-Light Plot",
+    fig.suptitle("Risk of Bias 2 - Traffic-Light Plot",
                  fontsize=TITLE_SIZE, fontweight="bold",
                  x=ax_left + ax_w/2, y=1 - 0.02)
 
@@ -710,7 +710,7 @@ def rob2_summary_bar(filename_base):
               bbox_to_anchor=(0.5, -0.22), ncol=3, fontsize=LEGEND_SIZE,
               frameon=False, handletextpad=0.4, columnspacing=1.5)
 
-    ax.set_title("Risk of Bias 2 \u2014 Summary",
+    ax.set_title("Risk of Bias 2 - Summary",
                  fontsize=TITLE_SIZE, fontweight="bold", pad=10)
 
     fig.tight_layout()
@@ -835,7 +835,7 @@ if __name__ == "__main__":
                 if k_nr == 1: parts.append("NR arm k=1")
                 note = f"Caution: {', '.join(parts)}"
             elif not is_indirect and v.get("k") == 1:
-                note = "Single study — no meta-analysis"
+                note = "Single study - no meta-analysis"
             nma_rows.append({
                 "outcome": oc, "comparison": comp_label,
                 "MD": round(v["te"], 4), "lower_CI": round(v["lo"], 4),
