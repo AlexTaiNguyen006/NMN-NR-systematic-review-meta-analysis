@@ -153,10 +153,9 @@ VERIFIED = {
         "disp_type": "SEM",
         "paper_table": "Table 1",
         "notes": "After values: NMN 5.6±0.2, Placebo 5.6±0.2 mmol/L (SEM). "
-                 "Both groups = 100.9 mg/dL. MD should be ~0, not 2.0. "
-                 "Extraction has 101.0 vs 99.0 — may be from supplementary "
-                 "data with more decimal precision, but p-values show NS.",
-        "severity": "NEEDS_VERIFICATION",
+                 "Both groups = 100.9008 mg/dL. MD = 0.0000. "
+                 "Corrected in fix_all_extractions.py; now matches paper.",
+        "severity": "OK",
     },
 }
 
