@@ -1,0 +1,22 @@
+{
+  "title": "NMN vs NR: Systematic Review and Network Meta-Analysis",
+  "description": "Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human randomized controlled trials.",
+  "creators": [
+    {
+      "name": "Nguyen, Tai",
+      "orcid": "0009-0008-1238-4067"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "systematic review",
+    "network meta-analysis",
+    "NMN",
+    "NR",
+    "cardiometabolic",
+    "randomized controlled trial"
+  ],
+  "upload_type": "dataset",
+  "publication_date": "2026-04-02",
+  "access_right": "open"
+}

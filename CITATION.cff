@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: NMN vs NR: Systematic Review and Network Meta-Analysis
+message: If you use this repository, please cite this work.
+type: dataset
+authors:
+  - family-names: Nguyen
+    given-names: Tai
+    orcid: https://orcid.org/0009-0008-1238-4067
+repository-code: https://github.com/AlexTaiNguyen006/NMN-NR-systematic-review-meta-analysis
+license: MIT
+abstract: Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human randomized controlled trials.
+keywords:
+  - systematic review
+  - network meta-analysis
+  - nicotinamide mononucleotide
+  - nicotinamide riboside
+  - cardiometabolic outcomes
+  - randomized controlled trial
+version: v1.0.0
+date-released: 2026-04-02
