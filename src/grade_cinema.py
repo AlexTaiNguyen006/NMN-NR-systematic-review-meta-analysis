@@ -1,21 +1,12 @@
 #!/usr/bin/env python3
 """
-GRADE / CINeMA certainty-of-evidence assessment for NMN vs NR NMA.
-
-Evaluates each indirect NMN vs NR comparison across the CINeMA framework:
-  1. Within-study bias (from RoB 2)
-  2. Reporting bias
-  3. Indirectness
-  4. Imprecision
-  5. Heterogeneity
-  6. Incoherence (not applicable — no direct NMN vs NR evidence)
-
-Outputs:
-  results/tables/grade_cinema_assessment.csv
-  results/figures/grade_cinema_heatmap.png
+GRADE / CINeMA certainty-of-evidence assessment for NMN vs NR indirect
+comparisons. Evaluates six CINeMA domains and produces a heatmap.
 """
 
-import csv, math, os
+import csv
+import math
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -272,7 +263,7 @@ def assess_heterogeneity(ma_nmn, ma_nr):
 def assess_incoherence():
     """
     Domain 6: Incoherence.
-    Not applicable — no direct NMN vs NR evidence exists.
+    Not applicable -- no direct NMN vs NR evidence exists.
     Cannot assess consistency between direct and indirect evidence.
     """
     return "Not applicable", "No direct NMN vs NR comparisons; incoherence cannot be evaluated"
@@ -506,7 +497,7 @@ def make_heatmap(results):
 
 def print_summary(results):
     print("\n" + "=" * 80)
-    print("GRADE/CINeMA SUMMARY — NMN vs NR Indirect Comparisons")
+    print("GRADE/CINeMA SUMMARY -- NMN vs NR Indirect Comparisons")
     print("=" * 80)
     print(f"{'Outcome':<22} {'MD [95% CI]':<32} {'Certainty':<12} {'Downgrades'}")
     print("-" * 80)

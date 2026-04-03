@@ -22,7 +22,7 @@ os.makedirs(RES, exist_ok=True)
 # }
 
 VERIFIED = {
-    # Huang 2022 (Frontiers in Aging, Table 2–8, 10–13)
+    # Huang 2022 (Frontiers in Aging, Table 2-8, 10-13)
     # Paper reports Day 60 end-of-study values; dispersion is SD unless noted
     ("Huang_2022", "NAD+"): {
         "paper_treat_mean": 9.07, "paper_treat_disp": 5.65,
@@ -299,7 +299,7 @@ def verify_all():
     print()
     print("  Even if converted to common units, the measurements are from")
     print("  different biological matrices (blood cellular vs blood/serum)")
-    print("  using different assays — making comparison scientifically invalid.")
+    print("  using different assays, making comparison scientifically invalid.")
     print()
     print("  CONCLUSION: The NAD+ indirect comparison CANNOT be performed.")
     print("  The only statistically significant result in the paper does not exist.")

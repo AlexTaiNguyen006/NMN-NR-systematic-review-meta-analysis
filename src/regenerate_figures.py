@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""
-Unified figure generation for NMN vs NR NMA.
-All figures share a single style configuration to ensure consistency.
-"""
+# regenerate_figures.py -- generates all forest plots, network graph,
+# RoB summary/traffic-light, and GRADE heatmap from nma_input_long.csv.
 
 import csv, math, os, sys
 import matplotlib
@@ -219,7 +217,7 @@ def outcome_unit(oc):
     return OUTCOME_UNITS.get(oc, "")
 
 
-# FOREST PLOT  — 3-column layout: labels | plot | stats
+# FOREST PLOT -- 3-column layout: labels | plot | stats
 
 def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
     """Draw a horizontal separator across all panels at the same y."""
@@ -230,9 +228,9 @@ def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
 def forest_plot(ma, outcome, comparison_label, filename):
     """
     Publication-quality forest plot with separate columns for:
-      Left   – study label (single line with n)
-      Centre – CI whiskers + square
-      Right  – MD [95% CI]  Weight%
+      Left   - study label (single line with n)
+      Centre - CI whiskers + square
+      Right  - MD [95% CI]  Weight%
     """
     if ma is None or ma["k"] == 0:
         return
@@ -493,7 +491,7 @@ def network_graph(n_nmn, n_nr, filename):
             [pos["NR"][1], pos["Placebo"][1]],
             "-", color="#555555", linewidth=lw_nr, alpha=0.60, zorder=1)
 
-    # Edge labels — compute real angle from coordinates
+    # Edge labels -- compute real angle from coordinates
     import math as _m
     def _edge_angle(x1, y1, x2, y2):
         return _m.degrees(_m.atan2(y2 - y1, x2 - x1))
@@ -583,7 +581,7 @@ def rob2_traffic_light(filename_base):
     n = len(studies)
     nd = len(ROB_DOMAIN_KEYS)
 
-    # Figure sizing — no aspect="equal"; use Ellipse to keep circles round
+    # Figure sizing -- no aspect="equal"; use Ellipse to keep circles round
     col_w_in = 1.45   # inches per domain column (wide enough for labels)
     row_h_in = 0.52   # inches per study row
     margin_left   = 2.6

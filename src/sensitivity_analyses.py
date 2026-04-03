@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 """
-Sensitivity analyses for NMN vs NR NMA.
-  1. Leave-one-out (LOO) analysis for all pairwise comparisons with k ≥ 2
-  2. LOO impact on indirect NMN vs NR comparisons
-  3. Excluding high-RoB studies (Igarashi 2022, Elhassan 2019)
-
-Outputs:
-  results/tables/sensitivity_loo_pairwise.csv
-  results/tables/sensitivity_loo_indirect.csv
-  results/tables/sensitivity_high_rob_exclusion.csv
-  results/figures/sensitivity_loo_forest_*.png
+Sensitivity analyses for NMN vs NR NMA:
+  - Leave-one-out (LOO) for pairwise comparisons with k >= 2
+  - LOO impact on indirect NMN vs NR comparisons
+  - Excluding high-RoB studies (Igarashi 2022, Elhassan 2019)
 """
 
-import csv, math, os, sys
+import csv
+import math
+import os
+import sys
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -307,14 +304,14 @@ def high_rob_exclusion(data, by_outcome):
         report.append("    Igarashi 2022: High overall RoB due to supplement preparation error")
         report.append("      causing 52% attrition (only 10/21 analyzed per arm at 12 weeks).")
         report.append("      Metabolic data available only in supplementary tables with")
-        report.append("      incomplete reporting — excluded from quantitative synthesis.")
+        report.append("      incomplete reporting - excluded from quantitative synthesis.")
         report.append("    Elhassan 2019: High overall RoB due to non-registration and selective")
         report.append("      reporting of metabolic outcomes (relegated to supplementary tables).")
         report.append("      Only 12 participants in crossover; no extractable metabolic data")
         report.append("      in format suitable for meta-analysis.")
         report.append("\n>>> CONCLUSION: Excluding high-RoB studies has NO EFFECT on any")
         report.append("    pairwise or indirect comparison. All results are robust to this")
-        report.append("    sensitivity analysis by design — high-RoB studies were excluded")
+        report.append("    sensitivity analysis by design: high-RoB studies were excluded")
         report.append("    from the quantitative NMA a priori due to insufficient data.")
 
         # Create CSV with the documentation
@@ -340,7 +337,7 @@ def high_rob_exclusion(data, by_outcome):
             by_oc_filtered[r["outcome"]].append(r)
         # Compare full vs filtered for each indirect comparison
         # ... (not needed in this case)
-        report.append("\n>>> Some high-RoB studies present — computing filtered results...")
+        report.append("\n>>> Some high-RoB studies present -- computing filtered results...")
         return report, []
 
 
@@ -784,12 +781,12 @@ if __name__ == "__main__":
     print(f"  Significance changes: {len(sig_changes)}")
     if dir_changes:
         for r in dir_changes:
-            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
-                  f"MD {r['full_MD']} → {r['loo_MD']}")
+            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} - "
+                  f"MD {r['full_MD']} -> {r['loo_MD']}")
     if sig_changes:
         for r in sig_changes:
-            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
-                  f"p {r['full_p']} → {r['loo_p']}")
+            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} - "
+                  f"p {r['full_p']} -> {r['loo_p']}")
 
     # 2. Leave-one-out: indirect
     print("\n[2/4] Leave-one-out indirect comparisons (NMN vs NR)...")
@@ -807,8 +804,8 @@ if __name__ == "__main__":
     print(f"  Significance changes: {len(sig_ind)}")
     if sig_ind:
         for r in sig_ind:
-            print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) — "
-                  f"p {r['full_p']} → {r['loo_p']}")
+            print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) - "
+                  f"p {r['full_p']} -> {r['loo_p']}")
 
     # 3. High-RoB exclusion
     print("\n[3/4] High-RoB exclusion analysis...")
@@ -828,8 +825,8 @@ if __name__ == "__main__":
     # Per-outcome LOO forest for NAD+ (the only significant indirect comparison)
     loo_nad = [r for r in loo_ind if r["outcome"] == "NAD+"]
     if loo_nad:
-        # NAD+ has k=1 each arm so no LOO is possible — document this
-        print("  NAD+ (k=1 per arm): no LOO possible — single study per arm")
+        # NAD+ has k=1 each arm so no LOO is possible, document this
+        print("  NAD+ (k=1 per arm): no LOO possible, single study per arm")
 
     # LOO forests for pairwise comparisons that had significance changes
     for r in sig_changes:

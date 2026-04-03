@@ -51,8 +51,8 @@ def make_row(study, precursor, outcome, n_t, n_c, t_mean, t_sd, c_mean, c_sd,
 
 def get_dollerup_corrections():
     """
-    Dollerup 2018 — Table 3 post-treatment (NR=treatment, Placebo=control)
-    All SEM, n=20 per group. SD = SEM × √20 = SEM × 4.4721
+    Dollerup 2018, Table 3 post-treatment (NR=treatment, Placebo=control)
+    All SEM, n=20 per group. SD = SEM * sqrt(20) = SEM * 4.4721
     """
     n = 20
     s = math.sqrt(n)
@@ -122,8 +122,8 @@ def get_dollerup_corrections():
 
 def get_yoshino_corrections():
     """
-    Yoshino 2021 — Table 1 "After" column
-    NMN n=13, Placebo n=12. All SEM. SD = SEM × √n
+    Yoshino 2021, Table 1 "After" column
+    NMN n=13, Placebo n=12. All SEM. SD = SEM * sqrt(n)
     """
     n_t = 13  # NMN
     n_c = 12  # Placebo
@@ -184,7 +184,7 @@ def get_yoshino_corrections():
 
 def get_katayoshi_corrections():
     """
-    Katayoshi 2023 — Table 2, "12 weeks" column
+    Katayoshi 2023, Table 2, "12 weeks" column
     NMN n=17, Placebo n=17. Reports SD directly.
     """
     n = 17
@@ -245,7 +245,7 @@ def get_katayoshi_corrections():
 
 def get_morifuji_corrections():
     """
-    Morifuji 2024 — Table 3 (body composition 12W), Table 6 (blood chemistry 12W)
+    Morifuji 2024, Table 3 (body composition 12W), Table 6 (blood chemistry 12W)
     NMN n=30, Placebo n=29. Reports SD directly.
     NOTE: CSV had groups swapped (n_treat=29, n_ctrl=30). Correcting to NMN=30, Pbo=29.
     """

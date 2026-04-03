@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
-"""
-Generate supplementary tables for manuscript.
+"""Generate supplementary tables S1-S9 for manuscript."""
 
-Outputs:
-  results/tables/supp_table_S1_search_strategy.csv
-  results/tables/supp_table_S2_study_characteristics.csv
-  results/tables/supp_table_S3_full_extraction.csv
-  results/tables/supp_table_S4_rob2_detailed.csv
-  results/tables/supp_table_S5_pairwise_all.csv
-  results/tables/supp_table_S6_nma_all.csv
-  results/tables/supp_table_S7_loo_summary.csv
-  results/tables/supp_table_S8_grade_summary.csv
-  results/tables/supp_table_S9_inter_rater_agreement.csv
-"""
-
-import csv, os
+import csv
+import os
 from collections import defaultdict
 
 BASE = "/Users/tainguyen/Documents/NMN_vs_NR_SR_NMA"
@@ -305,10 +293,10 @@ def make_S7():
                     "n_loo": 0,
                     "full_MD": f"{float(nma_row['MD']):.4f}",
                     "full_p": f"{float(nma_row['p_value']):.4f}",
-                    "loo_MD_range": "—",
+                    "loo_MD_range": "-",
                     "direction_changes": "",
                     "significance_changes": "",
-                    "robust": "—",
+                    "robust": "-",
                     "note": "k=1 each arm; LOO not possible",
                 })
 

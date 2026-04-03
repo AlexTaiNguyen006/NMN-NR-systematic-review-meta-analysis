@@ -2,7 +2,7 @@
 
 Systematic review and network meta-analysis comparing nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) supplementation on cardiometabolic outcomes in human RCTs.
 
-**PROSPERO Registration:** CRD420261330487
+**PROSPERO Registration:** [CRD420261330487](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=1330487)
 
 ## Overview
 
@@ -18,12 +18,13 @@ This project includes 15 RCTs (5 NMN, 10 NR) in qualitative synthesis, of which 
 
 ```
 data/
-  extraction/      Curated data extraction files and RoB 2 assessments
-  screening/       Search records from PubMed, Embase, Scopus, WoS, CENTRAL
-src/               Analysis scripts (Python + R)
+  extraction/          Curated data extraction files and RoB 2 assessments
+  screening/           Search records from PubMed, Embase, Scopus, WoS, CENTRAL
+    results/           Dual-reviewer screening/full-text records, final included/excluded lists
+src/                   Analysis scripts (Python + R)
 results/
-  figures/         Forest plots, PRISMA flow, RoB figures, etc.
-  tables/          Pairwise results, NMA results, supplementary tables
+  figures/             Forest plots, funnel plots, PRISMA flow, RoB, network, sensitivity, GRADE
+  tables/              Pairwise results, NMA results, supplementary tables S1-S10
 ```
 
 ## Analysis Scripts
@@ -33,7 +34,7 @@ results/
 | `regenerate_figures.py` | Forest plots, network graph, RoB figures, GRADE heatmap |
 | `sensitivity_analyses.py` | Leave-one-out and high-RoB exclusion analyses |
 | `grade_cinema.py` | GRADE/CINeMA certainty of evidence assessment |
-| `supplementary_tables.py` | Supplementary Tables S1–S9 |
+| `supplementary_tables.py` | Supplementary Tables S1-S9 |
 | `prisma_flow.py` | PRISMA 2020 flow diagram |
 | `metafor_analysis.R` | R/metafor REML validation of pairwise and indirect results |
 | `data_verification.py` | Cross-checks extracted data against source papers |

@@ -33,7 +33,7 @@ dir.create(fig_dir, showWarnings = FALSE, recursive = TRUE)
 # Read data
 dat <- read_csv(data_file, show_col_types = FALSE)
 
-# Flag NAD+ unit incompatibility — exclude from indirect comparison
+# Flag NAD+ unit incompatibility -- exclude from indirect comparison
 cat("\n")
 cat("NAD+ UNIT CHECK\n")
 nad_rows <- dat %>% filter(outcome == "NAD+")
@@ -73,7 +73,7 @@ for (oc in outcomes) {
     comparison <- paste0(prec, " vs Placebo")
     
     if (k == 1) {
-      # Single study — no meta-analysis possible, report as-is
+      # Single study -- no meta-analysis possible, report as-is
       row <- subset[1, ]
       res_row <- data.frame(
         outcome = oc,
@@ -153,7 +153,7 @@ for (oc in outcomes) {
   
   # Check NAD+ unit incompatibility
   if (oc == "NAD+") {
-    cat(sprintf("  %s: SKIPPED — incompatible units (pmol/mL vs µM)\n", oc))
+    cat(sprintf("  %s: SKIPPED -- incompatible units (pmol/mL vs µM)\n", oc))
     ind_row <- data.frame(
       outcome = oc,
       comparison = "NMN vs NR",
@@ -382,8 +382,8 @@ trans_summary <- nma_studies %>%
   summarise(
     n_studies = n(),
     countries = paste(unique(country), collapse = "; "),
-    dose_range = paste0(min(dose_mg_day), "–", max(dose_mg_day), " mg/day"),
-    duration_range = paste0(min(duration_weeks), "–", max(duration_weeks), " weeks"),
+    dose_range = paste0(min(dose_mg_day), "-", max(dose_mg_day), " mg/day"),
+    duration_range = paste0(min(duration_weeks), "-", max(duration_weeks), " weeks"),
     designs = paste(unique(design), collapse = "; "),
     populations = paste(unique(population), collapse = "; "),
     mean_n = round(mean(n_randomized), 1),
@@ -423,27 +423,27 @@ trans_domains <- data.frame(
   NMN_arm = c(
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(dose_mg_day) %>% unique() %>% sort(), collapse = ", ") %>% paste("mg/day"),
     "0.75 mmol/day (all studies)",
-    paste(nma_studies %>% filter(precursor == "NMN") %>% pull(duration_weeks) %>% range(), collapse = "–") %>% paste("weeks"),
+    paste(nma_studies %>% filter(precursor == "NMN") %>% pull(duration_weeks) %>% range(), collapse = "-") %>% paste("weeks"),
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(country) %>% unique(), collapse = ", "),
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(health_status) %>% unique(), collapse = "; "),
-    "49–69 years",
+    "49-69 years",
     "All parallel RCT",
     "Mixed: metabolic secondary in most",
-    "Blood cellular NAD+/NADH (pmol/mL) — Huang 2022 only"
+    "Blood cellular NAD+/NADH (pmol/mL), Huang 2022 only"
   ),
   NR_arm = c(
     paste(nma_studies %>% filter(precursor == "NR") %>% pull(dose_mg_day) %>% unique() %>% sort(), collapse = ", ") %>% paste("mg/day"),
-    "1.72–6.88 mmol/day",
-    paste(nma_studies %>% filter(precursor == "NR") %>% pull(duration_weeks) %>% range(), collapse = "–") %>% paste("weeks"),
+    "1.72-6.88 mmol/day",
+    paste(nma_studies %>% filter(precursor == "NR") %>% pull(duration_weeks) %>% range(), collapse = "-") %>% paste("weeks"),
     paste(nma_studies %>% filter(precursor == "NR") %>% pull(country) %>% unique(), collapse = ", "),
     paste(nma_studies %>% filter(precursor == "NR") %>% pull(health_status) %>% unique(), collapse = "; "),
-    "51–59 years",
+    "51-59 years",
     "Parallel + Crossover",
     "Safety primary in Conze; metabolic secondary in others",
-    "Blood NAD+ (µM) — Bandi 2025 only"
+    "Blood NAD+ (uM), Bandi 2025 only"
   ),
   Assessment = c(
-    "Major concern: 2–8× range in NR vs narrow band in NMN",
+    "Major concern: 2-8x range in NR vs narrow band in NMN",
     "Major concern: up to 9.2× molar dose difference",
     "Moderate concern: overlapping but wider NR range",
     "Major concern: Japan/India (NMN) vs Denmark/Canada/India (NR)",
@@ -506,15 +506,15 @@ if (nrow(both_k1) > 0) print(as.data.frame(both_k1 %>% select(outcome, k_NMN, k_
 
 # FINAL SUMMARY
 cat("\n")
-cat("ANALYSIS COMPLETE — SUMMARY\n")
+cat("ANALYSIS COMPLETE -- SUMMARY\n")
 cat("\n")
 
 cat("Output files:\n")
-cat("  1. pairwise_metafor_REML.csv        — Primary pairwise meta-analyses\n")
-cat("  2. indirect_comparisons_metafor_REML.csv — Indirect comparisons + multiplicity\n")
-cat("  3. sensitivity_no_crossover_metafor.csv  — Crossover exclusion sensitivity\n")
-cat("  4. transitivity_assessment.csv       — Formal transitivity domains\n")
-cat("  5. outcome_reporting_matrix.csv      — Study × outcome heatmap data\n")
+cat("  1. pairwise_metafor_REML.csv        -- Primary pairwise meta-analyses\n")
+cat("  2. indirect_comparisons_metafor_REML.csv -- Indirect comparisons + multiplicity\n")
+cat("  3. sensitivity_no_crossover_metafor.csv  -- Crossover exclusion sensitivity\n")
+cat("  4. transitivity_assessment.csv       -- Formal transitivity domains\n")
+cat("  5. outcome_reporting_matrix.csv      -- Study x outcome heatmap data\n")
 cat("\nKey findings after data correction:\n")
 
 sig_indirect <- ind_df %>% filter(!is.na(p_value) & p_value < 0.05)

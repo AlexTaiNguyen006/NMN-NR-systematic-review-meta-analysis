@@ -89,7 +89,7 @@ def read_data(path):
 
 
 def pairwise_ma(studies):
-    """DerSimonian-Laird random effects — returns summary estimate."""
+    """DerSimonian-Laird random effects, returns summary estimate."""
     k = len(studies)
     tes = [s["md"] for s in studies]
     ses = [s["se_md"] for s in studies]
@@ -276,9 +276,15 @@ def main():
         w.writeheader()
         w.writerows(results)
 
+    # Also write as Supplementary Table S10
+    s10_path = os.path.join(RES, "supp_table_S10_publication_bias.csv")
+    import shutil
+    shutil.copy2(outpath, s10_path)
+
     n_plots = sum(1 for r in results if r["funnel_plot"].endswith(".png"))
     print(f"\nGenerated {n_plots} funnel plots")
     print(f"Saved: {outpath}")
+    print(f"Saved: {s10_path}")
     print(f"\nNOTE: All comparisons have k <= 4. Funnel plots and Egger's")
     print(f"test are provided for transparency but are not reliably")
     print(f"interpretable below k = 10 (Cochrane Handbook, §13.3.5.4).")
