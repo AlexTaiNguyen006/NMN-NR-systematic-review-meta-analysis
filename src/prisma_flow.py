@@ -331,7 +331,7 @@ def main():
     # Bottom notes -
     note_y = b_nma.bottom - 0.70
     ax.text(FIG_W / 2, note_y,
-            "Search: January 2018 - March 2026  |  "
+            "Search: January 2018 - March 2025  |  "
             "Databases: PubMed, Embase, Scopus, Web of Science, Cochrane CENTRAL",
             ha="center", va="center", fontsize=7.5, color="#888888",
             style="italic")
