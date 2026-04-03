@@ -57,4 +57,4 @@ All results (figures and tables) can be regenerated from the corrected source da
 
 Citation metadata is provided in `CITATION.cff`.
 
-For archival citation, use the Zenodo DOI associated with release tag `v1.3.0` once Zenodo records the release.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19403850.svg)](https://doi.org/10.5281/zenodo.19403850)
