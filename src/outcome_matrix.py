@@ -102,79 +102,104 @@ def main():
             if (s, o) in reported:
                 matrix[i, j] = 1 if study_precursors[s] == "NMN" else 2
     
-    # Plot -
-    fig_h = max(4, 0.4 * n_studies + 1.5)
-    fig_w = max(8, 0.45 * n_outcomes + 2.5)
+    # Compute per-column study counts for x-axis labels
+    col_counts = [int(np.sum(matrix[:, j] > 0)) for j in range(n_outcomes)]
+
+    # Build x-axis labels: "Outcome (k=N)"
+    study_labels = [s.replace("_", " ") for s in studies_sorted]
+    outcome_labels = [
+        f"{OUTCOME_LABELS.get(o, o)} (k={col_counts[j]})"
+        for j, o in enumerate(outcomes_sorted)
+    ]
+
+    # Category spans (index ranges into outcomes_sorted)
+    CATEGORY_DEFS = [
+        ("Glycemic",    ["FBG", "HbA1c", "HOMA-IR", "fasting_insulin"]),
+        ("Lipid",       ["TC", "LDL", "HDL", "TG"]),
+        ("Body Comp.",  ["body_weight", "BMI", "fat_mass", "body_fat_pct",
+                         "skeletal_muscle"]),
+        ("BP",          ["SBP", "DBP"]),
+        ("Hepatic",     ["ALT", "AST"]),
+        ("Other",       ["NAD+", "IL-6", "FFM_pct", "sleeping_metabolic_rate"]),
+    ]
+    categories = []
+    for cat_name, cat_outcomes in CATEGORY_DEFS:
+        idxs = [outcomes_sorted.index(o) for o in cat_outcomes
+                if o in outcomes_sorted]
+        if idxs:
+            categories.append((min(idxs), max(idxs), cat_name))
+
+    # Figure sizing
+    fig_w = max(10, 0.55 * n_outcomes + 3.0)
+    fig_h = max(5.5, 0.55 * n_studies + 3.0)
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
-    
+
     # Custom colormap: 0=white, 1=blue(NMN), 2=green(NR)
     from matplotlib.colors import ListedColormap
     cmap = ListedColormap(["#FFFFFF", COL_NMN, COL_NR])
-    
+
     ax.imshow(matrix, cmap=cmap, aspect="auto", vmin=0, vmax=2,
               interpolation="nearest")
-    
+
     # Grid lines
     for i in range(n_studies + 1):
         ax.axhline(i - 0.5, color="#cccccc", linewidth=0.5)
     for j in range(n_outcomes + 1):
         ax.axvline(j - 0.5, color="#cccccc", linewidth=0.5)
-    
+
     # Separator between NMN and NR groups
     sep_y = len(nmn_studies) - 0.5
     ax.axhline(sep_y, color="#333333", linewidth=2)
-    
-    # Labels
-    study_labels = [s.replace("_", " ") for s in studies_sorted]
-    outcome_labels = [OUTCOME_LABELS.get(o, o) for o in outcomes_sorted]
-    
+
+    # Y-axis: study labels coloured by precursor
     ax.set_yticks(range(n_studies))
-    ax.set_yticklabels(study_labels, fontsize=8)
-    ax.set_xticks(range(n_outcomes))
-    ax.set_xticklabels(outcome_labels, rotation=45, ha="right", fontsize=7.5)
-    
-    # Color y-axis labels by precursor
+    ax.set_yticklabels(study_labels, fontsize=9)
     for i, s in enumerate(studies_sorted):
         color = COL_NMN if study_precursors[s] == "NMN" else COL_NR
         ax.get_yticklabels()[i].set_color(color)
         ax.get_yticklabels()[i].set_fontweight("bold")
-    
-    ax.set_title("Outcome Reporting Matrix: Study × Outcome Availability",
-                 fontsize=11, fontweight="bold", pad=12)
-    
-    # Annotate column counts at bottom
-    for j in range(n_outcomes):
-        col_sum = int(np.sum(matrix[:, j] > 0))
-        ax.text(j, n_studies - 0.1, f"k={col_sum}", ha="center", va="top",
-                fontsize=6.5, color="#555555")
-    
+
+    # X-axis: outcome labels with k counts
+    ax.set_xticks(range(n_outcomes))
+    ax.set_xticklabels(outcome_labels, rotation=55, ha="right", fontsize=8)
+
+    # NMN / NR side labels
+    nmn_mid = (len(nmn_studies) - 1) / 2
+    nr_mid = len(nmn_studies) + (len(nr_studies) - 1) / 2
+    ax.text(-1.8, nmn_mid, "NMN", ha="center", va="center", fontsize=9,
+            fontweight="bold", color=COL_NMN, rotation=90)
+    ax.text(-1.8, nr_mid, "NR", ha="center", va="center", fontsize=9,
+            fontweight="bold", color=COL_NR, rotation=90)
+
+    # Category bracket annotations above the matrix
+    bracket_y = -0.7
+    for start, end, label in categories:
+        mid = (start + end) / 2
+        ax.annotate("", xy=(start - 0.4, bracket_y), xytext=(end + 0.4, bracket_y),
+                    arrowprops=dict(arrowstyle="-", color="#555555", lw=1.2),
+                    annotation_clip=False)
+        ax.text(mid, bracket_y - 0.35, label, ha="center", va="top",
+                fontsize=7.5, fontweight="bold", color="#555555",
+                clip_on=False)
+
+    ax.set_title("Outcome Reporting Matrix", fontsize=12, fontweight="bold",
+                 pad=28)
+
     # Legend
     legend_elements = [
         mpatches.Patch(facecolor=COL_NMN, edgecolor="#333", label="NMN study"),
         mpatches.Patch(facecolor=COL_NR, edgecolor="#333", label="NR study"),
-        mpatches.Patch(facecolor="white", edgecolor="#ccc", label="Not reported"),
+        mpatches.Patch(facecolor="white", edgecolor="#999", label="Not reported"),
     ]
     ax.legend(handles=legend_elements, loc="upper right",
-              bbox_to_anchor=(1.0, -0.12), ncol=3, fontsize=8,
+              bbox_to_anchor=(1.0, -0.15), ncol=3, fontsize=8.5,
               frameon=True, edgecolor="#cccccc")
-    
-    # Category annotations along top
-    categories = [
-        (0, 3, "Glycemic"),
-        (4, 7, "Lipids"),
-        (8, 12, "Body Composition"),
-        (13, 14, "BP"),
-        (15, 16, "Liver"),
-    ]
-    for start, end, label in categories:
-        if end < n_outcomes:
-            mid = (start + end) / 2
-            ax.text(mid, -1.2, label, ha="center", va="bottom",
-                    fontsize=7, fontweight="bold", color="#555555")
-    
+
     plt.tight_layout()
     out_path = os.path.join(FIGS, "outcome_reporting_matrix.png")
     plt.savefig(out_path, dpi=DPI)
+    # Also save PDF for vector quality
+    plt.savefig(os.path.join(FIGS, "outcome_reporting_matrix.pdf"))
     plt.close()
     print(f"Saved: {out_path}")
     
