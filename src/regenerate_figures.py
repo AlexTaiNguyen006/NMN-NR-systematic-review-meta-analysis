@@ -362,6 +362,7 @@ def forest_plot(ma, outcome, comparison_label, filename):
                  fontsize=TITLE_SIZE, fontweight="bold", y=0.98)
 
     fig.savefig(os.path.join(FIGS, filename), dpi=DPI, bbox_inches="tight")
+    fig.savefig(os.path.join(FIGS, filename.replace(".png", ".pdf")), bbox_inches="tight")
     plt.close(fig)
 
 

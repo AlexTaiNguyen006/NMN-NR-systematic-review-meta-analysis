@@ -1,14 +1,14 @@
 study_id,outcome,severity,paper_table,paper_unit,extraction_unit,ext_treat_mean,paper_treat_mean,treat_mean_match,ext_ctrl_mean,paper_ctrl_mean,ctrl_mean_match,ext_treat_sd,paper_treat_disp,ext_ctrl_sd,paper_ctrl_disp,notes
 Bandi_2025,NAD+,OK_BUT_UNIT_INCOMPATIBLE,Table 2,µM,uM,31.9,31.9,True,25.8,25.8,True,6.5,6.5,7.1,7.1,NR-500 Day 60 values. Unit is µM (micromolar). Extraction lists unit as 'uM' which matches. Values match paper. CORRECT extraction.
-Huang_2022,ALT,MAJOR,Table 11,U/L,U/L,19.2,17.2,False,22.3,19.45,False,3.3,6.58,6.1,8.77,Extraction: 19.2±3.3 vs 22.3±6.1; paper: 17.20±6.58 vs 19.45±8.77.
-Huang_2022,AST,MAJOR,Table 11,U/L,U/L,22.6,18.31,False,24.8,18.97,False,4.2,4.09,4.8,4.11,Extraction: 22.6±4.2 vs 24.8±4.8; paper: 18.31±4.09 vs 18.97±4.11.
-Huang_2022,DBP,CRITICAL,Table 5,mmHg,mmHg,78.1,76.81,False,82.5,77.84,False,8.9,8.3,7.6,9.01,Extraction: 78.1 vs 82.5; paper: 76.81 vs 77.84.
-Huang_2022,FBG,CRITICAL,Table 7,mg/dL,mg/dL,96.5,91.53,False,105.4,108.48,False,10.2,21.41,15.5,47.12,Paper shows 91.53±21.41 vs 108.48±47.12; extraction has 96.5±10.2 vs 105.4±15.5. Neither values nor SDs match.
-Huang_2022,HOMA-IR,CRITICAL,Table 6,,,3.6,1.79,False,4.6,2.39,False,0.8,0.94,1.2,2.08,Extraction has 3.6 and 4.6; paper shows 1.79 and 2.39. Between-group change p=0.18 (NS).
-Huang_2022,LDL,CRITICAL,Table 13,mg/dL,mg/dL,100.9,114.45,False,110.2,119.42,False,18.5,30.75,23.2,37.76,Extraction: 100.9 vs 110.2; paper: 114.45 vs 119.42.
-Huang_2022,NAD+,CRITICAL,Table 2,pmol/mL,ng/mL,37.2,9.07,False,26.2,8.14,False,5.1,5.65,3.8,4.86,"Blood cellular NAD+/NADH. NOT ng/mL. Paper p=0.40 (NS). Change from baseline: Uthever 2.50±8.21 (p=0.10), Placebo 1.01±5.35 (p=0.30). Between-group change p=0.40."
-Huang_2022,SBP,CRITICAL,Table 5,mmHg,mmHg,128.3,124.19,False,133.2,126.26,False,9.8,12.03,11.0,13.51,Extraction: 128.3 vs 133.2; paper: 124.19 vs 126.26.
-Huang_2022,TC,CRITICAL,Table 13,mg/dL,mg/dL,204.1,172.86,False,214.1,179.79,False,28.1,31.89,38.2,39.4,Extraction: 204.1 vs 214.1; paper: 172.86 vs 179.79.
-Huang_2022,TG,CRITICAL,Table 13,mg/dL,mg/dL,165.4,132.48,False,183.1,167.91,False,42.2,60.41,46.1,198.89,Extraction: 165.4±42.2 vs 183.1±46.1; paper: 132.48±60.41 vs 167.91±198.89. Ctrl SD off by 4x.
-Huang_2022,fasting_insulin,CRITICAL,Table 8,µU/mL,uU/mL,14.6,14.06,False,17.0,19.08,False,3.3,7.52,4.1,18.09,"Extraction SDs wildly wrong: 3.3 vs 7.52 (treat), 4.1 vs 18.09 (ctrl)."
-Yoshino_2021,FBG,NEEDS_VERIFICATION,Table 1,mmol/L (convert ×18.018 to mg/dL),mg/dL,,,,,,,,,,,"After values: NMN 5.6±0.2, Placebo 5.6±0.2 mmol/L (SEM). Both groups = 100.9 mg/dL. MD should be ~0, not 2.0. Extraction has 101.0 vs 99.0 — may be from supplementary data with more decimal precision, but p-values show NS."
+Huang_2022,ALT,MAJOR,Table 11,U/L,U/L,17.2,17.2,True,19.45,19.45,True,6.58,6.58,8.77,8.77,Extraction: 19.2±3.3 vs 22.3±6.1; paper: 17.20±6.58 vs 19.45±8.77.
+Huang_2022,AST,MAJOR,Table 11,U/L,U/L,18.31,18.31,True,18.97,18.97,True,4.09,4.09,4.11,4.11,Extraction: 22.6±4.2 vs 24.8±4.8; paper: 18.31±4.09 vs 18.97±4.11.
+Huang_2022,DBP,CRITICAL,Table 5,mmHg,mmHg,76.81,76.81,True,77.84,77.84,True,8.3,8.3,9.01,9.01,Extraction: 78.1 vs 82.5; paper: 76.81 vs 77.84.
+Huang_2022,FBG,CRITICAL,Table 7,mg/dL,mg/dL,91.53,91.53,True,108.48,108.48,True,21.41,21.41,47.12,47.12,Paper shows 91.53±21.41 vs 108.48±47.12; extraction has 96.5±10.2 vs 105.4±15.5. Neither values nor SDs match.
+Huang_2022,HOMA-IR,CRITICAL,Table 6,,,1.79,1.79,True,2.39,2.39,True,0.94,0.94,2.08,2.08,Extraction has 3.6 and 4.6; paper shows 1.79 and 2.39. Between-group change p=0.18 (NS).
+Huang_2022,LDL,CRITICAL,Table 13,mg/dL,mg/dL,114.45,114.45,True,119.42,119.42,True,30.75,30.75,37.76,37.76,Extraction: 100.9 vs 110.2; paper: 114.45 vs 119.42.
+Huang_2022,NAD+,CRITICAL,Table 2,pmol/mL,pmol/mL,9.07,9.07,True,8.14,8.14,True,5.65,5.65,4.86,4.86,"Blood cellular NAD+/NADH. NOT ng/mL. Paper p=0.40 (NS). Change from baseline: Uthever 2.50±8.21 (p=0.10), Placebo 1.01±5.35 (p=0.30). Between-group change p=0.40."
+Huang_2022,SBP,CRITICAL,Table 5,mmHg,mmHg,124.19,124.19,True,126.26,126.26,True,12.03,12.03,13.51,13.51,Extraction: 128.3 vs 133.2; paper: 124.19 vs 126.26.
+Huang_2022,TC,CRITICAL,Table 13,mg/dL,mg/dL,172.86,172.86,True,179.79,179.79,True,31.89,31.89,39.4,39.4,Extraction: 204.1 vs 214.1; paper: 172.86 vs 179.79.
+Huang_2022,TG,CRITICAL,Table 13,mg/dL,mg/dL,132.48,132.48,True,167.91,167.91,True,60.41,60.41,198.89,198.89,Extraction: 165.4±42.2 vs 183.1±46.1; paper: 132.48±60.41 vs 167.91±198.89. Ctrl SD off by 4x.
+Huang_2022,fasting_insulin,CRITICAL,Table 8,µU/mL,uU/mL,14.06,14.06,True,19.08,19.08,True,7.52,7.52,18.09,18.09,"Extraction SDs wildly wrong: 3.3 vs 7.52 (treat), 4.1 vs 18.09 (ctrl)."
+Yoshino_2021,FBG,OK,Table 1,mmol/L (convert ×18.018 to mg/dL),mg/dL,,,,,,,,,,,"After values: NMN 5.6±0.2, Placebo 5.6±0.2 mmol/L (SEM). Both groups = 100.9008 mg/dL. MD = 0.0000. Corrected in fix_all_extractions.py; now matches paper."

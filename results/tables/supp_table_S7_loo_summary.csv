@@ -24,7 +24,7 @@ Indirect (NMN vs NR),BMI,NMN vs NR,3,0.8574,0.5490,0.6705 to 1.3310,,0,Yes,Only 
 Indirect (NMN vs NR),DBP,NMN vs NR,4,-3.3453,0.2819,-4.8644 to -2.5278,,0,Yes,Only NMN arm (k=4) varied; other arm k=1
 Indirect (NMN vs NR),FBG,NMN vs NR,6,2.6074,0.3834,0.3199 to 3.7791,,0,Yes,
 Indirect (NMN vs NR),HDL,NMN vs NR,6,2.0433,0.6063,0.9884 to 2.8461,,0,Yes,
-Indirect (NMN vs NR),HOMA-IR,NMN vs NR,0,-0.4080,0.4549,—,,,—,k=1 each arm; LOO not possible
+Indirect (NMN vs NR),HOMA-IR,NMN vs NR,0,-0.4080,0.4549,-,,,-,k=1 each arm; LOO not possible
 Indirect (NMN vs NR),HbA1c,NMN vs NR,2,0.1922,0.2179,0.1900 to 0.2000,,0,Yes,Only NMN arm (k=2) varied; other arm k=1
 Indirect (NMN vs NR),LDL,NMN vs NR,6,3.5423,0.6201,-0.4339 to 5.4078,,0,Yes,
 Indirect (NMN vs NR),SBP,NMN vs NR,4,-5.4992,0.2292,-6.7470 to -4.6156,,0,Yes,Only NMN arm (k=4) varied; other arm k=1
