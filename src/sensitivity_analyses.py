@@ -292,9 +292,7 @@ def high_rob_exclusion(data, by_outcome):
     not_nma = HIGH_ROB_STUDIES - nma_studies
 
     report = []
-    report.append("=" * 60)
     report.append("HIGH-ROB EXCLUSION SENSITIVITY ANALYSIS")
-    report.append("=" * 60)
     report.append(f"\nHigh-RoB studies: {', '.join(sorted(HIGH_ROB_STUDIES))}")
     report.append(f"Present in NMA dataset: {', '.join(sorted(in_nma)) if in_nma else 'NONE'}")
     report.append(f"Not in NMA dataset: {', '.join(sorted(not_nma)) if not_nma else 'NONE'}")
@@ -752,9 +750,7 @@ def write_csv(path, rows, fieldnames):
 
 
 if __name__ == "__main__":
-    print("=" * 60)
     print("  SENSITIVITY ANALYSES")
-    print("=" * 60)
 
     data = read_data(DATA)
     by_outcome = defaultdict(list)
@@ -848,6 +844,4 @@ if __name__ == "__main__":
                        "sensitivity_loo_indirect_summary.png")
     print("  Saved: sensitivity_loo_indirect_summary.png")
 
-    print("\n" + "=" * 60)
-    print("  Sensitivity analyses complete.")
-    print("=" * 60)
+    print("\nSensitivity analyses complete.")

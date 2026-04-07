@@ -384,9 +384,7 @@ def make_S9():
 # Main execution
 
 if __name__ == "__main__":
-    print("=" * 60)
     print("  GENERATING SUPPLEMENTARY TABLES")
-    print("=" * 60)
 
     make_S1(); print()
     make_S2(); print()
@@ -398,6 +396,4 @@ if __name__ == "__main__":
     make_S8(); print()
     make_S9(); print()
 
-    print("=" * 60)
     print("  All supplementary tables generated.")
-    print("=" * 60)

@@ -23,7 +23,7 @@ Huang_2022,NMN,DBP,31,31,76.81,8.30,77.84,9.01,-1.03,2.2002,mmHg,Parallel RCT,SD
 Huang_2022,NMN,FBG,31,31,91.53,21.41,108.48,47.12,-16.95,9.2957,mg/dL,Parallel RCT,SD,mg/dL,CORRECTED: Paper Table 7 Day 60 values
 Huang_2022,NMN,HOMA-IR,31,31,1.79,0.94,2.39,2.08,-0.6,0.41,,Parallel RCT,SD,,CORRECTED: Paper Table 6 Day 60 endpoint values (not change-from-baseline). Baseline HOMA-IR was balanced between groups (1.78 vs 1.83; p = 0.85); endpoint comparison is therefore valid
 Huang_2022,NMN,LDL,31,31,114.45,30.75,119.42,37.76,-4.97,8.7462,mg/dL,Parallel RCT,SD,mg/dL,CORRECTED: Paper Table 13 Day 60 values
-Huang_2022,NMN,NAD+,31,31,9.07,5.65,8.14,4.86,0.93,1.3385,pmol/mL,Parallel RCT,SD,pmol/mL,CORRECTED: Paper Table 2 Day 60 blood cellular NAD+/NADH. Unit was pmol/mL not ng/mL. Between-group change from baseline p=0.40 (NS). INCOMPATIBLE UNIT with Bandi (uM) — cannot be pooled for indirect comparison
+Huang_2022,NMN,NAD+,31,31,9.07,5.65,8.14,4.86,0.93,1.3385,pmol/mL,Parallel RCT,SD,pmol/mL,CORRECTED: Paper Table 2 Day 60 blood cellular NAD+/NADH. Unit was pmol/mL not ng/mL. Between-group change from baseline p=0.40 (NS). INCOMPATIBLE UNIT with Bandi (uM)  -  cannot be pooled for indirect comparison
 Huang_2022,NMN,SBP,31,31,124.19,12.03,126.26,13.51,-2.07,3.249,mmHg,Parallel RCT,SD,mmHg,CORRECTED: Paper Table 5 Day 60 values
 Huang_2022,NMN,TC,31,31,172.86,31.89,179.79,39.40,-6.93,9.1039,mg/dL,Parallel RCT,SD,mg/dL,CORRECTED: Paper Table 13 Day 60 values
 Huang_2022,NMN,TG,31,31,132.48,60.41,167.91,198.89,-35.43,37.3331,mg/dL,Parallel RCT,SD,mg/dL,CORRECTED: Paper Table 13 Day 60 values

@@ -70,7 +70,7 @@ class Box:
         total_wt = n_real + n_spacer * 0.4
         usable = h * 0.82
         step = usable / max(total_wt - 1, 1) if total_wt > 1 else 0
-        cur_y = cy if total_wt <= 1 else cy + usable / 2
+        cur_y = cy + usable / 2
 
         for txt, kwargs in texts:
             if not txt:
@@ -174,7 +174,7 @@ def main():
 
     highest = max(all_tops)
     lowest  = min(all_bottoms)
-    pad_top = 1.0   # room for title
+    pad_top = 1.6   # room for title
     pad_bot = 1.6   # room for notes
     FIG_H = (highest + pad_top) - (lowest - pad_bot)
     y_shift = -(lowest - pad_bot)
@@ -316,9 +316,9 @@ def main():
     cy_nma, _ = positions["nma"]
     b_nma = Box(ax, CX_MAIN, cy_nma, WM, 1.0, C_INCL, [
         ("Studies included in quantitative", {"fontweight": "bold", "fontsize": 9.5}),
-        ("synthesis - NMA (n = 8)", {"fontweight": "bold", "fontsize": 9.5}),
+        ("synthesis \u2014 NMA (n = 8)", {"fontweight": "bold", "fontsize": 9.5}),
         ("NMN = 4  |  NR = 4", {"fontsize": 9, "color": "#555"}),
-        ("14 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
+        ("15 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
     ])
     _arrow(ax, CX_MAIN, b_qual.bottom, CX_MAIN, b_nma.top)
 
@@ -331,7 +331,7 @@ def main():
     # Bottom notes -
     note_y = b_nma.bottom - 0.70
     ax.text(FIG_W / 2, note_y,
-            "Search: January 2018 - March 2026  |  "
+            "Search: January 2018 \u2013 May 2025  |  "
             "Databases: PubMed, Embase, Scopus, Web of Science, Cochrane CENTRAL",
             ha="center", va="center", fontsize=7.5, color="#888888",
             style="italic")
@@ -340,12 +340,8 @@ def main():
             ha="center", va="center", fontsize=7.5, color="#888888",
             style="italic")
 
-    # Title - placed in data coordinates just above the first box
-    title_y = highest + y_shift + 0.55
-    ax.text(FIG_W / 2, title_y,
-            "PRISMA 2020 Flow Diagram",
-            ha="center", va="center", fontsize=14, fontweight="bold",
-            zorder=3)
+    fig.suptitle("PRISMA 2020 Flow Diagram",
+                 fontsize=14, fontweight="bold", y=0.985)
 
     for ext in ["png", "pdf"]:
         fig.savefig(os.path.join(FIGS, f"prisma_2020_flow.{ext}"),

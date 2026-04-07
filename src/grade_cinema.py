@@ -496,16 +496,12 @@ def make_heatmap(results):
 # Summary table for manuscript
 
 def print_summary(results):
-    print("\n" + "=" * 80)
-    print("GRADE/CINeMA SUMMARY -- NMN vs NR Indirect Comparisons")
-    print("=" * 80)
+    print("\nGRADE/CINeMA SUMMARY -- NMN vs NR Indirect Comparisons")
     print(f"{'Outcome':<22} {'MD [95% CI]':<32} {'Certainty':<12} {'Downgrades'}")
-    print("-" * 80)
     for r in results:
         ci = f"{r['MD']} [{r['CI_lower']}, {r['CI_upper']}]"
         print(f"{pretty(r['outcome']):<22} {ci:<32} {r['overall_certainty']:<12} "
               f"{r['n_downgrades']}")
-    print("-" * 80)
 
     # Count by certainty
     counts = defaultdict(int)
@@ -518,15 +514,11 @@ def print_summary(results):
 
 
 if __name__ == "__main__":
-    print("=" * 60)
     print("  GRADE / CINeMA CERTAINTY ASSESSMENT")
-    print("=" * 60)
 
     results = run_assessment()
     write_csv(results)
     make_heatmap(results)
     print_summary(results)
 
-    print("\n" + "=" * 60)
-    print("  Assessment complete.")
-    print("=" * 60)
+    print("\nAssessment complete.")

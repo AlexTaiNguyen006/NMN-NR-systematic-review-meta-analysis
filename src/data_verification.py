@@ -181,9 +181,7 @@ def verify_all():
         key = (r["study_id"], r["outcome"])
         ext_lookup[key] = r
     
-    print("=" * 80)
     print("DATA VERIFICATION REPORT")
-    print("=" * 80)
     print()
     
     critical_count = 0
@@ -268,16 +266,12 @@ def verify_all():
         report_rows.append(row)
     
     # Summary
-    print("=" * 80)
     print(f"SUMMARY: {critical_count} CRITICAL, {major_count} MAJOR, "
           f"{ok_count} OK/compatible")
-    print("=" * 80)
     print()
     
     # NAD+ unit incompatibility analysis
-    print("=" * 80)
     print("NAD+ UNIT INCOMPATIBILITY ANALYSIS")
-    print("=" * 80)
     print()
     print("  Huang 2022 (NMN arm): NAD+/NADH in pmol/mL")
     print("    Paper values: Uthever Day 60 = 9.07 ± 5.65 pmol/mL")
@@ -306,9 +300,7 @@ def verify_all():
     print()
     
     # Huang 2022 comprehensive error summary
-    print("=" * 80)
     print("HUANG 2022 EXTRACTION ERROR SUMMARY")
-    print("=" * 80)
     print()
     print("  ALL 11 outcomes extracted from Huang 2022 have values that DO NOT")
     print("  match the published paper tables. The extracted values (treat_mean,")

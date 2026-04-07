@@ -16,7 +16,7 @@ DATA = os.path.join(BASE, "data", "extraction", "nma_input_long.csv")
 FIGS = os.path.join(BASE, "results", "figures")
 os.makedirs(FIGS, exist_ok=True)
 
-# Style -
+# Style
 FONT_FAMILY = "Arial"
 DPI = 300
 plt.rcParams.update({

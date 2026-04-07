@@ -22,7 +22,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures"); os.makedirs(FIGS, exist_ok=True)
 RES  = os.path.join(BASE, "results", "tables"); os.makedirs(RES, exist_ok=True)
 
-# Typography -
+# Typography
 FONT_FAMILY     = "Arial"
 TITLE_SIZE      = 12
 AXIS_LABEL_SIZE = 10
@@ -31,7 +31,7 @@ ANNOT_SIZE      = 8.5   # annotations inside plots (CI text, weights, %)
 LEGEND_SIZE     = 9
 SMALL_SIZE      = 8     # minor annotations
 
-# Colours -
+# Colours
 COL_NMN        = "#2196F3"   # blue
 COL_NR         = "#4CAF50"   # green
 COL_PBO        = "#9E9E9E"   # grey
@@ -48,7 +48,7 @@ ROB_HIGH       = "#F44336"
 ROB_COLORS     = {"Low": ROB_LOW, "Some concerns": ROB_SOME, "High": ROB_HIGH}
 ROB_SYMBOLS    = {"Low": "+", "Some concerns": "\u2212", "High": "\u00D7"}
 
-# Figure widths -
+# Figure widths
 FIG_W_FOREST   = 11     # forest plot total width (inches)
 FIG_W_NMA      = 11     # NMA summary forest
 FIG_W_NETWORK  = 6.5
@@ -56,7 +56,7 @@ FIG_W_ROB_TL   = 10     # RoB traffic-light
 FIG_W_ROB_SUM  = 8.5    # RoB summary bar
 DPI            = 300
 
-# Apply global matplotlib rcParams -
+# Apply global matplotlib rcParams
 plt.rcParams.update({
     "font.family":       "sans-serif",
     "font.sans-serif":   [FONT_FAMILY, "Helvetica", "DejaVu Sans"],
@@ -722,9 +722,7 @@ def rob2_summary_bar(filename_base):
 # Main execution
 
 if __name__ == "__main__":
-    print("=" * 60)
     print("  Regenerating all figures with unified style")
-    print("=" * 60)
 
     data = read_data(DATA)
     by_outcome = defaultdict(list)
@@ -891,7 +889,5 @@ if __name__ == "__main__":
     rob2_summary_bar("rob2_summary")
 
     # Done
-    print("\n" + "=" * 60)
-    print("  All figures regenerated.")
+    print("\nAll figures regenerated.")
     print(f"  Output: {FIGS}/")
-    print("=" * 60)
