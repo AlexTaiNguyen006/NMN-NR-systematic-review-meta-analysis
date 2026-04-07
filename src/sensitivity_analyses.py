@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-Sensitivity analyses for NMN vs NR NMA:
-  - Leave-one-out (LOO) for pairwise comparisons with k >= 2
-  - LOO impact on indirect NMN vs NR comparisons
-  - Excluding high-RoB studies (Igarashi 2022, Elhassan 2019)
+Sensitivity analyses for NMN vs NR NMA.
+  1. Leave-one-out (LOO) analysis for all pairwise comparisons with k ≥ 2
+  2. LOO impact on indirect NMN vs NR comparisons
+  3. Excluding high-RoB studies (Igarashi 2022, Elhassan 2019)
+
+Outputs:
+  results/tables/sensitivity_loo_pairwise.csv
+  results/tables/sensitivity_loo_indirect.csv
+  results/tables/sensitivity_high_rob_exclusion.csv
+  results/figures/sensitivity_loo_forest_*.png
 """
 
-import csv
-import math
-import os
-import sys
+import csv, math, os, sys
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -292,7 +295,9 @@ def high_rob_exclusion(data, by_outcome):
     not_nma = HIGH_ROB_STUDIES - nma_studies
 
     report = []
+    report.append("=" * 60)
     report.append("HIGH-ROB EXCLUSION SENSITIVITY ANALYSIS")
+    report.append("=" * 60)
     report.append(f"\nHigh-RoB studies: {', '.join(sorted(HIGH_ROB_STUDIES))}")
     report.append(f"Present in NMA dataset: {', '.join(sorted(in_nma)) if in_nma else 'NONE'}")
     report.append(f"Not in NMA dataset: {', '.join(sorted(not_nma)) if not_nma else 'NONE'}")
@@ -302,14 +307,14 @@ def high_rob_exclusion(data, by_outcome):
         report.append("    Igarashi 2022: High overall RoB due to supplement preparation error")
         report.append("      causing 52% attrition (only 10/21 analyzed per arm at 12 weeks).")
         report.append("      Metabolic data available only in supplementary tables with")
-        report.append("      incomplete reporting - excluded from quantitative synthesis.")
+        report.append("      incomplete reporting — excluded from quantitative synthesis.")
         report.append("    Elhassan 2019: High overall RoB due to non-registration and selective")
         report.append("      reporting of metabolic outcomes (relegated to supplementary tables).")
         report.append("      Only 12 participants in crossover; no extractable metabolic data")
         report.append("      in format suitable for meta-analysis.")
         report.append("\n>>> CONCLUSION: Excluding high-RoB studies has NO EFFECT on any")
         report.append("    pairwise or indirect comparison. All results are robust to this")
-        report.append("    sensitivity analysis by design: high-RoB studies were excluded")
+        report.append("    sensitivity analysis by design — high-RoB studies were excluded")
         report.append("    from the quantitative NMA a priori due to insufficient data.")
 
         # Create CSV with the documentation
@@ -324,7 +329,7 @@ def high_rob_exclusion(data, by_outcome):
                     if study_id == "Igarashi_2022" else
                     "Non-registered; no extractable metabolic data; 12-participant crossover"
                 ),
-                "effect_on_results": "None - not in quantitative synthesis",
+                "effect_on_results": "None — not in quantitative synthesis",
             })
         return report, csv_rows
     else:
@@ -335,7 +340,7 @@ def high_rob_exclusion(data, by_outcome):
             by_oc_filtered[r["outcome"]].append(r)
         # Compare full vs filtered for each indirect comparison
         # ... (not needed in this case)
-        report.append("\n>>> Some high-RoB studies present -- computing filtered results...")
+        report.append("\n>>> Some high-RoB studies present — computing filtered results...")
         return report, []
 
 
@@ -557,7 +562,7 @@ def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
     from matplotlib.ticker import AutoLocator
     ax_for.xaxis.set_major_locator(AutoLocator())
     ax_for.axvline(0, color=COL_ZERO_LINE, linestyle="--", linewidth=0.7, zorder=1)
-    ax_for.set_xlabel("Mean Difference (MD) - NMN vs NR (indirect)",
+    ax_for.set_xlabel("Mean Difference (MD) \u2014 NMN vs NR (indirect)",
                        fontsize=AXIS_LABEL_SIZE, labelpad=4)
 
     for oc, y in zip(all_outcomes, y_positions):
@@ -605,7 +610,7 @@ def loo_summary_figure(loo_indirect_rows, by_outcome, filename):
             loo_tes = [float(r["loo_MD"]) for r in loo]
             range_txt = f"{min(loo_tes):+.2f} to {max(loo_tes):+.2f}"
         else:
-            range_txt = "-"
+            range_txt = "—"
         ax_stat.text(0.78, y, range_txt, fontsize=SMALL_SIZE, va="center",
                      ha="left", color="#666666")
 
@@ -750,7 +755,9 @@ def write_csv(path, rows, fieldnames):
 
 
 if __name__ == "__main__":
+    print("=" * 60)
     print("  SENSITIVITY ANALYSES")
+    print("=" * 60)
 
     data = read_data(DATA)
     by_outcome = defaultdict(list)
@@ -777,12 +784,12 @@ if __name__ == "__main__":
     print(f"  Significance changes: {len(sig_changes)}")
     if dir_changes:
         for r in dir_changes:
-            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} - "
-                  f"MD {r['full_MD']} -> {r['loo_MD']}")
+            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
+                  f"MD {r['full_MD']} → {r['loo_MD']}")
     if sig_changes:
         for r in sig_changes:
-            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} - "
-                  f"p {r['full_p']} -> {r['loo_p']}")
+            print(f"    ! {r['outcome']} {r['comparison']}: dropped {r['dropped_study']} — "
+                  f"p {r['full_p']} → {r['loo_p']}")
 
     # 2. Leave-one-out: indirect
     print("\n[2/4] Leave-one-out indirect comparisons (NMN vs NR)...")
@@ -800,8 +807,8 @@ if __name__ == "__main__":
     print(f"  Significance changes: {len(sig_ind)}")
     if sig_ind:
         for r in sig_ind:
-            print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) - "
-                  f"p {r['full_p']} -> {r['loo_p']}")
+            print(f"    ! {r['outcome']}: dropped {r['dropped_study']} ({r['dropped_from']}) — "
+                  f"p {r['full_p']} → {r['loo_p']}")
 
     # 3. High-RoB exclusion
     print("\n[3/4] High-RoB exclusion analysis...")
@@ -821,8 +828,8 @@ if __name__ == "__main__":
     # Per-outcome LOO forest for NAD+ (the only significant indirect comparison)
     loo_nad = [r for r in loo_ind if r["outcome"] == "NAD+"]
     if loo_nad:
-        # NAD+ has k=1 each arm so no LOO is possible, document this
-        print("  NAD+ (k=1 per arm): no LOO possible, single study per arm")
+        # NAD+ has k=1 each arm so no LOO is possible — document this
+        print("  NAD+ (k=1 per arm): no LOO possible — single study per arm")
 
     # LOO forests for pairwise comparisons that had significance changes
     for r in sig_changes:
@@ -832,16 +839,29 @@ if __name__ == "__main__":
         if len(arm) < 2:
             continue
         fname = f"sensitivity_loo_forest_{oc}_{prec}_pairwise.png"
-        # Build a simple LOO forest for this pairwise
-        # (reuse loo_pw data for this outcome+comparison)
         subset_rows = [x for x in loo_pw
                        if x["outcome"] == oc and x["comparison"] == r["comparison"]]
-        # Create a mini forest plot
         _loo_pairwise_forest(subset_rows, oc, r["comparison"], fname)
+
+    # Always generate representative LOO pairwise forests (S7 figures)
+    REPRESENTATIVE_LOO = [
+        ("ALT", "NMN"),
+        ("SBP", "NMN"),
+        ("fasting_insulin", "NMN"),
+    ]
+    for oc, prec in REPRESENTATIVE_LOO:
+        comp = f"{prec} vs Placebo"
+        fname = f"sensitivity_loo_forest_{oc}_{prec}_pairwise.png"
+        subset_rows = [x for x in loo_pw
+                       if x["outcome"] == oc and x["comparison"] == comp]
+        if subset_rows:
+            _loo_pairwise_forest(subset_rows, oc, comp, fname)
 
     # Summary LOO figure for all indirect comparisons
     loo_summary_figure(loo_ind, by_outcome,
                        "sensitivity_loo_indirect_summary.png")
     print("  Saved: sensitivity_loo_indirect_summary.png")
 
-    print("\nSensitivity analyses complete.")
+    print("\n" + "=" * 60)
+    print("  Sensitivity analyses complete.")
+    print("=" * 60)
