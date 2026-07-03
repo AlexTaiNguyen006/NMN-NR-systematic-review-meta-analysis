@@ -1,0 +1,8 @@
+Domain,Category,NMN_arm,NR_arm,Assessment
+Dose (mass),Treatment Parameter,"250, 300 mg/day","500, 1000, 2000 mg/day",Major concern: 2-8x range in NR vs narrow band in NMN
+Dose (molar),Treatment Parameter,0.75-0.90 mmol/day,1.72-6.88 mmol/day,Major concern: up to 9.2× molar dose difference
+Duration,Study Characteristic,8.6-12 weeks,3-12 weeks,Moderate concern: overlapping but wider NR range
+Population ethnicity,Effect Modifier - Demographic,"USA, India, Japan","Denmark, Canada, UK, Netherlands, Norway, USA, India",Major concern: Japan/India (NMN) vs Western-heavy (NR)
+Population health status,Effect Modifier - Clinical,Prediabetic/Healthy,Disease-specific & Healthy,Major concern: 40% of NR participants from disease-specific cohorts (Parkinson\'s, COPD, CKD)
+Population age,Effect Modifier - Demographic,49-69 years,51-59 years,Minor concern: overlapping age ranges
+Study design,Methodological Parameter,All parallel RCT,Parallel + Crossover,Moderate concern: Elhassan 2019, Remie 2020, Ahmadi 2023 Study design,Methodological Parameter,All paralraStudy design,Methodological Parameter,All parallel RCT,Parallel + Crossover,Moderate concern: Elhassan 2019, Remie 2020, Ahmadi 202poStudy design,Methodological Parameter,All parallel RCT,Parallel + Crossover,Moderate concern: Elhassan 2019, Remie 2g 2022 only","Blood NAD+ (uM), Bandi 2025 only",Major concern: incompatible units and biological matrices

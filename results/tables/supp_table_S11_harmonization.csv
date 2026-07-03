@@ -1,0 +1,10 @@
+Outcome,Precursors,Unit,Time Point,Extraction Method,SD Derivation,Crossover Handling
+FBG,NMN & NR,mg/dL,8-12 wk,End-of-study paired values,Reported SD or converted from SE,Pre-washout first period only
+HbA1c,NMN & NR,%,4.3-12 wk,End-of-study paired values,Reported SD or converted from SE,First period only
+HOMA-IR,NMN & NR,Index,8.6-12 wk,Mean change from baseline,Reported SD,Parallel trials only
+Fasting Insulin,NMN & NR,uIU/mL,8.6-12 wk,Mean change from baseline,Reported SD,Parallel trials only
+Total Cholesterol,NMN & NR,mg/dL,4.3-12 wk,Mean change from baseline,Reported SD,Pre-washout first period only
+LDL Cholesterol,NMN & NR,mg/dL,4.3-12 wk,Mean change from baseline,Reported SD,Pre-washout first period only
+HDL Cholesterol,NMN & NR,mg/dL,4.3-12 wk,Mean change from baseline,Reported SD,Pre-washout first period only
+Triglycerides,NMN & NR,mg/dL,4.3-12 wk,Mean change from baseline,Reported SD,Pre-washout first period only
+ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/LE,ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,s,ReALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/LE,ALT,NMN & NR,U/L,4.3-12paired ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/LE,ALT,NMN & NR,U/L,RALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/LE,Ae,ReALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/L,4.3-12ALT,NMN & NR,U/LE,ALT,NMN & NRallel trials only

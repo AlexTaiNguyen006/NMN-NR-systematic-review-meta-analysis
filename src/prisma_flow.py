@@ -318,7 +318,7 @@ def main():
         ("Studies included in quantitative", {"fontweight": "bold", "fontsize": 9.5}),
         ("synthesis \u2014 NMA (n = 8)", {"fontweight": "bold", "fontsize": 9.5}),
         ("NMN = 4  |  NR = 4", {"fontsize": 9, "color": "#555"}),
-        ("15 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
+        ("21 outcomes  |  73 data points", {"fontsize": 8, "color": "#777"}),
     ])
     _arrow(ax, CX_MAIN, b_qual.bottom, CX_MAIN, b_nma.top)
 

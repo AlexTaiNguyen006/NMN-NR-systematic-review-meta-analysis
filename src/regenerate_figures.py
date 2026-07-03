@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-# regenerate_figures.py -- generates all forest plots, network graph,
-# RoB summary/traffic-light, and GRADE heatmap from nma_input_long.csv.
+"""
+Unified figure generation for NMN vs NR NMA.
+All figures share a single style configuration to ensure consistency.
+"""
 
 import csv, math, os, sys
 import matplotlib
@@ -22,7 +24,7 @@ ROB  = os.path.join(BASE, "data", "extraction", "rob2_assessment.csv")
 FIGS = os.path.join(BASE, "results", "figures"); os.makedirs(FIGS, exist_ok=True)
 RES  = os.path.join(BASE, "results", "tables"); os.makedirs(RES, exist_ok=True)
 
-# Typography
+# Typography -
 FONT_FAMILY     = "Arial"
 TITLE_SIZE      = 12
 AXIS_LABEL_SIZE = 10
@@ -31,7 +33,7 @@ ANNOT_SIZE      = 8.5   # annotations inside plots (CI text, weights, %)
 LEGEND_SIZE     = 9
 SMALL_SIZE      = 8     # minor annotations
 
-# Colours
+# Colours -
 COL_NMN        = "#2196F3"   # blue
 COL_NR         = "#4CAF50"   # green
 COL_PBO        = "#9E9E9E"   # grey
@@ -48,7 +50,7 @@ ROB_HIGH       = "#F44336"
 ROB_COLORS     = {"Low": ROB_LOW, "Some concerns": ROB_SOME, "High": ROB_HIGH}
 ROB_SYMBOLS    = {"Low": "+", "Some concerns": "\u2212", "High": "\u00D7"}
 
-# Figure widths
+# Figure widths -
 FIG_W_FOREST   = 11     # forest plot total width (inches)
 FIG_W_NMA      = 11     # NMA summary forest
 FIG_W_NETWORK  = 6.5
@@ -56,7 +58,7 @@ FIG_W_ROB_TL   = 10     # RoB traffic-light
 FIG_W_ROB_SUM  = 8.5    # RoB summary bar
 DPI            = 300
 
-# Apply global matplotlib rcParams
+# Apply global matplotlib rcParams -
 plt.rcParams.update({
     "font.family":       "sans-serif",
     "font.sans-serif":   [FONT_FAMILY, "Helvetica", "DejaVu Sans"],
@@ -217,7 +219,7 @@ def outcome_unit(oc):
     return OUTCOME_UNITS.get(oc, "")
 
 
-# FOREST PLOT -- 3-column layout: labels | plot | stats
+# FOREST PLOT  — 3-column layout: labels | plot | stats
 
 def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
     """Draw a horizontal separator across all panels at the same y."""
@@ -228,9 +230,9 @@ def _draw_hline(axes_list, y, color="#cccccc", lw=0.5):
 def forest_plot(ma, outcome, comparison_label, filename):
     """
     Publication-quality forest plot with separate columns for:
-      Left   - study label (single line with n)
-      Centre - CI whiskers + square
-      Right  - MD [95% CI]  Weight%
+      Left   – study label (single line with n)
+      Centre – CI whiskers + square
+      Right  – MD [95% CI]  Weight%
     """
     if ma is None or ma["k"] == 0:
         return
@@ -362,7 +364,6 @@ def forest_plot(ma, outcome, comparison_label, filename):
                  fontsize=TITLE_SIZE, fontweight="bold", y=0.98)
 
     fig.savefig(os.path.join(FIGS, filename), dpi=DPI, bbox_inches="tight")
-    fig.savefig(os.path.join(FIGS, filename.replace(".png", ".pdf")), bbox_inches="tight")
     plt.close(fig)
 
 
@@ -424,7 +425,7 @@ def nma_summary_forest(nma_results_dict, filename_base):
     ax_for.spines["bottom"].set_visible(True)
     ax_for.tick_params(bottom=True)
     ax_for.axvline(0, color=COL_ZERO_LINE, linestyle="--", linewidth=0.7, zorder=1)
-    ax_for.set_xlabel("Mean Difference (MD) - NMN vs NR (indirect)",
+    ax_for.set_xlabel("Mean Difference (MD) \u2014 NMN vs NR (indirect)",
                        fontsize=AXIS_LABEL_SIZE, labelpad=8)
 
     for oc, y in zip(ocs, y_positions):
@@ -492,7 +493,7 @@ def network_graph(n_nmn, n_nr, filename):
             [pos["NR"][1], pos["Placebo"][1]],
             "-", color="#555555", linewidth=lw_nr, alpha=0.60, zorder=1)
 
-    # Edge labels -- compute real angle from coordinates
+    # Edge labels — compute real angle from coordinates
     import math as _m
     def _edge_angle(x1, y1, x2, y2):
         return _m.degrees(_m.atan2(y2 - y1, x2 - x1))
@@ -539,7 +540,6 @@ def network_graph(n_nmn, n_nr, filename):
 
     fig.tight_layout()
     fig.savefig(os.path.join(FIGS, filename), dpi=DPI, bbox_inches="tight")
-    fig.savefig(os.path.join(FIGS, filename.replace(".png", ".pdf")), bbox_inches="tight")
     plt.close(fig)
     print("  Network graph saved.")
 
@@ -582,7 +582,7 @@ def rob2_traffic_light(filename_base):
     n = len(studies)
     nd = len(ROB_DOMAIN_KEYS)
 
-    # Figure sizing -- no aspect="equal"; use Ellipse to keep circles round
+    # Figure sizing — no aspect="equal"; use Ellipse to keep circles round
     col_w_in = 1.45   # inches per domain column (wide enough for labels)
     row_h_in = 0.52   # inches per study row
     margin_left   = 2.6
@@ -659,7 +659,7 @@ def rob2_traffic_light(filename_base):
               frameon=False, handletextpad=0.4, columnspacing=1.5)
 
     # Title via suptitle so it sits above domain labels
-    fig.suptitle("Risk of Bias 2 - Traffic-Light Plot",
+    fig.suptitle("Risk of Bias 2 \u2014 Traffic-Light Plot",
                  fontsize=TITLE_SIZE, fontweight="bold",
                  x=ax_left + ax_w/2, y=1 - 0.02)
 
@@ -709,7 +709,7 @@ def rob2_summary_bar(filename_base):
               bbox_to_anchor=(0.5, -0.22), ncol=3, fontsize=LEGEND_SIZE,
               frameon=False, handletextpad=0.4, columnspacing=1.5)
 
-    ax.set_title("Risk of Bias 2 - Summary",
+    ax.set_title("Risk of Bias 2 \u2014 Summary",
                  fontsize=TITLE_SIZE, fontweight="bold", pad=10)
 
     fig.tight_layout()
@@ -722,7 +722,9 @@ def rob2_summary_bar(filename_base):
 # Main execution
 
 if __name__ == "__main__":
+    print("=" * 60)
     print("  Regenerating all figures with unified style")
+    print("=" * 60)
 
     data = read_data(DATA)
     by_outcome = defaultdict(list)
@@ -832,7 +834,7 @@ if __name__ == "__main__":
                 if k_nr == 1: parts.append("NR arm k=1")
                 note = f"Caution: {', '.join(parts)}"
             elif not is_indirect and v.get("k") == 1:
-                note = "Single study - no meta-analysis"
+                note = "Single study — no meta-analysis"
             nma_rows.append({
                 "outcome": oc, "comparison": comp_label,
                 "MD": round(v["te"], 4), "lower_CI": round(v["lo"], 4),
@@ -889,5 +891,7 @@ if __name__ == "__main__":
     rob2_summary_bar("rob2_summary")
 
     # Done
-    print("\nAll figures regenerated.")
+    print("\n" + "=" * 60)
+    print("  All figures regenerated.")
     print(f"  Output: {FIGS}/")
+    print("=" * 60)

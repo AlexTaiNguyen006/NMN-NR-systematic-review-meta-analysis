@@ -422,7 +422,7 @@ trans_domains <- data.frame(
   ),
   NMN_arm = c(
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(dose_mg_day) %>% unique() %>% sort(), collapse = ", ") %>% paste("mg/day"),
-    "0.75 mmol/day (all studies)",
+    "0.75-0.90 mmol/day",
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(duration_weeks) %>% range(), collapse = "-") %>% paste("weeks"),
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(country) %>% unique(), collapse = ", "),
     paste(nma_studies %>% filter(precursor == "NMN") %>% pull(health_status) %>% unique(), collapse = "; "),
@@ -446,10 +446,10 @@ trans_domains <- data.frame(
     "Major concern: 2-8x range in NR vs narrow band in NMN",
     "Major concern: up to 9.2× molar dose difference",
     "Moderate concern: overlapping but wider NR range",
-    "Major concern: Japan/India (NMN) vs Denmark/Canada/India (NR)",
+    "Major concern: Japan/India (NMN) vs Denmark/Canada/UK/Netherlands/Norway/USA/India (NR)",
     "Minor concern: all metabolically healthy populations in NMA",
     "Minor concern: overlapping age ranges",
-    "Moderate concern: Remie 2020 is crossover",
+    "Moderate concern: Elhassan 2019, Remie 2020, Ahmadi 2023 are crossover",
     "Moderate concern: most studies not powered for metabolic outcomes",
     "Major concern: incompatible units and biological matrices"
   ),

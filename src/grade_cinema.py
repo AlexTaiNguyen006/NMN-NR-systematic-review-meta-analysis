@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 """
-GRADE / CINeMA certainty-of-evidence assessment for NMN vs NR indirect
-comparisons. Evaluates six CINeMA domains and produces a heatmap.
+GRADE / CINeMA certainty-of-evidence assessment for NMN vs NR NMA.
+
+Evaluates each indirect NMN vs NR comparison across the CINeMA framework:
+  1. Within-study bias (from RoB 2)
+  2. Reporting bias
+  3. Indirectness
+  4. Imprecision
+  5. Heterogeneity
+  6. Incoherence (not applicable — no direct NMN vs NR evidence)
+
+Outputs:
+  results/tables/grade_cinema_assessment.csv
+  results/figures/grade_cinema_heatmap.png
 """
 
-import csv
-import math
-import os
+import csv, math, os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -249,7 +258,7 @@ def assess_heterogeneity(ma_nmn, ma_nr):
                f"NR arm: I²={ma_nr['I2']*100:.0f}% (k={k_nr})")
 
     if i2_max == 0 and k_nmn == 1 and k_nr == 1:
-        return "Some concerns", details + "; single study per arm - heterogeneity not estimable"
+        return "Some concerns", details + "; single study per arm — heterogeneity not estimable"
     elif i2_max < 0.25:
         return "No concerns", details
     elif i2_max < 0.50:
@@ -263,7 +272,7 @@ def assess_heterogeneity(ma_nmn, ma_nr):
 def assess_incoherence():
     """
     Domain 6: Incoherence.
-    Not applicable -- no direct NMN vs NR evidence exists.
+    Not applicable — no direct NMN vs NR evidence exists.
     Cannot assess consistency between direct and indirect evidence.
     """
     return "Not applicable", "No direct NMN vs NR comparisons; incoherence cannot be evaluated"
@@ -496,7 +505,8 @@ def make_heatmap(results):
 # Summary table for manuscript
 
 def print_summary(results):
-    print("\nGRADE/CINeMA SUMMARY -- NMN vs NR Indirect Comparisons")
+    print("\n" + "=" * 80)
+    print("GRADE/CINeMA SUMMARY — NMN vs NR Indirect Comparisons")
     print(f"{'Outcome':<22} {'MD [95% CI]':<32} {'Certainty':<12} {'Downgrades'}")
     for r in results:
         ci = f"{r['MD']} [{r['CI_lower']}, {r['CI_upper']}]"
@@ -521,4 +531,5 @@ if __name__ == "__main__":
     make_heatmap(results)
     print_summary(results)
 
-    print("\nAssessment complete.")
+    print("\n" + "=" * 60)
+    print("  Assessment complete.")
